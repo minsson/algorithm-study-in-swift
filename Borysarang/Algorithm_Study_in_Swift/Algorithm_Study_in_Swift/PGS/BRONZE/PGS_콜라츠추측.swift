@@ -5,7 +5,7 @@
 //  Created by 유한석 on 2022/10/29.
 //  https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=swift
 //  10월 29일 티어전 - 핀 보리
-//  걸린 시간: 
+//  걸린 시간: 15분 
 //
 
 import Foundation
