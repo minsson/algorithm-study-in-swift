@@ -25,3 +25,18 @@
 </div>
 </details>
 
+# 티어전
+
+##  10월 4주차
+
+### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=swift) - 레벨 1 (브론즈)
+
+### 참가자
+[보리사랑](https://github.com/yusw10)
+[핀](https://github.com/finnn1) 🏅
+
+### 문제 풀이
+콜라츠 추측 알고리즘 그대로를 함수로 빼주었다.
+
+### 기타
+함수로 빼는것이 알고리즘 실행시간에 영향을 주는가?

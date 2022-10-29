@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B6A5C1290D6C2300325D1E /* PGS_콜라츠추측.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C0290D6C2300325D1E /* PGS_콜라츠추측.swift */; };
 		45E51D26290595AD0006154F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E51D25290595AD0006154F /* main.swift */; };
 		45E51D2F29067C410006154F /* BOJ_다리놓기_1010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E51D2E29067C410006154F /* BOJ_다리놓기_1010.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		45B6A5C0290D6C2300325D1E /* PGS_콜라츠추측.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PGS_콜라츠추측.swift"; sourceTree = "<group>"; };
 		45E51D22290595AD0006154F /* Algorithm_Study_in_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Study_in_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E51D25290595AD0006154F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		45E51D2E29067C410006154F /* BOJ_다리놓기_1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_다리놓기_1010.swift"; sourceTree = "<group>"; };
@@ -40,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45B6A5BE290D6BBF00325D1E /* PGS */ = {
+			isa = PBXGroup;
+			children = (
+				45B6A5BF290D6BDE00325D1E /* BRONZE */,
+			);
+			path = PGS;
+			sourceTree = "<group>";
+		};
+		45B6A5BF290D6BDE00325D1E /* BRONZE */ = {
+			isa = PBXGroup;
+			children = (
+				45B6A5C0290D6C2300325D1E /* PGS_콜라츠추측.swift */,
+			);
+			path = BRONZE;
+			sourceTree = "<group>";
+		};
 		45E51D19290595AD0006154F = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +79,7 @@
 			children = (
 				45E51D25290595AD0006154F /* main.swift */,
 				45E51D2C2905961B0006154F /* BOJ */,
+				45B6A5BE290D6BBF00325D1E /* PGS */,
 			);
 			path = Algorithm_Study_in_Swift;
 			sourceTree = "<group>";
@@ -147,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B6A5C1290D6C2300325D1E /* PGS_콜라츠추측.swift in Sources */,
 				45E51D2F29067C410006154F /* BOJ_다리놓기_1010.swift in Sources */,
 				45E51D26290595AD0006154F /* main.swift in Sources */,
 			);
