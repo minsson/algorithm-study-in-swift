@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8B46B3290B9C5400DC0869 /* BOJ_모음의개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8B46B2290B9C5400DC0869 /* BOJ_모음의개수_1264.swift */; };
 		8FF36A2F290632200049B133 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF36A2E290632200049B133 /* main.swift */; };
 		8FF36A36290632710049B133 /* answer_BOJ_AxB_10998.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF36A35290632710049B133 /* answer_BOJ_AxB_10998.swift */; };
 		8FF36A38290634060049B133 /* answer_BOJ_??!_10926.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF36A37290634060049B133 /* answer_BOJ_??!_10926.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8F8B46B2290B9C5400DC0869 /* BOJ_모음의개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의개수_1264.swift"; sourceTree = "<group>"; };
 		8FF36A2B290632200049B133 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF36A2E290632200049B133 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8FF36A35290632710049B133 /* answer_BOJ_AxB_10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answer_BOJ_AxB_10998.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F8B46B1290B9C2800DC0869 /* TierMatch */ = {
+			isa = PBXGroup;
+			children = (
+				8F8B46B2290B9C5400DC0869 /* BOJ_모음의개수_1264.swift */,
+			);
+			path = TierMatch;
+			sourceTree = "<group>";
+		};
 		8FF36A22290632200049B133 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				8FF36A2E290632200049B133 /* main.swift */,
+				8F8B46B1290B9C2800DC0869 /* TierMatch */,
 				8FF36A39290634110049B133 /* BOJ_Bronze */,
 			);
 			path = main;
@@ -135,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FF36A2F290632200049B133 /* main.swift in Sources */,
+				8F8B46B3290B9C5400DC0869 /* BOJ_모음의개수_1264.swift in Sources */,
 				8FF36A38290634060049B133 /* answer_BOJ_??!_10926.swift in Sources */,
 				8FF36A36290632710049B133 /* answer_BOJ_AxB_10998.swift in Sources */,
 			);
