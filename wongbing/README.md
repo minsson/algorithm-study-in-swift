@@ -16,6 +16,7 @@
 ### 브론즈 3
 ### 참가자
 [웡빙](https://github.com/wongbingg) 🏅
+
 [현이](https://github.com/seohyeon2)
 
 ### 문제 풀이
