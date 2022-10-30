@@ -10,6 +10,7 @@
 		C4B2551929000395008253D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2551829000395008253D7 /* main.swift */; };
 		C4B25522290003E3008253D7 /* BOJ_A플러스B_1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B25521290003E3008253D7 /* BOJ_A플러스B_1000.swift */; };
 		C4B2552429000523008253D7 /* BOJ_A마이너스B_1001.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */; };
+		C4B42142290E6B7F00CEBF81 /* BOJ_사칙연산.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B42141290E6B7F00CEBF81 /* BOJ_사칙연산.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		C4B2551829000395008253D7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C4B25521290003E3008253D7 /* BOJ_A플러스B_1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A플러스B_1000.swift"; sourceTree = "<group>"; };
 		C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A마이너스B_1001.swift"; sourceTree = "<group>"; };
+		C4B42141290E6B7F00CEBF81 /* BOJ_사칙연산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_사칙연산.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			children = (
 				C4B25521290003E3008253D7 /* BOJ_A플러스B_1000.swift */,
 				C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */,
+				C4B42141290E6B7F00CEBF81 /* BOJ_사칙연산.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B2551929000395008253D7 /* main.swift in Sources */,
+				C4B42142290E6B7F00CEBF81 /* BOJ_사칙연산.swift in Sources */,
 				C4B25522290003E3008253D7 /* BOJ_A플러스B_1000.swift in Sources */,
 				C4B2552429000523008253D7 /* BOJ_A마이너스B_1001.swift in Sources */,
 			);
