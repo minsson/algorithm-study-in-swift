@@ -1,9 +1,9 @@
 //
-//  ddasdf.swift
+//  BOJ_윤년_2753.swift
 //  AlogrithmsStudy-Minsson
 //
 //  Created by minsson on 2022/10/30.
-//
+//  https://www.acmicpc.net/problem/2753
 
 import Foundation
 
