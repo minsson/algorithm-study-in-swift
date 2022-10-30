@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD313991290EAD6D0047880E /* BOJ_윤년_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */; };
+		FD313993290EB01B0047880E /* BOJ_알람시계_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */; };
 		FDF30397290B9B7D00BF3FEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF30396290B9B7D00BF3FEE /* main.swift */; };
 		FDF303A0290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_윤년_2753.swift"; sourceTree = "<group>"; };
+		FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_알람시계_2884.swift"; sourceTree = "<group>"; };
 		FDF30393290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AlogrithmsStudy-Minsson"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF30396290B9B7D00BF3FEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의개수_1264.swift"; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */,
+				FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF30397290B9B7D00BF3FEE /* main.swift in Sources */,
+				FD313993290EB01B0047880E /* BOJ_알람시계_2884.swift in Sources */,
 				FDF303A0290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift in Sources */,
 				FD313991290EAD6D0047880E /* BOJ_윤년_2753.swift in Sources */,
 			);
