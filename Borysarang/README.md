@@ -1,8 +1,8 @@
 # 백준
 
-## 실버
+## BOJ
 
-### BOJ
+### 실버
 
 <details>
 <summary>다리 놓기</summary>
@@ -25,9 +25,33 @@
 </div>
 </details>
 
+### 브론즈
+
+---
+
+## PGS
+
+### 브론즈
+
+<details>
+<summary>핸드폰 번호 가리기</summary>
+<div markdown="1">
+
+### [핸드폰 번호 가리기](https://github.com/yusw10/algorithm-study-in-swift/blob/main/Borysarang/Algorithm_Study_in_Swift/Algorithm_Study_in_Swift/PGS/BRONZE/PGS_%ED%95%B8%EB%93%9C%ED%8F%B0%EB%B2%88%ED%98%B8%EA%B0%80%EB%A6%AC%EA%B8%B0.swift)
+
+- 문자열의 substring을 통해 뒤의 4글자만을 제외하고는 * 처리한다.
+- 다만 Swift는 문자열의 직접적 서브스트링을 지원하지 않고 String.Index라는 구조체를 통해 배열 인텍스에 접근토록한다.
+  
+</div>
+</details>
+
+
+---
 # 티어전
 
-##  10월 4주차
+<details>
+<summary>10월 4주차 - 콜라츠 추측</summary>
+<div markdown="1">
 
 ### [콜라츠 추측](https://school.programmers.co.kr/learn/courses/30/lessons/12943?language=swift) - 레벨 1 (브론즈)
 
@@ -40,3 +64,6 @@
 
 ### 기타
 함수로 빼는것이 알고리즘 실행시간에 영향을 주는가?
+
+</div>
+</details>
