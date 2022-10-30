@@ -4,6 +4,7 @@
 //
 //  Created by Borysarang on 2022/09/21.
 //  https://www.acmicpc.net/problem/1010
+
 import Foundation
 
 var factorialTable: [Double] = [Double](repeating: 0, count: 31)

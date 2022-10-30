@@ -13,7 +13,9 @@ answer_BOJ_문제이름_1002()
 
 //MARK: - 프로그래머스 Level 1
 
-answer_PGS_콜라츠추측() // 해결
+//answer_PGS_콜라츠추측() // 해결
+answer_PGS_핸드폰번호가리기() // 해결
+
 
 /* 예시
 answer_PGS_문제이름1()
