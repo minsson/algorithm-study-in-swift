@@ -2,35 +2,46 @@
 
 ## 브론즈
 
-### [Hello World!](커밋 주소)
-
+### [Hello World!](cd15207caed37900ac0aa78d5831b3dc7551e05d)
 ```swift
 print("Hello, World!")
 ```
 
-### [문제이름2](커밋 주소)
-- 정수를 더하는 방법
-    - 아래와 같이 Int + Int 형태로 쓰면 된다.
-        ```swift
-        let a = 3
-        let b = 5
-        let sum = a + b
-        ```
+# 티어전
 
-## 실버
+## 11월 1주차
+### 브론즈4
+### 재재, 본프
+[재재](https://github.com/ZZBAE) 🏅
+[본프](https://github.com/apwierk2451)
 
-### [문제이름1](커밋 주소) <-- 링크 생성을 위함
-- 배운 내용, 문제 해결에 필요한 지식
-    - ...
+### 문제 풀이
+```swift
+func answer_BOJ_1264() {
+    let vowelsCheck = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
 
-### [문제이름2](커밋 주소)
-- 배운 내용, 문제 해결에 필요한 지식
-    - ...
+    while true {
+        let input = (readLine() ?? "")
+        var count = 0
 
-# 프로그래머스 (플랫폼 이름)
+        if input == "#" {
+            break
+        }
 
-## Level 1
+        input.forEach { input in
+//            let lower = input.lowercased()
+            if vowelsCheck.contains(String(input)) {
+                count += 1
+            }
+        }
+        print(count)
+    }
+}
+```
 
-### [문제이름1](커밋 주소)
-- 배운 내용, 문제 해결에 필요한 지식
-    - ...
+### 알게된 점
+lowercased() = 문자열 전체를 소문자로 변환해주는 함수
+
+### 중요한 점
+
+### 기타
