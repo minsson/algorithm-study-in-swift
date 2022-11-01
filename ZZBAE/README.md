@@ -2,7 +2,7 @@
 
 ## 브론즈
 
-### [Hello World!](cd15207caed37900ac0aa78d5831b3dc7551e05d)
+### [Hello World!](ca30d5c)
 ```swift
 print("Hello, World!")
 ```
@@ -10,9 +10,10 @@ print("Hello, World!")
 # 티어전
 
 ## 11월 1주차
-### 브론즈4
-### 재재, 본프
-[재재](https://github.com/ZZBAE) 🏅
+### 레벨: 브론즈4
+### 참가자
+
+[재재](https://github.com/ZZBAE) 🏅 </br>
 [본프](https://github.com/apwierk2451)
 
 ### 문제 풀이
