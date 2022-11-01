@@ -10,6 +10,7 @@
 		18742C7B291171E900E09755 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742C7A291171E900E09755 /* main.swift */; };
 		18742FF92911743C00B6B191 /* BOJ_1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742FF82911743C00B6B191 /* BOJ_1000.swift */; };
 		18742FFB2911786B00B6B191 /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742FFA2911786B00B6B191 /* BOJ_1264.swift */; };
+		18742FFF2911821900B6B191 /* Babbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742FFE2911821900B6B191 /* Babbling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		18742C7A291171E900E09755 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		18742FF82911743C00B6B191 /* BOJ_1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1000.swift; sourceTree = "<group>"; };
 		18742FFA2911786B00B6B191 /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
+		18742FFE2911821900B6B191 /* Babbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Babbling.swift; path = AlgorithmStudy/PGS/LEVEL0/Babbling.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,16 +81,9 @@
 		18742C822911722300E09755 /* PGS */ = {
 			isa = PBXGroup;
 			children = (
-				18742C83291172A300E09755 /* LV0 */,
+				187430002911823400B6B191 /* LEVEL0 */,
 			);
 			path = PGS;
-			sourceTree = "<group>";
-		};
-		18742C83291172A300E09755 /* LV0 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LV0;
 			sourceTree = "<group>";
 		};
 		18742FF72911741D00B6B191 /* BRONZE */ = {
@@ -98,6 +93,14 @@
 				18742FFA2911786B00B6B191 /* BOJ_1264.swift */,
 			);
 			path = BRONZE;
+			sourceTree = "<group>";
+		};
+		187430002911823400B6B191 /* LEVEL0 */ = {
+			isa = PBXGroup;
+			children = (
+				18742FFE2911821900B6B191 /* Babbling.swift */,
+			);
+			path = LEVEL0;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +163,7 @@
 			files = (
 				18742FFB2911786B00B6B191 /* BOJ_1264.swift in Sources */,
 				18742FF92911743C00B6B191 /* BOJ_1000.swift in Sources */,
+				18742FFF2911821900B6B191 /* Babbling.swift in Sources */,
 				18742C7B291171E900E09755 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
