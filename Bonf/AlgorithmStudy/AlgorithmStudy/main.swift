@@ -7,6 +7,5 @@
 
 import Foundation
 
-answer_BOJ_A플러스B_1000()
-
-
+//answer_BOJ_A플러스B_1000()
+answer_BOJ_모음의개수_1264()
