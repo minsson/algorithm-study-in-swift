@@ -1,13 +1,14 @@
 # 프로그래머스 
 
 ## Level 0
-### 점의 위치 구하기
+### 1. [점의 위치 구하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/f8c6541ca727e7761cb65c92cd716f55578a7690)
 - x의 양수 판별 + y의 양수 판별
 - 두 번의 조건문이면 해결
+<br>
 
 ## Level 1
 
-### [부족한 금액 더하기] (https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
+### 1. [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
 - 연속된 숫자의 배열 만들기
   - `let nums = Array(1...3) // [1, 2, 3]`
 - 1부터 n배가 되는 값의 합 
@@ -16,9 +17,31 @@
   = **p\*(n\*(n+1)/2)**
 <br>
 
-### [내적](https://github.com/Judy-999/algorithm-study-in-swift/commit/44144384e83561a7e9885d904ea518f7b4b305ea)
+### 2. [내적](https://github.com/Judy-999/algorithm-study-in-swift/commit/44144384e83561a7e9885d904ea518f7b4b305ea)
 - `zip([1, 2, 3], [4, 5, 6]).map(*).reduce(0, +)`
     - `zip`에서 튜플로 하나씩 꺼내지 않고 바로 `map`을 사용하면 간편하다
+<br>
+
+### 3. [콜라 문제](https://github.com/Judy-999/algorithm-study-in-swift/commit/5403f8e800bbbb49b16cfd085ccf2943294ce4cd)
+- 처음 작성 
+```swift
+while total >= a {
+  remainder = total % a 
+  total = (total / a) * b
+  sum += total 
+  total += remainder
+}
+```
+- 간략하게 수정
+```swift
+while total >= a {
+  sum += (total / a) * b
+  total = (total / a) * b + total % a 
+}
+```
+- 처음에는 생각의 흐름 그대로 짜느라 오히려 복잡했는데 정리하면 더 간편하게 작성할 수 있다
+
+<br>
 
 ## 10월 4주차
 
