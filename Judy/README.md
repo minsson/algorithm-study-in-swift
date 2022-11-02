@@ -7,14 +7,18 @@
 
 ## Level 1
 
-### 부족한 금액 더하기 (1049696)
+### [부족한 금액 더하기] (https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
 - 연속된 숫자의 배열 만들기
   - `let nums = Array(1...3) // [1, 2, 3]`
 - 1부터 n배가 되는 값의 합 
   - 1*p + 2*p + 3*p + ... + n*p 
   = (1+2+...+n)p 
   = **p\*(n\*(n+1)/2)**
+<br>
 
+### [내적](https://github.com/Judy-999/algorithm-study-in-swift/commit/44144384e83561a7e9885d904ea518f7b4b305ea)
+- `zip([1, 2, 3], [4, 5, 6]).map(*).reduce(0, +)`
+    - `zip`에서 튜플로 하나씩 꺼내지 않고 바로 `map`을 사용하면 간편하다
 
 ## 10월 4주차
 
