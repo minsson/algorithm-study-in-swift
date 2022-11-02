@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		207CF715290BC3F7002911B2 /* 점의_위치_구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CF714290BC3F7002911B2 /* 점의_위치_구하기.swift */; };
 		207DBB522912721100316B82 /* DotProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DBB512912721100316B82 /* DotProduct.swift */; };
+		207DBB54291277A600316B82 /* CokeProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DBB53291277A600316B82 /* CokeProblem.swift */; };
 		20C710F628FE3BAF002A7F08 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C710F528FE3BAF002A7F08 /* main.swift */; };
 		20C710FF28FE3BD2002A7F08 /* 부족한_금액_계산.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C710FE28FE3BD2002A7F08 /* 부족한_금액_계산.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		207CF714290BC3F7002911B2 /* 점의_위치_구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "점의_위치_구하기.swift"; sourceTree = "<group>"; };
 		207DBB512912721100316B82 /* DotProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotProduct.swift; sourceTree = "<group>"; };
+		207DBB53291277A600316B82 /* CokeProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeProblem.swift; sourceTree = "<group>"; };
 		20C710F228FE3BAF002A7F08 /* AlogithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlogithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C710F528FE3BAF002A7F08 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		20C710FE28FE3BD2002A7F08 /* 부족한_금액_계산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부족한_금액_계산.swift"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				20C710FE28FE3BD2002A7F08 /* 부족한_금액_계산.swift */,
 				207DBB512912721100316B82 /* DotProduct.swift */,
+				207DBB53291277A600316B82 /* CokeProblem.swift */,
 			);
 			path = LEVEL_1;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				20C710F628FE3BAF002A7F08 /* main.swift in Sources */,
 				207CF715290BC3F7002911B2 /* 점의_위치_구하기.swift in Sources */,
 				207DBB522912721100316B82 /* DotProduct.swift in Sources */,
+				207DBB54291277A600316B82 /* CokeProblem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
