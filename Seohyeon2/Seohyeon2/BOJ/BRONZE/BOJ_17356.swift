@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_욱제_17356() {
+func answer_BOJ_욱제_17356() {
     let input = readLine()!.split(separator: " ").map {
         Int(String($0))!
     }
