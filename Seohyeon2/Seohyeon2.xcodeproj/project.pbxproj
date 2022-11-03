@@ -10,6 +10,7 @@
 		0523482F290EBFA3004BC697 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523482E290EBFA3004BC697 /* main.swift */; };
 		05840B532913C4940020F864 /* BOJ_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B522913C4940020F864 /* BOJ_17356.swift */; };
 		05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B542913C59C0020F864 /* BOJ_1264.swift */; };
+		05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B5C2913EAC60020F864 /* BOJ_1247.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		0523483C290EC258004BC697 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		05840B522913C4940020F864 /* BOJ_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_17356.swift; sourceTree = "<group>"; };
 		05840B542913C59C0020F864 /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
+		05840B5C2913EAC60020F864 /* BOJ_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1247.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		0523482D290EBFA3004BC697 /* Seohyeon2 */ = {
 			isa = PBXGroup;
 			children = (
+				05840B5B2913EA830020F864 /* TierMatch */,
 				05840B502913C43C0020F864 /* BOJ */,
 				0523482E290EBFA3004BC697 /* main.swift */,
 				0523483C290EC258004BC697 /* README.md */,
@@ -84,6 +87,14 @@
 				05840B542913C59C0020F864 /* BOJ_1264.swift */,
 			);
 			path = BRONZE;
+			sourceTree = "<group>";
+		};
+		05840B5B2913EA830020F864 /* TierMatch */ = {
+			isa = PBXGroup;
+			children = (
+				05840B5C2913EAC60020F864 /* BOJ_1247.swift */,
+			);
+			path = TierMatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */,
+				05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */,
 				05840B532913C4940020F864 /* BOJ_17356.swift in Sources */,
 				0523482F290EBFA3004BC697 /* main.swift in Sources */,
 			);
