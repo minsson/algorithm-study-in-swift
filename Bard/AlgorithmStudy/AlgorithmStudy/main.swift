@@ -13,6 +13,7 @@ import Foundation
  answer_BOJ_A플러스B_1000()
  answer_BOJ_A마이너스B_1001()
  answer_BOJ_사칙연산_10869()
+ answer_BOJ_A곱하기B_10998()
 */
 
-answer_BOJ_A곱하기B_10998()
+answer_BOJ_물음표물음표느낌표_10926()
