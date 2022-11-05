@@ -11,6 +11,7 @@
 		C4B25522290003E3008253D7 /* BOJ_A플러스B_1000.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B25521290003E3008253D7 /* BOJ_A플러스B_1000.swift */; };
 		C4B2552429000523008253D7 /* BOJ_A마이너스B_1001.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */; };
 		C4B42142290E6B7F00CEBF81 /* BOJ_사칙연산.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B42141290E6B7F00CEBF81 /* BOJ_사칙연산.swift */; };
+		C4B42144290E710200CEBF81 /* BOJ_A곱하기B_10998.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B42143290E710200CEBF81 /* BOJ_A곱하기B_10998.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		C4B25521290003E3008253D7 /* BOJ_A플러스B_1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A플러스B_1000.swift"; sourceTree = "<group>"; };
 		C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A마이너스B_1001.swift"; sourceTree = "<group>"; };
 		C4B42141290E6B7F00CEBF81 /* BOJ_사칙연산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_사칙연산.swift"; sourceTree = "<group>"; };
+		C4B42143290E710200CEBF81 /* BOJ_A곱하기B_10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A곱하기B_10998.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			children = (
 				C4B25521290003E3008253D7 /* BOJ_A플러스B_1000.swift */,
 				C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */,
+				C4B42143290E710200CEBF81 /* BOJ_A곱하기B_10998.swift */,
 				C4B42141290E6B7F00CEBF81 /* BOJ_사칙연산.swift */,
 			);
 			path = Bronze;
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4B2551929000395008253D7 /* main.swift in Sources */,
+				C4B42144290E710200CEBF81 /* BOJ_A곱하기B_10998.swift in Sources */,
 				C4B42142290E6B7F00CEBF81 /* BOJ_사칙연산.swift in Sources */,
 				C4B25522290003E3008253D7 /* BOJ_A플러스B_1000.swift in Sources */,
 				C4B2552429000523008253D7 /* BOJ_A마이너스B_1001.swift in Sources */,
