@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD313991290EAD6D0047880E /* BOJ_윤년_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */; };
-		FD313993290EB01B0047880E /* BOJ_알람시계_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */; };
+		FD313991290EAD6D0047880E /* BOJ_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313990290EAD6D0047880E /* BOJ_2753.swift */; };
+		FD313993290EB01B0047880E /* BOJ_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313992290EB01B0047880E /* BOJ_2884.swift */; };
+		FD3139B429140BA70047880E /* BOJ_2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3139B329140BA70047880E /* BOJ_2439.swift */; };
 		FDF30397290B9B7D00BF3FEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF30396290B9B7D00BF3FEE /* main.swift */; };
-		FDF303A0290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */; };
+		FDF303A0290B9BB700BF3FEE /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3039F290B9BB700BF3FEE /* BOJ_1264.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_윤년_2753.swift"; sourceTree = "<group>"; };
-		FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_알람시계_2884.swift"; sourceTree = "<group>"; };
+		FD313990290EAD6D0047880E /* BOJ_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2753.swift; sourceTree = "<group>"; };
+		FD313992290EB01B0047880E /* BOJ_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2884.swift; sourceTree = "<group>"; };
+		FD3139B329140BA70047880E /* BOJ_2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2439.swift; sourceTree = "<group>"; };
 		FDF30393290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AlogrithmsStudy-Minsson"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF30396290B9B7D00BF3FEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의개수_1264.swift"; sourceTree = "<group>"; };
+		FDF3039F290B9BB700BF3FEE /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +83,8 @@
 		FDF3039E290B9B8E00BF3FEE /* BRONZE */ = {
 			isa = PBXGroup;
 			children = (
-				FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */,
-				FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */,
+				FD313990290EAD6D0047880E /* BOJ_2753.swift */,
+				FD313992290EB01B0047880E /* BOJ_2884.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -90,17 +92,10 @@
 		FDF303A1290B9C1500BF3FEE /* TierMatch */ = {
 			isa = PBXGroup;
 			children = (
-				FDF303A2290B9C2E00BF3FEE /* Week01 */,
+				FDF3039F290B9BB700BF3FEE /* BOJ_1264.swift */,
+				FD3139B329140BA70047880E /* BOJ_2439.swift */,
 			);
 			path = TierMatch;
-			sourceTree = "<group>";
-		};
-		FDF303A2290B9C2E00BF3FEE /* Week01 */ = {
-			isa = PBXGroup;
-			children = (
-				FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */,
-			);
-			path = Week01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,7 +126,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					FDF30392290B9B7D00BF3FEE = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -162,9 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF30397290B9B7D00BF3FEE /* main.swift in Sources */,
-				FD313993290EB01B0047880E /* BOJ_알람시계_2884.swift in Sources */,
-				FDF303A0290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift in Sources */,
-				FD313991290EAD6D0047880E /* BOJ_윤년_2753.swift in Sources */,
+				FD313993290EB01B0047880E /* BOJ_2884.swift in Sources */,
+				FD3139B429140BA70047880E /* BOJ_2439.swift in Sources */,
+				FDF303A0290B9BB700BF3FEE /* BOJ_1264.swift in Sources */,
+				FD313991290EAD6D0047880E /* BOJ_2753.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +200,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -264,6 +261,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -287,7 +285,9 @@
 		FDF3039B290B9B7D00BF3FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4K2FDLWHBL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,7 +298,9 @@
 		FDF3039C290B9B7D00BF3FEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 4K2FDLWHBL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
