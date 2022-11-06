@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45B6A5C1290D6C2300325D1E /* PGS_콜라츠추측.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C0290D6C2300325D1E /* PGS_콜라츠추측.swift */; };
-		45B6A5C3290D7FDC00325D1E /* BOJ_잃어버린괄호_1541.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C2290D7FDC00325D1E /* BOJ_잃어버린괄호_1541.swift */; };
-		45B6A5C5290E310000325D1E /* PGS_핸드폰번호가리기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C4290E310000325D1E /* PGS_핸드폰번호가리기.swift */; };
+		45624F7A2916BB050086674A /* PGS_jumpAndTeleport_12980.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45624F792916BB050086674A /* PGS_jumpAndTeleport_12980.swift */; };
+		45624F7C2916BB210086674A /* PGS_Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45624F7B2916BB210086674A /* PGS_Form.swift */; };
+		45624F7E2916C8AC0086674A /* UnResolve+PGS_Hail_sequence_integral_134239.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45624F7D2916C8AC0086674A /* UnResolve+PGS_Hail_sequence_integral_134239.swift */; };
+		45624F80291786FD0086674A /* BOJ_A+B-8_11022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45624F7F291786FD0086674A /* BOJ_A+B-8_11022.swift */; };
+		45624F82291790880086674A /* BOJ_Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45624F81291790880086674A /* BOJ_Form.swift */; };
+		45624F842917D2A30086674A /* BOJ_TestGrade_9498.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45624F832917D2A30086674A /* BOJ_TestGrade_9498.swift */; };
+		45B6A5C1290D6C2300325D1E /* PGS_Colatz_guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C0290D6C2300325D1E /* PGS_Colatz_guess.swift */; };
+		45B6A5C3290D7FDC00325D1E /* UnResolve+BOJ_잃어버린괄호_1541.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C2290D7FDC00325D1E /* UnResolve+BOJ_잃어버린괄호_1541.swift */; };
+		45B6A5C5290E310000325D1E /* PGS_CellPhoneNumberHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C4290E310000325D1E /* PGS_CellPhoneNumberHide.swift */; };
 		45E51D26290595AD0006154F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E51D25290595AD0006154F /* main.swift */; };
 		45E51D2F29067C410006154F /* BOJ_다리놓기_1010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E51D2E29067C410006154F /* BOJ_다리놓기_1010.swift */; };
 /* End PBXBuildFile section */
@@ -27,9 +33,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		45B6A5C0290D6C2300325D1E /* PGS_콜라츠추측.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PGS_콜라츠추측.swift"; sourceTree = "<group>"; };
-		45B6A5C2290D7FDC00325D1E /* BOJ_잃어버린괄호_1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_잃어버린괄호_1541.swift"; sourceTree = "<group>"; };
-		45B6A5C4290E310000325D1E /* PGS_핸드폰번호가리기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PGS_핸드폰번호가리기.swift"; sourceTree = "<group>"; };
+		45624F792916BB050086674A /* PGS_jumpAndTeleport_12980.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_jumpAndTeleport_12980.swift; sourceTree = "<group>"; };
+		45624F7B2916BB210086674A /* PGS_Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_Form.swift; sourceTree = "<group>"; };
+		45624F7D2916C8AC0086674A /* UnResolve+PGS_Hail_sequence_integral_134239.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnResolve+PGS_Hail_sequence_integral_134239.swift"; sourceTree = "<group>"; };
+		45624F7F291786FD0086674A /* BOJ_A+B-8_11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A+B-8_11022.swift"; sourceTree = "<group>"; };
+		45624F81291790880086674A /* BOJ_Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Form.swift; sourceTree = "<group>"; };
+		45624F832917D2A30086674A /* BOJ_TestGrade_9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_TestGrade_9498.swift; sourceTree = "<group>"; };
+		45B6A5C0290D6C2300325D1E /* PGS_Colatz_guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_Colatz_guess.swift; sourceTree = "<group>"; };
+		45B6A5C2290D7FDC00325D1E /* UnResolve+BOJ_잃어버린괄호_1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnResolve+BOJ_잃어버린괄호_1541.swift"; sourceTree = "<group>"; };
+		45B6A5C4290E310000325D1E /* PGS_CellPhoneNumberHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_CellPhoneNumberHide.swift; sourceTree = "<group>"; };
 		45E51D22290595AD0006154F /* Algorithm_Study_in_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Study_in_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E51D25290595AD0006154F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		45E51D2E29067C410006154F /* BOJ_다리놓기_1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_다리놓기_1010.swift"; sourceTree = "<group>"; };
@@ -46,21 +58,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45624F782916BA390086674A /* LEVEL2 */ = {
+			isa = PBXGroup;
+			children = (
+				45624F792916BB050086674A /* PGS_jumpAndTeleport_12980.swift */,
+				45624F7D2916C8AC0086674A /* UnResolve+PGS_Hail_sequence_integral_134239.swift */,
+			);
+			path = LEVEL2;
+			sourceTree = "<group>";
+		};
 		45B6A5BE290D6BBF00325D1E /* PGS */ = {
 			isa = PBXGroup;
 			children = (
-				45B6A5BF290D6BDE00325D1E /* BRONZE */,
+				45624F7B2916BB210086674A /* PGS_Form.swift */,
+				45B6A5BF290D6BDE00325D1E /* LEVEL1 */,
+				45624F782916BA390086674A /* LEVEL2 */,
 			);
 			path = PGS;
 			sourceTree = "<group>";
 		};
-		45B6A5BF290D6BDE00325D1E /* BRONZE */ = {
+		45B6A5BF290D6BDE00325D1E /* LEVEL1 */ = {
 			isa = PBXGroup;
 			children = (
-				45B6A5C0290D6C2300325D1E /* PGS_콜라츠추측.swift */,
-				45B6A5C4290E310000325D1E /* PGS_핸드폰번호가리기.swift */,
+				45B6A5C0290D6C2300325D1E /* PGS_Colatz_guess.swift */,
+				45B6A5C4290E310000325D1E /* PGS_CellPhoneNumberHide.swift */,
 			);
-			path = BRONZE;
+			path = LEVEL1;
 			sourceTree = "<group>";
 		};
 		45E51D19290595AD0006154F = {
@@ -92,6 +115,7 @@
 		45E51D2C2905961B0006154F /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				45624F81291790880086674A /* BOJ_Form.swift */,
 				45E51D2D290596290006154F /* BRONZE */,
 				45E51D3029067C450006154F /* SILVER */,
 			);
@@ -101,6 +125,8 @@
 		45E51D2D290596290006154F /* BRONZE */ = {
 			isa = PBXGroup;
 			children = (
+				45624F7F291786FD0086674A /* BOJ_A+B-8_11022.swift */,
+				45624F832917D2A30086674A /* BOJ_TestGrade_9498.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -109,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				45E51D2E29067C410006154F /* BOJ_다리놓기_1010.swift */,
-				45B6A5C2290D7FDC00325D1E /* BOJ_잃어버린괄호_1541.swift */,
+				45B6A5C2290D7FDC00325D1E /* UnResolve+BOJ_잃어버린괄호_1541.swift */,
 			);
 			path = SILVER;
 			sourceTree = "<group>";
@@ -172,11 +198,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45B6A5C3290D7FDC00325D1E /* BOJ_잃어버린괄호_1541.swift in Sources */,
-				45B6A5C1290D6C2300325D1E /* PGS_콜라츠추측.swift in Sources */,
+				45624F7C2916BB210086674A /* PGS_Form.swift in Sources */,
+				45B6A5C3290D7FDC00325D1E /* UnResolve+BOJ_잃어버린괄호_1541.swift in Sources */,
+				45B6A5C1290D6C2300325D1E /* PGS_Colatz_guess.swift in Sources */,
+				45624F7E2916C8AC0086674A /* UnResolve+PGS_Hail_sequence_integral_134239.swift in Sources */,
+				45624F7A2916BB050086674A /* PGS_jumpAndTeleport_12980.swift in Sources */,
 				45E51D2F29067C410006154F /* BOJ_다리놓기_1010.swift in Sources */,
 				45E51D26290595AD0006154F /* main.swift in Sources */,
-				45B6A5C5290E310000325D1E /* PGS_핸드폰번호가리기.swift in Sources */,
+				45B6A5C5290E310000325D1E /* PGS_CellPhoneNumberHide.swift in Sources */,
+				45624F842917D2A30086674A /* BOJ_TestGrade_9498.swift in Sources */,
+				45624F80291786FD0086674A /* BOJ_A+B-8_11022.swift in Sources */,
+				45624F82291790880086674A /* BOJ_Form.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

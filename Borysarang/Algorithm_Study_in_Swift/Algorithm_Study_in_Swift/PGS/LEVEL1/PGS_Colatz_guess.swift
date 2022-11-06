@@ -13,11 +13,11 @@ import Foundation
 func answer_PGS_콜라츠추측() {
     let testInput: [Int] = [6, 16, 626331]
     testInput.forEach { input in
-        print(solution(input))
+        print(solution_PGS_콜라츠추측(input))
     }
 }
 
-func solution(_ num:Int) -> Int {
+private func solution_PGS_콜라츠추측(_ num:Int) -> Int {
     var count: Int = 0
     var target = num
     

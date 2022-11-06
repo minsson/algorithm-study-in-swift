@@ -11,11 +11,11 @@ import Foundation
 func answer_PGS_핸드폰번호가리기() {
     let testInput: [String] = ["01033334444","027778888"]
     testInput.forEach { input in
-        print(solution(input))
+        print(solution_PGS_핸드폰번호가리기(input))
     }
 }
 
-func solution(_ phone_number: String) -> String {
+func solution_PGS_핸드폰번호가리기(_ phone_number: String) -> String {
     var result = ""
     var count = 0
     phone_number.forEach { character in
