@@ -7,17 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF601E4029137A2900C6506E /* BOJ_최댓값_2566.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */; };
-		AFC24091290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */; };
-		AFC24093290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */; };
-		AFDBDEEE29081A7800960B47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDEED29081A7800960B47 /* main.swift */; };
-		AFDBDEFF29082ABA00960B47 /* BOJ_욱제_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */; };
-		AFDBDF0129082AE600960B47 /* BOJ_모음의_개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */; };
-		AFDBDF0329082B3900960B47 /* BOJ_부호_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */; };
+		203EA574290E6ABC002C9F6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA573290E6ABC002C9F6E /* main.swift */; };
+		203EA57D290E6B7A002C9F6E /* BOJ_사칙연산.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA57C290E6B7A002C9F6E /* BOJ_사칙연산.swift */; };
+		203EA57F290E7376002C9F6E /* BOJ_HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */; };
+		203EA581290E73E4002C9F6E /* BOJ_A플러스B.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA580290E73E4002C9F6E /* BOJ_A플러스B.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AFDBDEE829081A7800960B47 /* CopyFiles */ = {
+		203EA56E290E6ABC002C9F6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,18 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_최댓값_2566.swift"; sourceTree = "<group>"; };
-		AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_색종이_만들기_2630.swift"; sourceTree = "<group>"; };
-		AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_좌표_압축_18870.swift"; sourceTree = "<group>"; };
-		AFDBDEEA29081A7800960B47 /* wongbing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wongbing; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDBDEED29081A7800960B47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_욱제_17356.swift"; sourceTree = "<group>"; };
-		AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의_개수_1264.swift"; sourceTree = "<group>"; };
-		AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_부호_1247.swift"; sourceTree = "<group>"; };
+		203EA570290E6ABC002C9F6E /* AlogithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlogithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
+		203EA573290E6ABC002C9F6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		203EA57C290E6B7A002C9F6E /* BOJ_사칙연산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_사칙연산.swift"; sourceTree = "<group>"; };
+		203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_HelloWorld.swift; sourceTree = "<group>"; };
+		203EA580290E73E4002C9F6E /* BOJ_A플러스B.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A플러스B.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFDBDEE729081A7800960B47 /* Frameworks */ = {
+		203EA56D290E6ABC002C9F6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,112 +44,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFDBDEE129081A7700960B47 = {
+		203EA567290E6ABC002C9F6E = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEEC29081A7800960B47 /* wongbing */,
-				AFDBDEEB29081A7800960B47 /* Products */,
+				203EA572290E6ABC002C9F6E /* AlogithmStudy */,
+				203EA571290E6ABC002C9F6E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AFDBDEEB29081A7800960B47 /* Products */ = {
+		203EA571290E6ABC002C9F6E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEEA29081A7800960B47 /* wongbing */,
+				203EA570290E6ABC002C9F6E /* AlogithmStudy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFDBDEEC29081A7800960B47 /* wongbing */ = {
+		203EA572290E6ABC002C9F6E /* AlogithmStudy */ = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEED29081A7800960B47 /* main.swift */,
-				AFDBDEF429081A8E00960B47 /* TierMatch */,
-				AFDBDEF529081A9D00960B47 /* BOJ */,
-				AFDBDEF729081AC700960B47 /* PGS */,
+				203EA573290E6ABC002C9F6E /* main.swift */,
+				203EA57A290E6AF0002C9F6E /* BOJ */,
 			);
-			path = wongbing;
+			path = AlogithmStudy;
 			sourceTree = "<group>";
 		};
-		AFDBDEF429081A8E00960B47 /* TierMatch */ = {
+		203EA57A290E6AF0002C9F6E /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
-				AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */,
-			);
-			path = TierMatch;
-			sourceTree = "<group>";
-		};
-		AFDBDEF529081A9D00960B47 /* BOJ */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBDEFC29081C0500960B47 /* BRONZE */,
-				AFDBDEFD29081C0B00960B47 /* SILVER */,
+				203EA57B290E6AFC002C9F6E /* Bronze */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
 		};
-		AFDBDEF729081AC700960B47 /* PGS */ = {
+		203EA57B290E6AFC002C9F6E /* Bronze */ = {
 			isa = PBXGroup;
 			children = (
+				203EA57C290E6B7A002C9F6E /* BOJ_사칙연산.swift */,
+				203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */,
+				203EA580290E73E4002C9F6E /* BOJ_A플러스B.swift */,
 			);
-			path = PGS;
-			sourceTree = "<group>";
-		};
-		AFDBDEFC29081C0500960B47 /* BRONZE */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */,
-				AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */,
-				AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */,
-			);
-			path = BRONZE;
-			sourceTree = "<group>";
-		};
-		AFDBDEFD29081C0B00960B47 /* SILVER */ = {
-			isa = PBXGroup;
-			children = (
-				AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */,
-				AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */,
-			);
-			path = SILVER;
+			path = Bronze;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFDBDEE929081A7800960B47 /* wongbing */ = {
+		203EA56F290E6ABC002C9F6E /* AlogithmStudy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFDBDEF129081A7800960B47 /* Build configuration list for PBXNativeTarget "wongbing" */;
+			buildConfigurationList = 203EA577290E6ABC002C9F6E /* Build configuration list for PBXNativeTarget "AlogithmStudy" */;
 			buildPhases = (
-				AFDBDEE629081A7800960B47 /* Sources */,
-				AFDBDEE729081A7800960B47 /* Frameworks */,
-				AFDBDEE829081A7800960B47 /* CopyFiles */,
+				203EA56C290E6ABC002C9F6E /* Sources */,
+				203EA56D290E6ABC002C9F6E /* Frameworks */,
+				203EA56E290E6ABC002C9F6E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = wongbing;
-			productName = wongbing;
-			productReference = AFDBDEEA29081A7800960B47 /* wongbing */;
+			name = AlogithmStudy;
+			productName = AlogithmStudy;
+			productReference = 203EA570290E6ABC002C9F6E /* AlogithmStudy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFDBDEE229081A7700960B47 /* Project object */ = {
+		203EA568290E6ABC002C9F6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					AFDBDEE929081A7800960B47 = {
+					203EA56F290E6ABC002C9F6E = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = AFDBDEE529081A7700960B47 /* Build configuration list for PBXProject "wongbing" */;
+			buildConfigurationList = 203EA56B290E6ABC002C9F6E /* Build configuration list for PBXProject "AlogithmStudy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,35 +130,32 @@
 				en,
 				Base,
 			);
-			mainGroup = AFDBDEE129081A7700960B47;
-			productRefGroup = AFDBDEEB29081A7800960B47 /* Products */;
+			mainGroup = 203EA567290E6ABC002C9F6E;
+			productRefGroup = 203EA571290E6ABC002C9F6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFDBDEE929081A7800960B47 /* wongbing */,
+				203EA56F290E6ABC002C9F6E /* AlogithmStudy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFDBDEE629081A7800960B47 /* Sources */ = {
+		203EA56C290E6ABC002C9F6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC24093290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift in Sources */,
-				AFDBDF0129082AE600960B47 /* BOJ_모음의_개수_1264.swift in Sources */,
-				AFDBDF0329082B3900960B47 /* BOJ_부호_1247.swift in Sources */,
-				AFC24091290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift in Sources */,
-				AFDBDEFF29082ABA00960B47 /* BOJ_욱제_17356.swift in Sources */,
-				AFDBDEEE29081A7800960B47 /* main.swift in Sources */,
-				AF601E4029137A2900C6506E /* BOJ_최댓값_2566.swift in Sources */,
+				203EA581290E73E4002C9F6E /* BOJ_A플러스B.swift in Sources */,
+				203EA574290E6ABC002C9F6E /* main.swift in Sources */,
+				203EA57D290E6B7A002C9F6E /* BOJ_사칙연산.swift in Sources */,
+				203EA57F290E7376002C9F6E /* BOJ_HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFDBDEEF29081A7800960B47 /* Debug */ = {
+		203EA575290E6ABC002C9F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +215,7 @@
 			};
 			name = Debug;
 		};
-		AFDBDEF029081A7800960B47 /* Release */ = {
+		203EA576290E6ABC002C9F6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,23 +268,19 @@
 			};
 			name = Release;
 		};
-		AFDBDEF229081A7800960B47 /* Debug */ = {
+		203EA578290E6ABC002C9F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWPBG3YXG5;
-				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		AFDBDEF329081A7800960B47 /* Release */ = {
+		203EA579290E6ABC002C9F6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWPBG3YXG5;
-				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -329,25 +289,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFDBDEE529081A7700960B47 /* Build configuration list for PBXProject "wongbing" */ = {
+		203EA56B290E6ABC002C9F6E /* Build configuration list for PBXProject "AlogithmStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFDBDEEF29081A7800960B47 /* Debug */,
-				AFDBDEF029081A7800960B47 /* Release */,
+				203EA575290E6ABC002C9F6E /* Debug */,
+				203EA576290E6ABC002C9F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFDBDEF129081A7800960B47 /* Build configuration list for PBXNativeTarget "wongbing" */ = {
+		203EA577290E6ABC002C9F6E /* Build configuration list for PBXNativeTarget "AlogithmStudy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFDBDEF229081A7800960B47 /* Debug */,
-				AFDBDEF329081A7800960B47 /* Release */,
+				203EA578290E6ABC002C9F6E /* Debug */,
+				203EA579290E6ABC002C9F6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AFDBDEE229081A7700960B47 /* Project object */;
+	rootObject = 203EA568290E6ABC002C9F6E /* Project object */;
 }

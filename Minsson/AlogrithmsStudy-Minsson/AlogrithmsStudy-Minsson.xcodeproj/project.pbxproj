@@ -3,21 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF601E4029137A2900C6506E /* BOJ_최댓값_2566.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */; };
-		AFC24091290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */; };
-		AFC24093290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */; };
-		AFDBDEEE29081A7800960B47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDEED29081A7800960B47 /* main.swift */; };
-		AFDBDEFF29082ABA00960B47 /* BOJ_욱제_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */; };
-		AFDBDF0129082AE600960B47 /* BOJ_모음의_개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */; };
-		AFDBDF0329082B3900960B47 /* BOJ_부호_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */; };
+		FD313991290EAD6D0047880E /* BOJ_윤년_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */; };
+		FD313993290EB01B0047880E /* BOJ_알람시계_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */; };
+		FDF30397290B9B7D00BF3FEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF30396290B9B7D00BF3FEE /* main.swift */; };
+		FDF303A0290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AFDBDEE829081A7800960B47 /* CopyFiles */ = {
+		FDF30391290B9B7D00BF3FEE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,18 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_최댓값_2566.swift"; sourceTree = "<group>"; };
-		AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_색종이_만들기_2630.swift"; sourceTree = "<group>"; };
-		AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_좌표_압축_18870.swift"; sourceTree = "<group>"; };
-		AFDBDEEA29081A7800960B47 /* wongbing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wongbing; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDBDEED29081A7800960B47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_욱제_17356.swift"; sourceTree = "<group>"; };
-		AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의_개수_1264.swift"; sourceTree = "<group>"; };
-		AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_부호_1247.swift"; sourceTree = "<group>"; };
+		FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_윤년_2753.swift"; sourceTree = "<group>"; };
+		FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_알람시계_2884.swift"; sourceTree = "<group>"; };
+		FDF30393290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AlogrithmsStudy-Minsson"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF30396290B9B7D00BF3FEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의개수_1264.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFDBDEE729081A7800960B47 /* Frameworks */ = {
+		FDF30390290B9B7D00BF3FEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,154 +44,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFDBDEE129081A7700960B47 = {
+		FDF3038A290B9B7D00BF3FEE = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEEC29081A7800960B47 /* wongbing */,
-				AFDBDEEB29081A7800960B47 /* Products */,
+				FDF30395290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */,
+				FDF30394290B9B7D00BF3FEE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AFDBDEEB29081A7800960B47 /* Products */ = {
+		FDF30394290B9B7D00BF3FEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEEA29081A7800960B47 /* wongbing */,
+				FDF30393290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFDBDEEC29081A7800960B47 /* wongbing */ = {
+		FDF30395290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */ = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEED29081A7800960B47 /* main.swift */,
-				AFDBDEF429081A8E00960B47 /* TierMatch */,
-				AFDBDEF529081A9D00960B47 /* BOJ */,
-				AFDBDEF729081AC700960B47 /* PGS */,
+				FDF30396290B9B7D00BF3FEE /* main.swift */,
+				FDF303A1290B9C1500BF3FEE /* TierMatch */,
+				FDF3039D290B9B8800BF3FEE /* BOJ */,
 			);
-			path = wongbing;
+			path = "AlogrithmsStudy-Minsson";
 			sourceTree = "<group>";
 		};
-		AFDBDEF429081A8E00960B47 /* TierMatch */ = {
+		FDF3039D290B9B8800BF3FEE /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
-				AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */,
-			);
-			path = TierMatch;
-			sourceTree = "<group>";
-		};
-		AFDBDEF529081A9D00960B47 /* BOJ */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBDEFC29081C0500960B47 /* BRONZE */,
-				AFDBDEFD29081C0B00960B47 /* SILVER */,
+				FDF3039E290B9B8E00BF3FEE /* BRONZE */,
 			);
 			path = BOJ;
 			sourceTree = "<group>";
 		};
-		AFDBDEF729081AC700960B47 /* PGS */ = {
+		FDF3039E290B9B8E00BF3FEE /* BRONZE */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = PGS;
-			sourceTree = "<group>";
-		};
-		AFDBDEFC29081C0500960B47 /* BRONZE */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */,
-				AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */,
-				AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */,
+				FD313990290EAD6D0047880E /* BOJ_윤년_2753.swift */,
+				FD313992290EB01B0047880E /* BOJ_알람시계_2884.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
 		};
-		AFDBDEFD29081C0B00960B47 /* SILVER */ = {
+		FDF303A1290B9C1500BF3FEE /* TierMatch */ = {
 			isa = PBXGroup;
 			children = (
-				AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */,
-				AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */,
+				FDF303A2290B9C2E00BF3FEE /* Week01 */,
 			);
-			path = SILVER;
+			path = TierMatch;
+			sourceTree = "<group>";
+		};
+		FDF303A2290B9C2E00BF3FEE /* Week01 */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3039F290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift */,
+			);
+			path = Week01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFDBDEE929081A7800960B47 /* wongbing */ = {
+		FDF30392290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFDBDEF129081A7800960B47 /* Build configuration list for PBXNativeTarget "wongbing" */;
+			buildConfigurationList = FDF3039A290B9B7D00BF3FEE /* Build configuration list for PBXNativeTarget "AlogrithmsStudy-Minsson" */;
 			buildPhases = (
-				AFDBDEE629081A7800960B47 /* Sources */,
-				AFDBDEE729081A7800960B47 /* Frameworks */,
-				AFDBDEE829081A7800960B47 /* CopyFiles */,
+				FDF3038F290B9B7D00BF3FEE /* Sources */,
+				FDF30390290B9B7D00BF3FEE /* Frameworks */,
+				FDF30391290B9B7D00BF3FEE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = wongbing;
-			productName = wongbing;
-			productReference = AFDBDEEA29081A7800960B47 /* wongbing */;
+			name = "AlogrithmsStudy-Minsson";
+			productName = "AlogrithmsStudy-Minsson";
+			productReference = FDF30393290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFDBDEE229081A7700960B47 /* Project object */ = {
+		FDF3038B290B9B7D00BF3FEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					AFDBDEE929081A7800960B47 = {
-						CreatedOnToolsVersion = 14.0.1;
+					FDF30392290B9B7D00BF3FEE = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = AFDBDEE529081A7700960B47 /* Build configuration list for PBXProject "wongbing" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = FDF3038E290B9B7D00BF3FEE /* Build configuration list for PBXProject "AlogrithmsStudy-Minsson" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = AFDBDEE129081A7700960B47;
-			productRefGroup = AFDBDEEB29081A7800960B47 /* Products */;
+			mainGroup = FDF3038A290B9B7D00BF3FEE;
+			productRefGroup = FDF30394290B9B7D00BF3FEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFDBDEE929081A7800960B47 /* wongbing */,
+				FDF30392290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFDBDEE629081A7800960B47 /* Sources */ = {
+		FDF3038F290B9B7D00BF3FEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC24093290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift in Sources */,
-				AFDBDF0129082AE600960B47 /* BOJ_모음의_개수_1264.swift in Sources */,
-				AFDBDF0329082B3900960B47 /* BOJ_부호_1247.swift in Sources */,
-				AFC24091290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift in Sources */,
-				AFDBDEFF29082ABA00960B47 /* BOJ_욱제_17356.swift in Sources */,
-				AFDBDEEE29081A7800960B47 /* main.swift in Sources */,
-				AF601E4029137A2900C6506E /* BOJ_최댓값_2566.swift in Sources */,
+				FDF30397290B9B7D00BF3FEE /* main.swift in Sources */,
+				FD313993290EB01B0047880E /* BOJ_알람시계_2884.swift in Sources */,
+				FDF303A0290B9BB700BF3FEE /* BOJ_모음의개수_1264.swift in Sources */,
+				FD313991290EAD6D0047880E /* BOJ_윤년_2753.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFDBDEEF29081A7800960B47 /* Debug */ = {
+		FDF30398290B9B7D00BF3FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -251,13 +231,13 @@
 			};
 			name = Debug;
 		};
-		AFDBDEF029081A7800960B47 /* Release */ = {
+		FDF30399290B9B7D00BF3FEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -304,22 +284,22 @@
 			};
 			name = Release;
 		};
-		AFDBDEF229081A7800960B47 /* Debug */ = {
+		FDF3039B290B9B7D00BF3FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWPBG3YXG5;
+				DEVELOPMENT_TEAM = 4K2FDLWHBL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		AFDBDEF329081A7800960B47 /* Release */ = {
+		FDF3039C290B9B7D00BF3FEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWPBG3YXG5;
+				DEVELOPMENT_TEAM = 4K2FDLWHBL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -329,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFDBDEE529081A7700960B47 /* Build configuration list for PBXProject "wongbing" */ = {
+		FDF3038E290B9B7D00BF3FEE /* Build configuration list for PBXProject "AlogrithmsStudy-Minsson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFDBDEEF29081A7800960B47 /* Debug */,
-				AFDBDEF029081A7800960B47 /* Release */,
+				FDF30398290B9B7D00BF3FEE /* Debug */,
+				FDF30399290B9B7D00BF3FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFDBDEF129081A7800960B47 /* Build configuration list for PBXNativeTarget "wongbing" */ = {
+		FDF3039A290B9B7D00BF3FEE /* Build configuration list for PBXNativeTarget "AlogrithmsStudy-Minsson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFDBDEF229081A7800960B47 /* Debug */,
-				AFDBDEF329081A7800960B47 /* Release */,
+				FDF3039B290B9B7D00BF3FEE /* Debug */,
+				FDF3039C290B9B7D00BF3FEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AFDBDEE229081A7700960B47 /* Project object */;
+	rootObject = FDF3038B290B9B7D00BF3FEE /* Project object */;
 }

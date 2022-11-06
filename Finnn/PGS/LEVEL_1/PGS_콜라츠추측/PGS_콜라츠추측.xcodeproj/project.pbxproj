@@ -7,17 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF601E4029137A2900C6506E /* BOJ_최댓값_2566.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */; };
-		AFC24091290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */; };
-		AFC24093290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */; };
-		AFDBDEEE29081A7800960B47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDEED29081A7800960B47 /* main.swift */; };
-		AFDBDEFF29082ABA00960B47 /* BOJ_욱제_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */; };
-		AFDBDF0129082AE600960B47 /* BOJ_모음의_개수_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */; };
-		AFDBDF0329082B3900960B47 /* BOJ_부호_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */; };
+		B480DBA1290D7FA4002BDFF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B480DBA0290D7FA4002BDFF3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AFDBDEE829081A7800960B47 /* CopyFiles */ = {
+		B480DB9B290D7FA4002BDFF3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,18 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_최댓값_2566.swift"; sourceTree = "<group>"; };
-		AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_색종이_만들기_2630.swift"; sourceTree = "<group>"; };
-		AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_좌표_압축_18870.swift"; sourceTree = "<group>"; };
-		AFDBDEEA29081A7800960B47 /* wongbing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wongbing; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFDBDEED29081A7800960B47 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_욱제_17356.swift"; sourceTree = "<group>"; };
-		AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_모음의_개수_1264.swift"; sourceTree = "<group>"; };
-		AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_부호_1247.swift"; sourceTree = "<group>"; };
+		B480DB9D290D7FA4002BDFF3 /* PGS_콜라츠추측 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PGS_콜라츠추측"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B480DBA0290D7FA4002BDFF3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFDBDEE729081A7800960B47 /* Frameworks */ = {
+		B480DB9A290D7FA4002BDFF3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,112 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFDBDEE129081A7700960B47 = {
+		B480DB94290D7FA4002BDFF3 = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEEC29081A7800960B47 /* wongbing */,
-				AFDBDEEB29081A7800960B47 /* Products */,
+				B480DB9F290D7FA4002BDFF3 /* PGS_콜라츠추측 */,
+				B480DB9E290D7FA4002BDFF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AFDBDEEB29081A7800960B47 /* Products */ = {
+		B480DB9E290D7FA4002BDFF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEEA29081A7800960B47 /* wongbing */,
+				B480DB9D290D7FA4002BDFF3 /* PGS_콜라츠추측 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFDBDEEC29081A7800960B47 /* wongbing */ = {
+		B480DB9F290D7FA4002BDFF3 /* PGS_콜라츠추측 */ = {
 			isa = PBXGroup;
 			children = (
-				AFDBDEED29081A7800960B47 /* main.swift */,
-				AFDBDEF429081A8E00960B47 /* TierMatch */,
-				AFDBDEF529081A9D00960B47 /* BOJ */,
-				AFDBDEF729081AC700960B47 /* PGS */,
+				B480DBA0290D7FA4002BDFF3 /* main.swift */,
 			);
-			path = wongbing;
-			sourceTree = "<group>";
-		};
-		AFDBDEF429081A8E00960B47 /* TierMatch */ = {
-			isa = PBXGroup;
-			children = (
-				AF601E3F29137A2900C6506E /* BOJ_최댓값_2566.swift */,
-			);
-			path = TierMatch;
-			sourceTree = "<group>";
-		};
-		AFDBDEF529081A9D00960B47 /* BOJ */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBDEFC29081C0500960B47 /* BRONZE */,
-				AFDBDEFD29081C0B00960B47 /* SILVER */,
-			);
-			path = BOJ;
-			sourceTree = "<group>";
-		};
-		AFDBDEF729081AC700960B47 /* PGS */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PGS;
-			sourceTree = "<group>";
-		};
-		AFDBDEFC29081C0500960B47 /* BRONZE */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBDF0029082AE600960B47 /* BOJ_모음의_개수_1264.swift */,
-				AFDBDEFE29082ABA00960B47 /* BOJ_욱제_17356.swift */,
-				AFDBDF0229082B3900960B47 /* BOJ_부호_1247.swift */,
-			);
-			path = BRONZE;
-			sourceTree = "<group>";
-		};
-		AFDBDEFD29081C0B00960B47 /* SILVER */ = {
-			isa = PBXGroup;
-			children = (
-				AFC24090290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift */,
-				AFC24092290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift */,
-			);
-			path = SILVER;
+			path = "PGS_콜라츠추측";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFDBDEE929081A7800960B47 /* wongbing */ = {
+		B480DB9C290D7FA4002BDFF3 /* PGS_콜라츠추측 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFDBDEF129081A7800960B47 /* Build configuration list for PBXNativeTarget "wongbing" */;
+			buildConfigurationList = B480DBA4290D7FA4002BDFF3 /* Build configuration list for PBXNativeTarget "PGS_콜라츠추측" */;
 			buildPhases = (
-				AFDBDEE629081A7800960B47 /* Sources */,
-				AFDBDEE729081A7800960B47 /* Frameworks */,
-				AFDBDEE829081A7800960B47 /* CopyFiles */,
+				B480DB99290D7FA4002BDFF3 /* Sources */,
+				B480DB9A290D7FA4002BDFF3 /* Frameworks */,
+				B480DB9B290D7FA4002BDFF3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = wongbing;
-			productName = wongbing;
-			productReference = AFDBDEEA29081A7800960B47 /* wongbing */;
+			name = "PGS_콜라츠추측";
+			productName = "PGS_콜라츠추측";
+			productReference = B480DB9D290D7FA4002BDFF3 /* PGS_콜라츠추측 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFDBDEE229081A7700960B47 /* Project object */ = {
+		B480DB95290D7FA4002BDFF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					AFDBDEE929081A7800960B47 = {
+					B480DB9C290D7FA4002BDFF3 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
 			};
-			buildConfigurationList = AFDBDEE529081A7700960B47 /* Build configuration list for PBXProject "wongbing" */;
+			buildConfigurationList = B480DB98290D7FA4002BDFF3 /* Build configuration list for PBXProject "PGS_콜라츠추측" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,35 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = AFDBDEE129081A7700960B47;
-			productRefGroup = AFDBDEEB29081A7800960B47 /* Products */;
+			mainGroup = B480DB94290D7FA4002BDFF3;
+			productRefGroup = B480DB9E290D7FA4002BDFF3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFDBDEE929081A7800960B47 /* wongbing */,
+				B480DB9C290D7FA4002BDFF3 /* PGS_콜라츠추측 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFDBDEE629081A7800960B47 /* Sources */ = {
+		B480DB99290D7FA4002BDFF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC24093290BF2F8005E4A89 /* BOJ_좌표_압축_18870.swift in Sources */,
-				AFDBDF0129082AE600960B47 /* BOJ_모음의_개수_1264.swift in Sources */,
-				AFDBDF0329082B3900960B47 /* BOJ_부호_1247.swift in Sources */,
-				AFC24091290BE78D005E4A89 /* BOJ_색종이_만들기_2630.swift in Sources */,
-				AFDBDEFF29082ABA00960B47 /* BOJ_욱제_17356.swift in Sources */,
-				AFDBDEEE29081A7800960B47 /* main.swift in Sources */,
-				AF601E4029137A2900C6506E /* BOJ_최댓값_2566.swift in Sources */,
+				B480DBA1290D7FA4002BDFF3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFDBDEEF29081A7800960B47 /* Debug */ = {
+		B480DBA2290D7FA4002BDFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		AFDBDEF029081A7800960B47 /* Release */ = {
+		B480DBA3290D7FA4002BDFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,22 +240,22 @@
 			};
 			name = Release;
 		};
-		AFDBDEF229081A7800960B47 /* Debug */ = {
+		B480DBA5290D7FA4002BDFF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWPBG3YXG5;
+				DEVELOPMENT_TEAM = W9647FYSN7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		AFDBDEF329081A7800960B47 /* Release */ = {
+		B480DBA6290D7FA4002BDFF3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SWPBG3YXG5;
+				DEVELOPMENT_TEAM = W9647FYSN7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -329,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFDBDEE529081A7700960B47 /* Build configuration list for PBXProject "wongbing" */ = {
+		B480DB98290D7FA4002BDFF3 /* Build configuration list for PBXProject "PGS_콜라츠추측" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFDBDEEF29081A7800960B47 /* Debug */,
-				AFDBDEF029081A7800960B47 /* Release */,
+				B480DBA2290D7FA4002BDFF3 /* Debug */,
+				B480DBA3290D7FA4002BDFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFDBDEF129081A7800960B47 /* Build configuration list for PBXNativeTarget "wongbing" */ = {
+		B480DBA4290D7FA4002BDFF3 /* Build configuration list for PBXNativeTarget "PGS_콜라츠추측" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFDBDEF229081A7800960B47 /* Debug */,
-				AFDBDEF329081A7800960B47 /* Release */,
+				B480DBA5290D7FA4002BDFF3 /* Debug */,
+				B480DBA6290D7FA4002BDFF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AFDBDEE229081A7700960B47 /* Project object */;
+	rootObject = B480DB95290D7FA4002BDFF3 /* Project object */;
 }
