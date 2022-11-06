@@ -20,3 +20,7 @@ BOJ_구구단_2739()
 //MARK: - 백준 Bronze 3
 
 //answer_BOJ_알람시계_2884()
+
+//MARK: - 백준 Bronze 2
+
+answer_BOJ_OX퀴즈_8958()
