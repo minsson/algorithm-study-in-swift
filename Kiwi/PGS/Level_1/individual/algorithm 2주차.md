@@ -20,6 +20,9 @@ func solution(_ n:Int) -> Int {
 }
 ```
 
+> Note❗️
+> 0 으로 나눌 경우 염두하자
+
 ### [자릿수 더하기]
 
 ```swift
