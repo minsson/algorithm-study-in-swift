@@ -11,6 +11,8 @@
 		FD313993290EB01B0047880E /* BOJ_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313992290EB01B0047880E /* BOJ_2884.swift */; };
 		FD3139B429140BA70047880E /* BOJ_2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3139B329140BA70047880E /* BOJ_2439.swift */; };
 		FD3139B82917DA9C0047880E /* BOJ_2739.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3139B72917DA9C0047880E /* BOJ_2739.swift */; };
+		FD3139BA2917DCA90047880E /* BOJ_8958.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3139B92917DCA90047880E /* BOJ_8958.swift */; };
+		FD3139BC2917E01D0047880E /* BOJ_3052.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3139BB2917E01D0047880E /* BOJ_3052.swift */; };
 		FDF30397290B9B7D00BF3FEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF30396290B9B7D00BF3FEE /* main.swift */; };
 		FDF303A0290B9BB700BF3FEE /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3039F290B9BB700BF3FEE /* BOJ_1264.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +34,8 @@
 		FD313992290EB01B0047880E /* BOJ_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2884.swift; sourceTree = "<group>"; };
 		FD3139B329140BA70047880E /* BOJ_2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2439.swift; sourceTree = "<group>"; };
 		FD3139B72917DA9C0047880E /* BOJ_2739.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2739.swift; sourceTree = "<group>"; };
+		FD3139B92917DCA90047880E /* BOJ_8958.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_8958.swift; sourceTree = "<group>"; };
+		FD3139BB2917E01D0047880E /* BOJ_3052.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_3052.swift; sourceTree = "<group>"; };
 		FDF30393290B9B7D00BF3FEE /* AlogrithmsStudy-Minsson */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AlogrithmsStudy-Minsson"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF30396290B9B7D00BF3FEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FDF3039F290B9BB700BF3FEE /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				FD313990290EAD6D0047880E /* BOJ_2753.swift */,
 				FD313992290EB01B0047880E /* BOJ_2884.swift */,
 				FD3139B72917DA9C0047880E /* BOJ_2739.swift */,
+				FD3139B92917DCA90047880E /* BOJ_8958.swift */,
+				FD3139BB2917E01D0047880E /* BOJ_3052.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 				FDF30397290B9B7D00BF3FEE /* main.swift in Sources */,
 				FD313993290EB01B0047880E /* BOJ_2884.swift in Sources */,
 				FD3139B429140BA70047880E /* BOJ_2439.swift in Sources */,
+				FD3139BA2917DCA90047880E /* BOJ_8958.swift in Sources */,
+				FD3139BC2917E01D0047880E /* BOJ_3052.swift in Sources */,
 				FDF303A0290B9BB700BF3FEE /* BOJ_1264.swift in Sources */,
 				FD313991290EAD6D0047880E /* BOJ_2753.swift in Sources */,
 			);
