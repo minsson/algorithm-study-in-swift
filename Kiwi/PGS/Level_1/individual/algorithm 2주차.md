@@ -19,3 +19,11 @@ func solution(_ n:Int) -> Int {
     return num
 }
 ```
+
+### [자릿수 더하기]
+
+```swift
+func solution(_ n:Int) -> Int {
+    String(n).map { Int(String($0))! }.reduce(0) { $0 + $1 }
+}
+```
