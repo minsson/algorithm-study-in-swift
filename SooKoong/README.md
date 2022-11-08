@@ -53,6 +53,20 @@
     print(printNeed)
     ```
 
+### [Remainder](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 나머지를 구하는 네 가지 방법 구현
+    ```
+    let input = readLine()!.components(separatedBy: " ")
+    let a = Int(input[0])!
+    let b = Int(input[1])!
+    let c = Int(input[2])!
+
+    print((a + b) % c)
+    print(((a % c) + (b % c)) % c)
+    print((a * b) % c)
+    print(((a % c) * (b % c)) % c)
+    ```
+
 # 티어전
 ## 10월 4주차
 ### 브론즈
