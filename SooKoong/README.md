@@ -36,6 +36,22 @@
 
     print(input - 543)
     ```
+    
+### [Chess](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 체스 게임을 위한 체스말 가감 방법 구현
+    ```
+    let input = readLine()!.components(separatedBy: " ")
+    let need = [1, 1, 2, 2, 2, 8]
+    var printNeed = ""
+
+    for i in 0..<input.count {
+        let chessPiece = Int(input[i])!
+        let piece = need[i] - chessPiece
+        printNeed += String(piece) + " "
+    }
+
+    print(printNeed)
+    ```
 
 # 티어전
 ## 10월 4주차
