@@ -1,5 +1,5 @@
 //
-//  BOJ_사칙연산.swift
+//  BOJ_사칙연산_10869.swift
 //  AlgorithmStudy
 //
 //  Created by bard on 2022/10/30.

@@ -2,11 +2,12 @@
 //  main.swift
 //  AlogithmStudy
 //
-//  Created by 전민수 on 2022/10/30.
+//  Created by 수꿍 on 2022/10/30.
 //
 
-import Foundation
-
-answer_BOJ_HelloWorld_2557()
-answer_BOJ_A플러스B_1000()
-answer_BOJ_사칙연산_10869()
+//answer_BOJ_HelloWorld_2557()
+//answer_BOJ_A플러스B_1000()
+//answer_BOJ_사칙연산_10869()
+//answer_BOJ_Surprise_10926()
+//answer_BOJ_TaiwanYear_18108()
+//answer_BOJ_A플러스B마이너스8_11022()

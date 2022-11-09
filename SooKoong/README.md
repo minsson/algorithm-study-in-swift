@@ -20,6 +20,22 @@
         print(a + b)
     }
     ```
+    
+### [Surprise](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 놀람 표시
+    ```
+    let input = readLine()!
+
+    print("\(input)??!")
+    ```
+    
+### [TaiwanYear](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 태국식 불기년도 적용
+    ```
+    let input = Int(readLine()!)!
+
+    print(input - 543)
+    ```
 
 # 티어전
 ## 10월 4주차
@@ -49,6 +65,40 @@ func answer_BOJ_사칙연산_10869() {
 
 ### 알게된 점
 - readLine 변수명을 readLine과 똑같이 하면 컴파일 에러가 남
+
+### 중요한 점
+- 없음
+
+### 기타 
+- 없음
+
+## 11월 1주차
+### 브론즈
+### 참가자
+[수꿍](https://github.com/Jeon-Minsu) 🏅
+[보리사랑](https://github.com/yusw10)
+
+### 문제 풀이
+
+```
+func answer_BOJ_사칙연산_10869() {
+    let input = Int(readLine()!)!
+
+    var answers: [String] = []
+
+    for i in 0..<input {
+        let twoInput = readLine()!.components(separatedBy: " ").map { Int($0)! }
+
+        let answer = "Case #\(i+1): \(twoInput[0]) + \(twoInput[1]) = \(twoInput[0] + twoInput[1])"
+        answers.append(answer)
+    }
+
+    answers.forEach { print($0) }
+}
+```
+
+### 알게된 점
+- 함수로 제출할 때, 함수를 호출안하면 틀렸다고 나옴
 
 ### 중요한 점
 - 없음
