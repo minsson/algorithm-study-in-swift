@@ -12,4 +12,5 @@ import Foundation
 //print(answer_PGS_점의_위치_구하기([2,4]))
 //print(dotProduct([1, 2, 3], [4, 5, 6]))
 //print(cokeProblem(2, 1, 20))
-print(chickenCoupon(100))
+//print(chickenCoupon(100))
+print(addMatrix([[1, 2], [3, 4]], [[5, 6], [7, 8]]))
