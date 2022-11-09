@@ -6,6 +6,11 @@
 - 두 번의 조건문이면 해결
 <br>
 
+### 2. [치킨 쿠폰](https://github.com/Judy-999/algorithm-study-in-swift/commit/1673ee2444842d6c3e69772cd2247c6ebef5afe1)
+- 10개를 사면 쿠폰하나를 주는 문제
+- 풀고 보니 콜라 문제랑 흡사
+<br>
+
 ## Level 1
 
 ### 1. [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
@@ -40,7 +45,14 @@ while total >= a {
 }
 ```
 - 처음에는 생각의 흐름 그대로 짜느라 오히려 복잡했는데 정리하면 더 간편하게 작성할 수 있다
+<br>
 
+### 4. [행렬의 덧셈](https://github.com/Judy-999/algorithm-study-in-swift/commit/5403f8e800bbbb49b16cfd085ccf2943294ce4cd)
+- 2차원 배열의 덧셈이라 `zip`을 두 번 사용해서 해결했다
+```swift
+ return zip(arr1, arr2).map { zip($0,$1).map { $0 + $1 } }
+ ```
+ - `zip`과 함께 `map`dmf 사용하면 더 간편하다
 <br>
 
 ---
