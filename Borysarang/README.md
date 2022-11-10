@@ -114,3 +114,50 @@
 
 </div>
 </details>
+
+
+
+<details>
+<summary>11월 2주차 - 사장님 도박은 재미로 하셔야 합니다. </summary>
+<div markdown="1">
+
+### [BOJ] 브론즈 4 사장님 도박은 재미로 하셔야 합니다
+
+### 참가자
+[Borysarang](https://github.com/yusw10) 🏅
+[Judy](https://github.com/Judy-999)
+
+### 문제 풀이
+
+**문제 설명**
+
+-1이 입력될때까지 입력되는 모든 수를 더하여 출력한다.
+
+```swift
+func problem_23795() -> Int {
+    var count = 0
+    var input = 0
+    while true {
+        input = Int(readLine()!)!
+        if input == -1 {
+            break
+        }
+        count += input
+    }
+    return count
+}
+```
+
+### 알게된 점
+
+### 중요한 점
+- 평소에 백준이나 프로그래머스 둘 다 풀어봐야겠다 (한 곳에서만 푸니 다른 사이트는 어렵다..)
+    - 백준은 readLine으로 받아서 print() 해야 함 
+    - 프로그래머스는 파라미터로 받아서 return 해야 함
+
+### 기타
+- 다음엔 더 높은 문제를 풀어도 될듯..!
+- 너무 쉬운 문제를 풀면 도움이 많이 안되는것같다.
+
+</div>
+</details>

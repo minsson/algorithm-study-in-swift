@@ -17,4 +17,4 @@ func answer_시험성적_9498() {
     default: print("F")
     }
 }
-answer_시험성적_9498()
+//answer_시험성적_9498()

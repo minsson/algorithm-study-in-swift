@@ -11,7 +11,7 @@ import Foundation
 func answer_점프와순간이동_12980() {
     let testInput: [Int] = [5, 6, 5000]
     testInput.forEach { input in
-        print(solution_점프와순간이동_980(input))
+        print(solution_점프와순간이동_12980(input))
     }
 }
 
