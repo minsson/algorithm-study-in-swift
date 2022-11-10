@@ -178,3 +178,49 @@ func solution(_ X:String, _ Y:String) -> String {
 
 ### 기타
 - 주디 승
+<br>
+
+## 11월 2주차
+
+### 레벨
+
+[BOJ] 브론즈 4 사장님 도박은 재미로 하셔야 합니다
+
+### 참가자
+
+[Borysarang](https://github.com/yusw10) 🏅<br>
+[Judy](https://github.com/Judy-999)
+
+### 문제 풀이
+
+**문제 설명**
+
+-1이 입력될때까지 입력되는 모든 수를 더하여 출력한다.
+
+```swift
+var money = readLine()
+var sum = 0
+
+while money != "-1" {
+    guard let inputMoney = money, let number = Int(inputMoney) else {
+        break
+    }
+
+    sum += number
+    money = readLine()
+}
+
+print(sum)
+```
+
+### 알게된 점
+- 단순히 반복문으로 덧셈만 해준거라 크게 어렵지 않았다
+
+### 중요한 점
+- 평소에 백준이나 프로그래머스 둘 다 풀어봐야겠다 (한 곳에서만 푸니 다른 사이트는 어렵다..)
+	- 백준은 readLine으로 받아서 print() 해야 함 
+	- 프로그래머스는 파라미터로 받아서 return 해야 함
+
+### 기타
+- 다음엔 더 높은 문제를 풀어도 될듯..!
+- 너무 쉬운 문제를 풀면 도움이 많이 안되는것같다.
