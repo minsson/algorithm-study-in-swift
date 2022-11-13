@@ -11,6 +11,7 @@ import Foundation
 
 //answer_BOJ_윤년_2753()
 //BOJ_구구단_2739()
+answer_BOJ_시험성적_9498()
 
 //MARK: - 백준 Bronze 4
 
@@ -28,4 +29,4 @@ import Foundation
 
 // MARK: - 백준 Silver 5
 
-answer_BOJ_셀프넘버_4673()
+//answer_BOJ_셀프넘버_4673()
