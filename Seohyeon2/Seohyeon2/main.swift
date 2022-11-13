@@ -23,5 +23,7 @@ answer_BOJ_최댓값_2566()
 
 /*
 answer_PGS_옹알이1()
-*/
 answer_PGS_다음에_올_숫자()
+*/
+
+answer_PGS_삼총사_131705()
