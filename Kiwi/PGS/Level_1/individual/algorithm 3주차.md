@@ -16,3 +16,17 @@ func solution(_ n:Int64) -> [Int] {
 > String(n).map { String($0)!}
 > 정수 문자열 배열 반환방법
 
+### [정수 제곱근 판별]
+
+```swift
+func solution(_ n:Int64) -> Int64 {
+    for i in 1...n {
+        if i*i == n { return (i+1)*(i+1) }
+        if n < i*i { return -1 }
+    }
+    return 0
+}
+```
+
+> Note❗️
+> let t = Int64(sqrt(Double(n)))
