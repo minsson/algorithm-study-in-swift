@@ -9,5 +9,6 @@ import Foundation
 
 //answer_BOJ_A플러스B_1000()
 //answer_BOJ_모음의개수_1264()
-let abc = ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]
-print(solution(abc))
+//let abc = ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]
+//print(solution(abc))
+//answer_BOJ_selfNumber()
