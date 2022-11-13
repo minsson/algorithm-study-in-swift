@@ -8,7 +8,8 @@
 import Foundation
 
 func answer_문제이름_번호() {
-    let testCount =  Int(readLine()!)!
+    let testCount =  1
+    //let testCount =  Int(readLine()!)!
     var result: [String] = []
     
     for caseCount in 0..<testCount {
