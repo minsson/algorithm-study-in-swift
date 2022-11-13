@@ -13,5 +13,8 @@ import Foundation
 //answer_BOJ_10926()
 
 //MARK: - 백준 Bronze 2주차
-answer_BOJ_사분면고르기_14681()
-answer_BOJ_시험성적_9498()
+//answer_BOJ_사분면고르기_14681()
+//answer_BOJ_시험성적_9498()
+
+//MARK: - 백준 Bronze 3주차
+answer_BOJ_새싹_25083()
