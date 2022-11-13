@@ -12,4 +12,5 @@
 //answer_BOJ_selfNumber()
 //answer_BOJ_A마이너스B_1001()
 //answer_BOJ_두수비교하기_1330()
-answer_BOJ_시험성적_9498()
+//answer_BOJ_시험성적_9498()
+answer_BOJ_윤년_2753()
