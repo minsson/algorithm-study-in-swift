@@ -17,5 +17,10 @@ import Foundation
 //answer_BOJ_시험성적_9498()
 
 //MARK: - 백준 Bronze 3주차
-answer_BOJ_새싹_25083()
-answer_BOJ_합_8393()
+//answer_BOJ_새싹_25083()
+//answer_BOJ_합_8393()
+
+//MARK: - 티어전 3주차 영수증
+answer_BOJ_영수증_25304()
+
+
