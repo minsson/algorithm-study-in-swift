@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2047D756291B74CB00E3A715 /* ChickenCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047D755291B74CB00E3A715 /* ChickenCoupon.swift */; };
+		2047D758291B770500E3A715 /* AddMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047D757291B770500E3A715 /* AddMatrix.swift */; };
 		207CF715290BC3F7002911B2 /* 점의_위치_구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CF714290BC3F7002911B2 /* 점의_위치_구하기.swift */; };
+		207DBB522912721100316B82 /* DotProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DBB512912721100316B82 /* DotProduct.swift */; };
+		207DBB54291277A600316B82 /* CokeProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DBB53291277A600316B82 /* CokeProblem.swift */; };
 		20C710F628FE3BAF002A7F08 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C710F528FE3BAF002A7F08 /* main.swift */; };
 		20C710FF28FE3BD2002A7F08 /* 부족한_금액_계산.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C710FE28FE3BD2002A7F08 /* 부족한_금액_계산.swift */; };
 /* End PBXBuildFile section */
@@ -25,7 +29,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2047D755291B74CB00E3A715 /* ChickenCoupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickenCoupon.swift; sourceTree = "<group>"; };
+		2047D757291B770500E3A715 /* AddMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatrix.swift; sourceTree = "<group>"; };
 		207CF714290BC3F7002911B2 /* 점의_위치_구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "점의_위치_구하기.swift"; sourceTree = "<group>"; };
+		207DBB512912721100316B82 /* DotProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotProduct.swift; sourceTree = "<group>"; };
+		207DBB53291277A600316B82 /* CokeProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CokeProblem.swift; sourceTree = "<group>"; };
 		20C710F228FE3BAF002A7F08 /* AlogithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlogithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C710F528FE3BAF002A7F08 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		20C710FE28FE3BD2002A7F08 /* 부족한_금액_계산.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부족한_금액_계산.swift"; sourceTree = "<group>"; };
@@ -46,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				207CF714290BC3F7002911B2 /* 점의_위치_구하기.swift */,
+				2047D755291B74CB00E3A715 /* ChickenCoupon.swift */,
 			);
 			path = LEVEL_0;
 			sourceTree = "<group>";
@@ -88,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				20C710FE28FE3BD2002A7F08 /* 부족한_금액_계산.swift */,
+				207DBB512912721100316B82 /* DotProduct.swift */,
+				207DBB53291277A600316B82 /* CokeProblem.swift */,
+				2047D757291B770500E3A715 /* AddMatrix.swift */,
 			);
 			path = LEVEL_1;
 			sourceTree = "<group>";
@@ -151,8 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				20C710FF28FE3BD2002A7F08 /* 부족한_금액_계산.swift in Sources */,
+				2047D756291B74CB00E3A715 /* ChickenCoupon.swift in Sources */,
+				2047D758291B770500E3A715 /* AddMatrix.swift in Sources */,
 				20C710F628FE3BAF002A7F08 /* main.swift in Sources */,
 				207CF715290BC3F7002911B2 /* 점의_위치_구하기.swift in Sources */,
+				207DBB522912721100316B82 /* DotProduct.swift in Sources */,
+				207DBB54291277A600316B82 /* CokeProblem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
