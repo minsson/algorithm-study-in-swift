@@ -18,3 +18,4 @@ import Foundation
 
 //MARK: - 백준 Bronze 3주차
 answer_BOJ_새싹_25083()
+answer_BOJ_합_8393()
