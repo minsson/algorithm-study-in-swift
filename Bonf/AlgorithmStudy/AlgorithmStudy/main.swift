@@ -14,4 +14,5 @@
 //answer_BOJ_두수비교하기_1330()
 //answer_BOJ_시험성적_9498()
 //answer_BOJ_윤년_2753()
-answer_BOJ_사분면고르기_14681()
+//answer_BOJ_사분면고르기_14681()
+answer_BOJ_알람시계_2884()
