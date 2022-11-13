@@ -12,3 +12,4 @@ import Foundation
 //let abc = ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]
 //print(solution(abc))
 //answer_BOJ_selfNumber()
+answer_BOJ_A마이너스B_1001()
