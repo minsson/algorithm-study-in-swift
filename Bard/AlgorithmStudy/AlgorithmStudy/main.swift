@@ -15,6 +15,9 @@ import Foundation
  answer_BOJ_사칙연산_10869()
  answer_BOJ_A곱하기B_10998()
  answer_BOJ_물음표물음표느낌표_10926()
+ answer_BOJ_A나누기B_1008()
+ answer_BOJ_두수비교하기_1330()
+ answer_BOJ_1998년생인내가태국에서는2541년생_18108()
 */
 
-BOJ_A나누기B_1008()
+answer_BOJ_킹퀸비숍나이트폰_3003()
