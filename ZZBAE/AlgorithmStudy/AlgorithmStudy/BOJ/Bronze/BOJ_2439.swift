@@ -25,3 +25,5 @@ func answer_BOJ_2439() {
 
 // stride(from:, through:, by: ) 함수 복습 후 적용시켜봤던 문제
 // ex) stride(from: 1, through: repeatNumber, by: 1)
+
+
