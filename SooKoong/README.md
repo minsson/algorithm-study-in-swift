@@ -89,6 +89,18 @@
     print(firstOperation + secondOperation * 10 + thirdOperation * 100)
     ```
 
+### [Cat](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 고양이 모양의 백슬래시(\) 출력 구현
+    ```
+    print("""
+        \\    /\\
+         )  ( ')
+        (  /  )
+         \\(__)|
+        """
+    )
+    ```
+
 # 티어전
 ## 10월 4주차
 ### 브론즈

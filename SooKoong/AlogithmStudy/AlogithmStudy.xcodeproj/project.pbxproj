@@ -18,6 +18,7 @@
 		20765D1E291786F7003144A7 /* BOJ_A플러스B마이너스8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1D291786F7003144A7 /* BOJ_A플러스B마이너스8.swift */; };
 		20765D2029178C69003144A7 /* BOJ_TaiwanYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */; };
 		2079619029251F2F001E41AD /* BOJ_Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079618F29251F2F001E41AD /* BOJ_Multiplication.swift */; };
+		2079619229252396001E41AD /* BOJ_Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079619129252396001E41AD /* BOJ_Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		20765D1D291786F7003144A7 /* BOJ_A플러스B마이너스8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A플러스B마이너스8.swift"; sourceTree = "<group>"; };
 		20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_TaiwanYear.swift; sourceTree = "<group>"; };
 		2079618F29251F2F001E41AD /* BOJ_Multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Multiplication.swift; sourceTree = "<group>"; };
+		2079619129252396001E41AD /* BOJ_Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				203AAAC6291A388C0086AA1F /* BOJ_Chess.swift */,
 				203AAAC8291A3DAA0086AA1F /* BOJ_Remainder.swift */,
 				2079618F29251F2F001E41AD /* BOJ_Multiplication.swift */,
+				2079619129252396001E41AD /* BOJ_Cat.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				203EA581290E73E4002C9F6E /* BOJ_A플러스B.swift in Sources */,
 				203AAAC9291A3DAA0086AA1F /* BOJ_Remainder.swift in Sources */,
+				2079619229252396001E41AD /* BOJ_Cat.swift in Sources */,
 				203EA574290E6ABC002C9F6E /* main.swift in Sources */,
 				203AAAC7291A388C0086AA1F /* BOJ_Chess.swift in Sources */,
 				20765D2029178C69003144A7 /* BOJ_TaiwanYear.swift in Sources */,
