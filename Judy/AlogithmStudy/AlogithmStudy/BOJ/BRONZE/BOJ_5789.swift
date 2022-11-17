@@ -5,8 +5,7 @@
 //  Created by Judy on 2022/11/17.
 //  https://www.acmicpc.net/problem/5789
 
-
-func anwser_BOJ_한다안한다_5789() {
+func answer_BOJ_한다안한다_5789() {
     let readNumber = readLine()
     let count = Int(readNumber ?? "0") ?? 0
     var array: [[String]] = []
