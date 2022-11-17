@@ -1,19 +1,19 @@
 # 프로그래머스 
 
 ## Level 0
-### 1. [점의 위치 구하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/f8c6541ca727e7761cb65c92cd716f55578a7690)
+### [점의 위치 구하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/f8c6541ca727e7761cb65c92cd716f55578a7690)
 - x의 양수 판별 + y의 양수 판별
 - 두 번의 조건문이면 해결
 <br>
 
-### 2. [치킨 쿠폰](https://github.com/Judy-999/algorithm-study-in-swift/commit/1673ee2444842d6c3e69772cd2247c6ebef5afe1)
+### [치킨 쿠폰](https://github.com/Judy-999/algorithm-study-in-swift/commit/1673ee2444842d6c3e69772cd2247c6ebef5afe1)
 - 10개를 사면 쿠폰하나를 주는 문제
 - 풀고 보니 콜라 문제랑 흡사
 <br>
 
 ## Level 1
 
-### 1. [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
+### [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
 - 연속된 숫자의 배열 만들기
   - `let nums = Array(1...3) // [1, 2, 3]`
 - 1부터 n배가 되는 값의 합 
@@ -22,12 +22,12 @@
   = **p\*(n\*(n+1)/2)**
 <br>
 
-### 2. [내적](https://github.com/Judy-999/algorithm-study-in-swift/commit/44144384e83561a7e9885d904ea518f7b4b305ea)
+### [내적](https://github.com/Judy-999/algorithm-study-in-swift/commit/44144384e83561a7e9885d904ea518f7b4b305ea)
 - `zip([1, 2, 3], [4, 5, 6]).map(*).reduce(0, +)`
     - `zip`에서 튜플로 하나씩 꺼내지 않고 바로 `map`을 사용하면 간편하다
 <br>
 
-### 3. [콜라 문제](https://github.com/Judy-999/algorithm-study-in-swift/commit/5403f8e800bbbb49b16cfd085ccf2943294ce4cd)
+### [콜라 문제](https://github.com/Judy-999/algorithm-study-in-swift/commit/5403f8e800bbbb49b16cfd085ccf2943294ce4cd)
 - 처음 작성 
 ```swift
 while total >= a {
@@ -47,12 +47,45 @@ while total >= a {
 - 처음에는 생각의 흐름 그대로 짜느라 오히려 복잡했는데 정리하면 더 간편하게 작성할 수 있다
 <br>
 
-### 4. [행렬의 덧셈](https://github.com/Judy-999/algorithm-study-in-swift/commit/5403f8e800bbbb49b16cfd085ccf2943294ce4cd)
+### [행렬의 덧셈](https://github.com/Judy-999/algorithm-study-in-swift/commit/5403f8e800bbbb49b16cfd085ccf2943294ce4cd)
 - 2차원 배열의 덧셈이라 `zip`을 두 번 사용해서 해결했다
 ```swift
  return zip(arr1, arr2).map { zip($0,$1).map { $0 + $1 } }
  ```
  - `zip`과 함께 `map`dmf 사용하면 더 간편하다
+<br>
+
+---
+
+# 백준 
+
+## BRONZE 3
+### [신기한 수](https://github.com/Judy-999/algorithm-study-in-swift/commit/b4cb3b76d9e0dbd5cff4794deab42b8fe51d8087)
+```swift
+ let sum = String(num).compactMap { Int(String($0)) }.reduce(0, +)
+```
+- 처음에 고차함수를 사용해서 하니 통과는 되었으나 큰 수에서는 시간 초과가 발생했다
+- 큰 수의 타입 변환은 시간이 많이 걸림을 유의하자
+```swift
+ var i = 1000000
+ 
+while i >= 1 {
+    if number / i >= 1 {
+    sum += number / i
+    number %= i
+    }
+
+    i /= 10
+}
+```
+- 제한이었던 1000000부터 반복문으로 직접 확인하는 방법으로 통과했다
+<br>
+
+### [한다 안한다](https://github.com/Judy-999/algorithm-study-in-swift/commit/5d0f0fe07872066e01006fda948edec5965d0d4d)
+- 문제를 잘못 이해해서 괜한 시간을 많이 버렸다
+- 백준은 항상 내가 입력해준다는 점을 잊지말자
+- 앞뒤 숫자를 비교하는 방법으로 `removeFirst`와 `removeLast`를 사용했다
+
 <br>
 
 ---
