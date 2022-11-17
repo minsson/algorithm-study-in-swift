@@ -21,6 +21,7 @@ import Foundation
 //answer_BOJ_합_8393()
 
 //MARK: - 티어전 3주차 영수증
-answer_BOJ_영수증_25304()
+//answer_BOJ_영수증_25304()
 
-
+//MARK: - 티어전 4주차 종이자르기
+PGS종이자르기()
