@@ -14,6 +14,9 @@
 		05840B5F2913ED0C0020F864 /* BOJ_2566.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B5E2913ED0C0020F864 /* BOJ_2566.swift */; };
 		05840B632913EEBB0020F864 /* PGS_120956.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B622913EEBB0020F864 /* PGS_120956.swift */; };
 		05840B652913F07A0020F864 /* PGS_120924.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B642913F07A0020F864 /* PGS_120924.swift */; };
+		05BCF53D2920F47E00C45F26 /* PGS_120808.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BCF53C2920F47E00C45F26 /* PGS_120808.swift */; };
+		05BCF53F2920F52400C45F26 /* PGS_120875.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BCF53E2920F52400C45F26 /* PGS_120875.swift */; };
+		05BCF5412920F5F800C45F26 /* PGS_131705.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BCF5402920F5F800C45F26 /* PGS_131705.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +41,9 @@
 		05840B5E2913ED0C0020F864 /* BOJ_2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2566.swift; sourceTree = "<group>"; };
 		05840B622913EEBB0020F864 /* PGS_120956.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120956.swift; sourceTree = "<group>"; };
 		05840B642913F07A0020F864 /* PGS_120924.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120924.swift; sourceTree = "<group>"; };
+		05BCF53C2920F47E00C45F26 /* PGS_120808.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120808.swift; sourceTree = "<group>"; };
+		05BCF53E2920F52400C45F26 /* PGS_120875.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120875.swift; sourceTree = "<group>"; };
+		05BCF5402920F5F800C45F26 /* PGS_131705.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_131705.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 			children = (
 				05840B5C2913EAC60020F864 /* BOJ_1247.swift */,
 				05840B5E2913ED0C0020F864 /* BOJ_2566.swift */,
+				05BCF5402920F5F800C45F26 /* PGS_131705.swift */,
 			);
 			path = TierMatch;
 			sourceTree = "<group>";
@@ -118,6 +125,8 @@
 			children = (
 				05840B622913EEBB0020F864 /* PGS_120956.swift */,
 				05840B642913F07A0020F864 /* PGS_120924.swift */,
+				05BCF53C2920F47E00C45F26 /* PGS_120808.swift */,
+				05BCF53E2920F52400C45F26 /* PGS_120875.swift */,
 			);
 			path = LEVEL_0;
 			sourceTree = "<group>";
@@ -183,10 +192,13 @@
 				05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */,
 				05840B632913EEBB0020F864 /* PGS_120956.swift in Sources */,
 				05840B652913F07A0020F864 /* PGS_120924.swift in Sources */,
+				05BCF5412920F5F800C45F26 /* PGS_131705.swift in Sources */,
+				05BCF53F2920F52400C45F26 /* PGS_120875.swift in Sources */,
 				05840B5F2913ED0C0020F864 /* BOJ_2566.swift in Sources */,
 				05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */,
 				05840B532913C4940020F864 /* BOJ_17356.swift in Sources */,
 				0523482F290EBFA3004BC697 /* main.swift in Sources */,
+				05BCF53D2920F47E00C45F26 /* PGS_120808.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
