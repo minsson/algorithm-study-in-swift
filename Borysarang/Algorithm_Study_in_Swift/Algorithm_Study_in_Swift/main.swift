@@ -8,7 +8,10 @@
 
 //MARK: - 백준 Bronze 2
 //answer_손익분기점_1712() //해결
-answer_벌집_2292() // 해결
+//answer_벌집_2292() // 해결
+
+//MARK: - 백준 Bronze 1
+answer_달팽이는올라가고싶다_2869() //해결
 
 // MARK: - 백준 Silver 5
 
