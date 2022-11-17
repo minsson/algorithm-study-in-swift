@@ -18,4 +18,5 @@ import Foundation
 //print(answer_PGS_행렬의덧셈([[1, 2], [3, 4]], [[5, 6], [7, 8]]))
 
 //MARK: - 백준 BRONZE
-answer_BOJ_한다안한다_5789()
+//answer_BOJ_한다안한다_5789()
+answer_BOJ_신기한수_17618()
