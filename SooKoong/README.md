@@ -66,6 +66,40 @@
     print((a * b) % c)
     print(((a % c) * (b % c)) % c)
     ```
+    
+### [Multiplication](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 곱셈 구현
+    ```
+    let firstInput = readLine()!
+        .components(separatedBy: " ")
+        .compactMap { Int($0) }
+        .first!
+    let secondInput = readLine()!
+        .unicodeScalars
+        .map(String.init)
+        .compactMap { Int($0) }
+
+    let firstOperation = firstInput * secondInput[2]
+    let secondOperation = firstInput * secondInput[1]
+    let thirdOperation = firstInput * secondInput[0]
+
+    print(firstOperation)
+    print(secondOperation)
+    print(thirdOperation)
+    print(firstOperation + secondOperation * 10 + thirdOperation * 100)
+    ```
+
+### [Cat](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 고양이 모양의 백슬래시(\) 출력 구현
+    ```
+    print("""
+        \\    /\\
+         )  ( ')
+        (  /  )
+         \\(__)|
+        """
+    )
+    ```
 
 # 티어전
 ## 10월 4주차
@@ -182,3 +216,20 @@ func answer_PGS_저주의숫자_120871(_ n:Int) -> Int {
 
 ### 기타
 - Derrick 승
+
+## 11월 3주차
+### 브론즈
+### 참가자
+[수꿍](https://github.com/Jeon-Minsu) 🏅
+
+### 문제 풀이
+- 부전승으로 인한 생략
+
+### 알게된 점
+- 부전승으로 인한 생략
+
+### 중요한 점
+- 부전승으로 인한 생략
+
+### 기타 
+- 부전승으로 인한 생략
