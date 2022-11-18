@@ -1,3 +1,5 @@
+###### tags: `README`
+
 # 백준
 
 ## BOJ
@@ -38,6 +40,18 @@
 </div>
 </details>
 
+<details>
+<summary>달팽이는 올라가고싶다.</summary>
+<div markdown="1">
+
+### [달팽이는 올라가고싶다.](https://github.com/yusw10/algorithm-study-in-swift/blob/Borysarang/Borysarang/Algorithm_Study_in_Swift/Algorithm_Study_in_Swift/BOJ/BRONZE/BOJ_2869.swift)
+
+- 전진과 후진을 하루의 이동거리로 잡는다.
+- 마지막 날은 후진을 하지 않으므로 하루의 거리는 전진치로 잡는다.
+- 하루 이동거리가 전진한 거리에 정확하게 떨어지지 않을 경우 하루를 추가로 가야한다.
+  
+</div>
+</details>
 
 ---
 
@@ -160,4 +174,63 @@ func problem_23795() -> Int {
 - 너무 쉬운 문제를 풀면 도움이 많이 안되는것같다.
 
 </div>
+</details>
+
+
+<details>
+<summary>11월 3주차 - 주사위게임 </summary>
+<div markdown="1">
+
+
+### [BOJ] [브론즈 3 주사위 게임(10103)](https://www.acmicpc.net/problem/10103)
+
+### 참가자
+
+[Borysarang](https://github.com/yusw10) 
+[Judy](https://github.com/Judy-999) 🏅
+
+### 문제 풀이
+
+**문제 설명**
+> 두 사람이 100점에서 시작해서 이긴 사람의 숫자 만큼 점수를 잃는 게임 (같은 숫자가 나오면 무시)
+
+```swift
+import Foundation
+
+func answer_주사위게임_10103() {
+//    let testCount =  1
+    let testCount =  Int(readLine()!)!
+    
+    var firstResult = 100
+    var secondResult = 100
+    
+    for _ in 0..<testCount {
+        let round = readLine()!.components(separatedBy: " ").map{Int($0)!}
+        
+        if round[0] > round[1] {
+            secondResult -= round[0]
+        } else if round[0] < round[1] {
+            firstResult -= round[1]
+        } else {
+            continue
+        }
+    }
+    
+    print(firstResult)
+    print(secondResult)
+}
+```
+
+### 알게된 점
+- 입력값이 여러줄로 입력되고 각 케이스 별로 여러 값이 입력될 수 있음.
+    - components 및 compactMap으로 정수 입력에 대한 처리를 미리하면좋다.
+
+### 중요한 점
+- 중요한 점은 아니지만 알고리즘에선 언래핑에 많은 노력을 할 필요는 없을 것 같다
+
+### 기타
+- 한 번씩 이기고 졌으니 보리-주디는 실력이 비슷하다!
+
+    
+    </div>
 </details>
