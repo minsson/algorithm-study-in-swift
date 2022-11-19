@@ -22,7 +22,7 @@ import Foundation
 //MARK: - 백준 Bronze 3
 
 //answer_BOJ_알람시계_2884()
-answer_BOJ_곱셈_2588()
+//answer_BOJ_곱셈_2588()
 
 //MARK: - 백준 Bronze 2
 
@@ -32,3 +32,4 @@ answer_BOJ_곱셈_2588()
 // MARK: - 백준 Silver 5
 
 //answer_BOJ_셀프넘버_4673()
+answer_BOJ_크로아티아알파벳_2941()
