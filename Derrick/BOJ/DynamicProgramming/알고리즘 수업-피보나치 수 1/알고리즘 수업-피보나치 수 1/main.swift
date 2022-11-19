@@ -7,39 +7,22 @@
 
 import Foundation
 
-let number = Int(readLine()!)!
-var f = Array(repeating: 0, count: number+1)
+var number = Int(readLine()!)!
 
-var fibCount = 0
-var fibonacciCount = 0
+var count = 0
 
-func fib(_ num: Int) -> Int {
+func solution(_ n: Int) -> Int {
+    var numberArray = Array(repeating: 0, count: n+1)
+    
+    numberArray[1] = 1
+    numberArray[2] = 1
 
-    if (num == 1 || num == 2) {
-        fibCount += 1
-        return 1
+    for i in 3..<n+1 {
+        numberArray[i] = numberArray[i-1] + numberArray[i-2]
+        count += 1
     }
-    else {
-        return fib(num - 1) + fib(num - 2)
-    }
+    return numberArray[n]
 }
 
-func fibonacci(_ num: Int) -> Int {
-    f[1] = 1
-    f[2] = 1
+print(solution(number), count)
 
-    for index in 3...num {
-        f[index] = f[index - 1] + f[index - 2]
-        fibonacciCount += 1
-    }
-
-    return f[num]
-}
-
-func setupDefault(_ number: Int) {
-    fib(number)
-    fibonacci(number)
-    print(fibCount, fibonacciCount)
-}
-
-setupDefault(number)
