@@ -19,6 +19,7 @@
 		C4B42144290E710200CEBF81 /* BOJ_A곱하기B_10998.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B42143290E710200CEBF81 /* BOJ_A곱하기B_10998.swift */; };
 		C4C7AE952928D85000DB75F1 /* BOJ_2588.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7AE942928D85000DB75F1 /* BOJ_2588.swift */; };
 		C4C7AE972928DD1A00DB75F1 /* BOJ_10171.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7AE962928DD1A00DB75F1 /* BOJ_10171.swift */; };
+		C4C7AE992928DEE000DB75F1 /* BOJ_10172.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7AE982928DEE000DB75F1 /* BOJ_10172.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		C4B42143290E710200CEBF81 /* BOJ_A곱하기B_10998.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A곱하기B_10998.swift"; sourceTree = "<group>"; };
 		C4C7AE942928D85000DB75F1 /* BOJ_2588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2588.swift; sourceTree = "<group>"; };
 		C4C7AE962928DD1A00DB75F1 /* BOJ_10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_10171.swift; sourceTree = "<group>"; };
+		C4C7AE982928DEE000DB75F1 /* BOJ_10172.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_10172.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				C453FBCD2920FE630056B0BF /* BOJ_킹퀸비숍나이트폰_3003.swift */,
 				C4C7AE942928D85000DB75F1 /* BOJ_2588.swift */,
 				C4C7AE962928DD1A00DB75F1 /* BOJ_10171.swift */,
+				C4C7AE982928DEE000DB75F1 /* BOJ_10172.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				C4B25522290003E3008253D7 /* BOJ_A플러스B_1000.swift in Sources */,
 				C4B2552429000523008253D7 /* BOJ_A마이너스B_1001.swift in Sources */,
 				C453FBCA2920F72F0056B0BF /* BOJ_두수비교하기_1330.swift in Sources */,
+				C4C7AE992928DEE000DB75F1 /* BOJ_10172.swift in Sources */,
 				C453FBCC2920FB1D0056B0BF /* BOJ_1998년생인내가태국에서는2541년생_18108.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

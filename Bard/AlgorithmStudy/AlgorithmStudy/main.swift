@@ -20,6 +20,7 @@ import Foundation
  answer_BOJ_1998년생인내가태국에서는2541년생_18108()
  answer_BOJ_킹퀸비숍나이트폰_3003()
  answer_BOJ_2588()
+ answer_BOJ_10171()
 */
 
-answer_BOJ_10171()
+answer_BOJ_10172()
