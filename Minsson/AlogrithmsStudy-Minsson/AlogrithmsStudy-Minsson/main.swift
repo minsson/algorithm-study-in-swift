@@ -18,6 +18,7 @@ import Foundation
 
 //answer_BOJ_모음의개수_1264()
 //answer_BOJ_별찍기2_2439()
+answer_BOJ_HardChoice_15059()
 
 //MARK: - 백준 Bronze 3
 
@@ -32,4 +33,4 @@ import Foundation
 // MARK: - 백준 Silver 5
 
 //answer_BOJ_셀프넘버_4673()
-answer_BOJ_크로아티아알파벳_2941()
+//answer_BOJ_크로아티아알파벳_2941()
