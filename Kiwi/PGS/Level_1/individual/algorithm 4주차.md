@@ -30,3 +30,15 @@ func solution(_ s:String) -> Bool
     return ans
 }
 ```
+
+## Level 1
+
+### [문자열을 정수로 바꾸기]
+
+```swift
+func solution(_ s:String) -> Int {
+    let num = Int(s)
+    
+    return num!
+}
+```
