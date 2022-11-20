@@ -34,6 +34,19 @@
 
 - 비트마스킹을 이용한 문제풀이
 
+### [어린왕자](https://www.acmicpc.net/problem/1004)
+
+- 두 점중 하나의 점을 포함하는 원이 만들어지면 count를 해주는 방식의 알고리즘을 작성했다. 
+두 점 사이의 거리를 구하기 위해 루트((x1-x2)^2 + (y1-y2)^2) 공식을 이용했는데, 루트때문에 통과가 안됬었다.
+루트를 사용하지 않고 계산하니 통과했따.
+
+## 골드
+
+### [토마토](https://www.acmicpc.net/problem/7576)
+
+- 너비우선 탐색을 이용해 문제를 풀면 되었는데 탐색의 시작점이 여러곳일 수 있다는 것에서 어려웠다.
+결론은 시작점들도 사용하는 큐에 순차적으로 넣어주면 되는 것이었다
+- 처음에 큐를 LinkedList로 구현했는데 시간이 초과되어 DobleStack으로 변경하니 해결 되었다.
 ---
 
 # 티어전
@@ -155,5 +168,60 @@ Int.max 의 값이 넘어가는 계산이 수행될 시 오류가 발생한다. 
 flatMap 을 사용하면 2차원 배열에서 1차원 배열로 바꿔줄 수 있다
 ### 중요한 점 
 행렬의 개념
+### 기타
+</details>
+
+## 11월 3주차
+
+<details>
+    
+### 브론즈 3
+### 참가자
+[웡빙](https://github.com/wongbingg) 
+
+[데릭](https://github.com/derrickkim0109)🏅
+
+### 문제 풀이
+
+```swift
+ let list = ["aya", "ye", "woo", "ma"]
+
+ func solution(_ babbling: [String]) -> Int {
+     var count = 0
+
+     for babble in babbling {
+         var testBabble = babble
+         testBabble = testBabble.replacingOccurrences(of: "aya", with: "1")
+         testBabble = testBabble.replacingOccurrences(of: "ye", with: "2")
+         testBabble = testBabble.replacingOccurrences(of: "woo", with: "3")
+         testBabble = testBabble.replacingOccurrences(of: "ma", with: "4")
+         if Int(testBabble) != nil, continuousCheck(in: testBabble) {
+             count += 1
+         }
+     }
+     return count
+ }
+
+ func continuousCheck(in str: String) -> Bool {
+     var previous = ""
+     for i in str {
+         if previous == String(i) {
+             return false
+         }
+         previous = String(i)
+     }
+     return true
+ }
+```
+
+### 알게된 점
+
+- 프로그래머스 환경 적응방법
+
+### 중요한 점 
+
+- 테스트케이스를 내가 추가할 수 있다
+- 각 케이스별 결과를 개별적으로 확인할 수 있다. 
+
 ### 기타
 </details>
