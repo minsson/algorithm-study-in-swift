@@ -25,9 +25,10 @@ answer_BOJ_최댓값_2566()
 answer_PGS_옹알이1()
 answer_PGS_다음에_올_숫자()
 answer_PGS_분수의_덧셈()
+answer_PGS_평행()
 */
 
-answer_PGS_평행()
+answer_PGS_종이_자르기_120922()
 
 //MARK: - 프로그래머스 Level 1
 
