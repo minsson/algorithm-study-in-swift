@@ -24,4 +24,7 @@ import Foundation
 //answer_BOJ_영수증_25304()
 
 //MARK: - 티어전 4주차 종이자르기
-PGS종이자르기()
+//PGS종이자르기()
+
+//MARK: - 백준 Bronze 4주차
+answer_BOJ_별찍기2_2439()
