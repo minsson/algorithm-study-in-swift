@@ -9,13 +9,14 @@ import Foundation
 
 func answer_BOJ_1004() {
     var T = Int(readLine()!)!
-    let N = Int(readLine()!) ?? 0
-    var count = 0
 
     while T > 0 {
-        let point = readLine()!.split(separator: " ").map{Int($0)!}
+        let N = Int(readLine()!) ?? 0
+        let point = readLine()!.split(separator: " ").map{ Int($0)! }
         let startPoint = (x1: point[0], y1: point[1])
         let endPoint = (x2: point[2], y2: point[3])
+
+        var count = 0
 
         for _ in 0...N {
             let input = readLine()!.split(separator: " ").map{Int($0)!}
@@ -28,9 +29,9 @@ func answer_BOJ_1004() {
                 count += 1
             }
         }
+        print(count)
+        T -= 1
     }
-    print(count)
-    T -= 1
 }
 
 func figureDistance(x1: Int, y1: Int, x2: Int, y2: Int, r: Int) -> Bool {
@@ -59,3 +60,4 @@ func figureDistance(x1: Int, y1: Int, x2: Int, y2: Int, r: Int) -> Bool {
 //출발점이 원의 안에 있다면 무조건 밖으로 나가야하기 때문에 + 1
 //출발점과 도착점 둘 다 주어진 원보다 안 / 밖에 있다면 + 0
 
+//pow = 제곱근 구하는 함수
