@@ -22,3 +22,33 @@ answer_BOJ_나는야_포켓몬_마스터_ᄋ
 answer_BOJ_최소힙_1927()
 answer_BOJ_막대기_1094()
 */
+
+// MARK: - 프로그래머스 LEVEL_0
+/*
+ answer_PGS_두수의합()
+ answer_PGS_두수의차()
+ answer_PGS_두수의곱()
+ answer_PGS_몫구하기()
+ answer_PGS_두수의나눗셈()
+ answer_PGS_숫자비교하기()
+ answer_PGS_분수의덧셈()
+ answer_PGS_배열두배만들기()
+ answer_PGS_나머지구하기()
+ answer_PGS_중앙값구하기()
+ answer_PGS_최빈값구하기()
+ answer_PGS_짝수는싫어요()
+ answer_PGS_배열의평균값()
+ answer_PGS_짝수의합()
+ answer_PGS_양꼬치()
+ answer_PGS_각도기()
+ answer_PGS_나이출력()
+ */
+
+// MARK: - 프로그래머스 LEVEL_1
+/*
+answer_PGS_옹알이2()
+
+ 
+ 
+*/
+
