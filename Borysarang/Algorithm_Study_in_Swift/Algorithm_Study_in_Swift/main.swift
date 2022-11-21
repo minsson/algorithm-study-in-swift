@@ -6,9 +6,18 @@
 //MARK: - 백준 Bronze 4
 //answer_사장님도박은재미로하셔야합니다_23795() // 해결 - 11월 2주차 티어전3 - with 주디
 
+
+//MARK: - 백준 Bronze 3
+
+//answer_주사위게임_10103()//해결 - 11월 3주차 티어전 - with 주디
+answer_모음의개수_10987() // 해결
+
 //MARK: - 백준 Bronze 2
 //answer_손익분기점_1712() //해결
-answer_벌집_2292() // 해결
+//answer_벌집_2292() // 해결
+
+//MARK: - 백준 Bronze 1
+//answer_달팽이는올라가고싶다_2869() //해결
 
 // MARK: - 백준 Silver 5
 
