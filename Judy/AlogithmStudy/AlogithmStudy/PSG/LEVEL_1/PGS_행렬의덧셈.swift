@@ -2,8 +2,8 @@
 //  addMatrix.swift
 //  AlogithmStudy
 //
-//  Created by 김주영 on 2022/11/09.
-//
+//  Created by Judy on 2022/11/09.
+//  https://school.programmers.co.kr/learn/courses/30/lessons/12950
 
 func addMatrix(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
     var result: [[Int]] = []
