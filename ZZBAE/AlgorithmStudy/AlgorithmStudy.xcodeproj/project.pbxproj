@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E07E238292A6A7B0088C8B6 /* BOJ_1712.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E07E237292A6A7B0088C8B6 /* BOJ_1712.swift */; };
 		7E37794529140C1C005FAAD4 /* BOJ_2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37794429140C1B005FAAD4 /* BOJ_2439.swift */; };
 		7E3779492917ACAB005FAAD4 /* BOJ_11022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */; };
+		7E6C11FB2926066E00053D1F /* BOJ_2869.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C11FA2926066E00053D1F /* BOJ_2869.swift */; };
 		7EC122752920ED2000784DD5 /* BOJ_1330.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC122742920ED2000784DD5 /* BOJ_1330.swift */; };
 		7EC122772921015E00784DD5 /* BOJ_1004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC122762921015E00784DD5 /* BOJ_1004.swift */; };
 		7ED934552911712A00D85156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED934542911712A00D85156 /* main.swift */; };
@@ -29,8 +31,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7E07E237292A6A7B0088C8B6 /* BOJ_1712.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1712.swift; sourceTree = "<group>"; };
 		7E37794429140C1B005FAAD4 /* BOJ_2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2439.swift; sourceTree = "<group>"; };
 		7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_11022.swift; sourceTree = "<group>"; };
+		7E6C11FA2926066E00053D1F /* BOJ_2869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2869.swift; sourceTree = "<group>"; };
 		7EC122742920ED2000784DD5 /* BOJ_1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1330.swift; sourceTree = "<group>"; };
 		7EC122762921015E00784DD5 /* BOJ_1004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1004.swift; sourceTree = "<group>"; };
 		7ED934512911712A00D85156 /* AlgorithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E6C11F9292604E700053D1F /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+				7EC122762921015E00784DD5 /* BOJ_1004.swift */,
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
 		7ED934482911712A00D85156 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +90,7 @@
 		7ED9345B291171CD00D85156 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				7E6C11F9292604E700053D1F /* Silver */,
 				7ED9345C291171F600D85156 /* Bronze */,
 			);
 			path = BOJ;
@@ -91,7 +104,8 @@
 				7E37794429140C1B005FAAD4 /* BOJ_2439.swift */,
 				7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */,
 				7EC122742920ED2000784DD5 /* BOJ_1330.swift */,
-				7EC122762921015E00784DD5 /* BOJ_1004.swift */,
+				7E6C11FA2926066E00053D1F /* BOJ_2869.swift */,
+				7E07E237292A6A7B0088C8B6 /* BOJ_1712.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
@@ -158,9 +172,11 @@
 				7E37794529140C1C005FAAD4 /* BOJ_2439.swift in Sources */,
 				7E3779492917ACAB005FAAD4 /* BOJ_11022.swift in Sources */,
 				7ED9345E2911726B00D85156 /* BOJ_2557.swift in Sources */,
+				7E6C11FB2926066E00053D1F /* BOJ_2869.swift in Sources */,
 				7ED934552911712A00D85156 /* main.swift in Sources */,
 				7EC122752920ED2000784DD5 /* BOJ_1330.swift in Sources */,
 				7EC122772921015E00784DD5 /* BOJ_1004.swift in Sources */,
+				7E07E238292A6A7B0088C8B6 /* BOJ_1712.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
