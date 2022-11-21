@@ -69,3 +69,100 @@ var selfNumbers = Set.init(1...10000)
 
 ### 기타
 - 제출시간 기준, 본프와 10초 차이 😁
+
+
+---
+
+## 11월 3주차
+
+### 레벨
+[티어전][바드🏅, 민쏜] 곱셈 / 브론즈3 / 8분
+
+### 참가자
+
+[bard](https://github.com/bar-d)
+[minsson](https://github.com/minsson) 🏅 
+
+### 문제 풀이
+
+**문제 설명**
+
+(세 자리 수) × (세 자리 수)의 각 자릿수별 곱셈 결과를 print하는 문제
+
+
+```swift
+func answer_BOJ_곱셈_2588() {
+    let num1 = readLine()!
+    let num2 = readLine()!
+    
+    let splitedNum2 = Array(num2)
+    
+    for i in stride(from: splitedNum2.count - 1, through: 0, by: -1) {
+        print(Int(num1)! * Int(String(splitedNum2[i]))!)
+    }
+
+    print(Int(num1)! * Int(num2)!)
+}
+
+/* 처음 제출한 코드
+ let num1 = readLine()!
+ let num2 = readLine()!
+ 
+ let splitedNum2 = Array(num2)
+ 
+ let row3 = Int(num1)! * Int(String(splitedNum2[2]))!
+ let row4 = Int(num1)! * Int(String(splitedNum2[1]))!
+ let row5 = Int(num1)! * Int(String(splitedNum2[0]))!
+ 
+ print(row3)
+ print(row4)
+ print(row5)
+ print(Int(num1)! * Int(num2)!)
+ */
+```
+
+### 알게된 점
+
+
+**@inlinable public func stride<T>(from start: T, through end: T, by stride: T.Stride) -> StrideThrough<T> where T : Strideable**
+**@inlinable public func stride<T>(from start: T, to end: T, by stride: T.Stride) -> StrideTo<T> where T : Strideable**
+
+- through end는 해당 아규먼트를 포함한다. `1...3`과 같다.
+- to end는 해당 아규먼트를 포함한다. `1..<3`과 같다.
+
+- by는 어떤 규칙으로 할 건지를 나타냄
+
+/// - Parameters:
+///   - start: The starting value to use for the sequence. If the sequence
+///     contains any values, the first one is `start`.
+///   - end: An end value to limit the sequence. `end` is an element of
+///     the resulting sequence if and only if it can be produced from `start` 
+///     using steps of `stride`.
+///   - stride: The amount to step by with each iteration. A positive `stride`
+///     iterates upward; a negative `stride` iterates downward.
+/// - Returns: A sequence from `start` toward, and possibly including, `end`. 
+///   Each value in the sequence is separated by `stride`.
+
+- 알기 전:
+```
+ let row3 = Int(num1)! * Int(String(splitedNum2[2]))!
+ let row4 = Int(num1)! * Int(String(splitedNum2[1]))!
+ let row5 = Int(num1)! * Int(String(splitedNum2[0]))!
+ 
+ print(row3)
+ print(row4)
+ print(row5)
+```
+
+- 알고난 후:
+```
+    for i in stride(from: splitedNum2.count - 1, through: 0, by: -1) {
+        print(Int(num1)! * Int(String(splitedNum2[i]))!)
+    }
+```
+
+### 중요한 점
+- 딱히 없음
+
+### 기타
+- 제출시간 기준, 30초 차이로 졌다 🥲
