@@ -10,7 +10,7 @@ import Foundation
 //MARK: - 프로그래머스 Level 0
 //print(answer_PGS_점의위치구하기([2,4]))
 //print(answer_PSG_치킨쿠폰(100))
-print(answer_PSG_다음에올숫자([1, 2, 3, 4]))
+//print(answer_PSG_다음에올숫자([1, 2, 3, 4]))
 
 //MARK: - 프로그래머스 Level 1
 //print(answer_PGS_부족한금액계산(1000, 8000, 4))
@@ -21,3 +21,4 @@ print(answer_PSG_다음에올숫자([1, 2, 3, 4]))
 //MARK: - 백준 BRONZE
 //answer_BOJ_한다안한다_5789()
 //answer_BOJ_신기한수_17618()
+answer_BOJ_17210()

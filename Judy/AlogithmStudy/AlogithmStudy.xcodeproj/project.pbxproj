@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2033055A292F60940019D19F /* PGS_120924.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20330559292F60940019D19F /* PGS_120924.swift */; };
+		2033055C292F69360019D19F /* BOJ_17210.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2033055B292F69360019D19F /* BOJ_17210.swift */; };
 		2047D756291B74CB00E3A715 /* PSG_120884.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047D755291B74CB00E3A715 /* PSG_120884.swift */; };
 		2047D758291B770500E3A715 /* PGS_12950.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2047D757291B770500E3A715 /* PGS_12950.swift */; };
 		207CF715290BC3F7002911B2 /* PGS_120841.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207CF714290BC3F7002911B2 /* PGS_120841.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		20330559292F60940019D19F /* PGS_120924.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120924.swift; sourceTree = "<group>"; };
+		2033055B292F69360019D19F /* BOJ_17210.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_17210.swift; sourceTree = "<group>"; };
 		2047D755291B74CB00E3A715 /* PSG_120884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSG_120884.swift; sourceTree = "<group>"; };
 		2047D757291B770500E3A715 /* PGS_12950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12950.swift; sourceTree = "<group>"; };
 		207CF714290BC3F7002911B2 /* PGS_120841.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120841.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				2094128C292618C9001DB342 /* BOJ_5789.swift */,
 				2094128E292629BC001DB342 /* BOJ_17618.swift */,
+				2033055B292F69360019D19F /* BOJ_17210.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				2047D756291B74CB00E3A715 /* PSG_120884.swift in Sources */,
 				2047D758291B770500E3A715 /* PGS_12950.swift in Sources */,
 				20C710F628FE3BAF002A7F08 /* main.swift in Sources */,
+				2033055C292F69360019D19F /* BOJ_17210.swift in Sources */,
 				207CF715290BC3F7002911B2 /* PGS_120841.swift in Sources */,
 				2094128D292618C9001DB342 /* BOJ_5789.swift in Sources */,
 				207DBB522912721100316B82 /* PGS_70128.swift in Sources */,
