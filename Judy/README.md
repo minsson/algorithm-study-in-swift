@@ -11,6 +11,16 @@
 - 풀고 보니 콜라 문제랑 흡사
 <br>
 
+### [다음에 올 숫자](https://github.com/Judy-999/algorithm-study-in-swift/commit/0f4bab97d2596af927ea66478d9df79096ea4032)
+```swift
+func pow(
+    _ x: Decimal,
+    _ y: Int
+) -> Decimal
+```
+- `Int`로 제곱근 값을 얻고 싶다면 x, y를 `Double`로 변한한 후 다시 결과값을 `Int`로 변환하면 된다
+<br>
+
 ## Level 1
 
 ### [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
@@ -85,7 +95,11 @@ while i >= 1 {
 - 문제를 잘못 이해해서 괜한 시간을 많이 버렸다
 - 백준은 항상 내가 입력해준다는 점을 잊지말자
 - 앞뒤 숫자를 비교하는 방법으로 `removeFirst`와 `removeLast`를 사용했다
+<br>
 
+### [문문문](https://github.com/Judy-999/algorithm-study-in-swift/commit/d53aa03af01f9d96c73817f5d23197c09a8527ad)
+- 사실 애초에 5가 넘으면 불가능한 문제였다
+- 반복문과 배열을 같이 사용할 때 현재 인덱스 값을 어떻게 이용할지 잘 생각해보기
 <br>
 
 ---
