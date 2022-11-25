@@ -112,6 +112,18 @@
         ||_/=\\\\__|
     """)
     ```
+    
+### [MinAndMax](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- N개의 숫자에 대한 최소값, 최대값 출력 구현
+    ```
+    let number = Int(readLine()!)!
+    let array = readLine()!.split(separator: " ").map { Int($0)! }
+    let min = array.min()!
+    let max = array.max()!
+    
+    print("\(min) \(max)")
+    ```
+    
 
 # 티어전
 ## 10월 4주차

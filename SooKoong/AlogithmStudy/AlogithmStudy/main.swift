@@ -17,3 +17,4 @@
 //answer_BOJ_Multiplication_2588()
 //answer_BOJ_Cat_10171()
 answer_BOJ_Dog_10172()
+//answer_BOJ_MinAndMax_10818()
