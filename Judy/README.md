@@ -321,3 +321,68 @@ print(sang)
 
 ### 기타
 - 한 번씩 이기고 졌으니 보리-주디는 실력이 비슷하다!
+<br>
+
+## 11월 4주차
+
+### 레벨
+
+[PGS] LEVEL 0 겹치는 선분의 길이
+
+### 참가자
+
+[Bard](https://github.com/bar-d) <br>
+[Judy](https://github.com/Judy-999) 🏅
+
+### 문제 풀이
+
+**문제 설명**
+> 처음과 끝을 Int로 가진 배열 3개 중 겹치는 선분의 개수를 구하기<br>
+> (겹치는 부분은 중복 없이 한 번만 카운트)<br>
+> ex) [[0, 5], [3, 9], [1, 10]] ==> 8
+
+```swift
+func solution(_ lines:[[Int]]) -> Int {
+    let line1 = lines[0]
+    let line2 = lines[1]
+    let line3 = lines[2]
+    let lineList1 = Array(line1[0]...line1[1])
+    let lineList2 = Array(line2[0]...line2[1])
+    let lineList3 = Array(line3[0]...line3[1])
+    let minValue: Int = min(min(line1[0], line2[0]), line3[0])
+    let maxValue: Int = max(max(line1[1], line2[1]), line3[1])
+    var result = 0
+
+    for i in minValue...(maxValue - 1) {
+        if lineList1.contains(i) && lineList1.contains(i+1) &&
+        lineList2.contains(i)  && lineList2.contains(i+1) {
+            result += 1
+            continue
+        }
+        
+         if lineList3.contains(i) && lineList3.contains(i+1) &&
+        lineList2.contains(i)  && lineList2.contains(i+1)  {
+            result += 1
+            continue
+        }
+        
+          if lineList1.contains(i) && lineList1.contains(i+1) &&
+        lineList3.contains(i)  && lineList3.contains(i+1)  {
+            result += 1
+            continue
+        }
+    }
+    
+    return result
+}
+```
+
+### 알게된 점
+- 겹치는 선분을 구하는 것이니 `1`과 `2`가 동시에 포함되어도 하나만 카운트해야 한다
+- 주디는 천재다
+
+### 중요한 점
+- 중복해서 카운트하면 안되니 만약 하나라도 해당되면 `continue`로 다음 반복으로 넘어가야 한다
+
+### 기타
+- 레벨 0도 어렵다
