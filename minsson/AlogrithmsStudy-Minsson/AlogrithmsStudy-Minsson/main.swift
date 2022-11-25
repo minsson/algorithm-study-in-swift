@@ -18,12 +18,13 @@ import Foundation
 
 //answer_BOJ_모음의개수_1264()
 //answer_BOJ_별찍기2_2439()
-answer_BOJ_HardChoice_15059()
+//answer_BOJ_HardChoice_15059()
 
 //MARK: - 백준 Bronze 3
 
 //answer_BOJ_알람시계_2884()
 //answer_BOJ_곱셈_2588()
+answer_BOJ_최댓값_2562()
 
 //MARK: - 백준 Bronze 2
 
