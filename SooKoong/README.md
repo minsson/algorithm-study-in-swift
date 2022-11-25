@@ -257,3 +257,38 @@ func answer_PGS_저주의숫자_120871(_ n:Int) -> Int {
 
 ### 기타 
 - 부전승으로 인한 생략
+
+## 11월 4주차
+### 브론즈
+### 참가자
+[수꿍](https://github.com/Jeon-Minsu)
+[민쏜](https://github.com/minsson) 🏅
+
+### 문제 풀이
+- 9개의 자연수에 대하여, 주어진 수의 최댓값과 해당 인덱스를 추출
+
+```swift
+func answer_BOJ_Max_2562() {
+    var array: [Int] = []
+
+    for _ in 0..<9 {
+        let readLine = readLine()
+        array.append(Int(readLine!)!)
+    }
+
+    let array2 = array.sorted { $0 > $1 }
+    print(array2[0])
+
+    let answer = array.firstIndex(of: array2[0])! + 1
+    print(answer)
+}
+```
+
+### 알게된 점
+- 배열 내에서 최소값, 최대값을 구할수 있는 min, max 함수가 있음
+
+### 중요한 점
+- 없음
+
+### 기타 
+- 없음
