@@ -1,5 +1,5 @@
 //
-//  BOJ_A플러스B.swift
+//  BOJ_APlusB.swift
 //  AlogrithmsStudy-Sookoong
 //
 //  Created by 수꿍 on 2022/10/30.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_BOJ_A플러스B_1000() {
+func answer_BOJ_APlusB_1000() {
     let input = readLine()!.components(separatedBy: " ")
     let a = Int(input.first!)!
     let b = Int(input.last!)!

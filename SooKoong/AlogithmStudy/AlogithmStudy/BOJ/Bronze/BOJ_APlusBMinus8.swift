@@ -1,5 +1,5 @@
 //
-//  BOJ_A플러스B마이너스8.swift
+//  BOJ_APlusBMinus8.swift
 //  AlogrithmsStudy-Sookoong
 //
 //  Created by 수꿍 on 2022/11/06.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_BOJ_A플러스B마이너스8_11022() {
+func answer_BOJ_APlusBMinus8_11022() {
     let input = Int(readLine()!)!
 
     var answers: [String] = []

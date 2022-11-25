@@ -1,5 +1,5 @@
 //
-//  PGS_저주의숫자.swift
+//  PGS_NumberOfCurses.swift
 //  AlogithmStudy-Sookoong
 //
 //  Created by 수꿍 on 2022/11/09.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_PGS_저주의숫자_120871(_ n:Int) -> Int {
+func answer_PGS_NumberOfCurses_120871(_ n:Int) -> Int {
     var answer = n
     var array: [Int] = []
     var i = 0

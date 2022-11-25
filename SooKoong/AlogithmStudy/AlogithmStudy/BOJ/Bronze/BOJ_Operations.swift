@@ -1,5 +1,5 @@
 //
-//  BOJ_사칙연산.swift
+//  BOJ_Operations.swift
 //  AlogrithmsStudy-Sookoong
 //
 //  Created by 수꿍 on 2022/10/30.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_BOJ_사칙연산_10869() {
+func answer_BOJ_Operations_10869() {
     let input = readLine()!
     let string = input.components(separatedBy: " ")
     let a = Int(string.first ?? "0")!
