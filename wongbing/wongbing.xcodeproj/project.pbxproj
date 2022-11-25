@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF462F8B2930CEEE004E9B0B /* BOJ_10757.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF462F8A2930CEEE004E9B0B /* BOJ_10757.swift */; };
 		AF5F58662930B4D500BAE1B9 /* PGS_92341.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F58652930B4D500BAE1B9 /* PGS_92341.swift */; };
 		AF601E4029137A2900C6506E /* BOJ_2566.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF601E3F29137A2900C6506E /* BOJ_2566.swift */; };
 		AF749886291B74500059FDDB /* BOJ_1620.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF749885291B74500059FDDB /* BOJ_1620.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF462F8A2930CEEE004E9B0B /* BOJ_10757.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_10757.swift; sourceTree = "<group>"; };
 		AF5F58652930B4D500BAE1B9 /* PGS_92341.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PGS_92341.swift; sourceTree = "<group>"; };
 		AF601E3F29137A2900C6506E /* BOJ_2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2566.swift; sourceTree = "<group>"; };
 		AF749885291B74500059FDDB /* BOJ_1620.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1620.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				AFDBDF0029082AE600960B47 /* BOJ_1264.swift */,
 				AFDBDEFE29082ABA00960B47 /* BOJ_17356.swift */,
 				AFDBDF0229082B3900960B47 /* BOJ_1247.swift */,
+				AF462F8A2930CEEE004E9B0B /* BOJ_10757.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				AFA013CA2929E0EE00B2982F /* PGS_120812.swift in Sources */,
 				AF8F141129284AD700EF5937 /* PGS_120802.swift in Sources */,
 				AF749888291B75370059FDDB /* BOJ_1927.swift in Sources */,
+				AF462F8B2930CEEE004E9B0B /* BOJ_10757.swift in Sources */,
 				AF749886291B74500059FDDB /* BOJ_1620.swift in Sources */,
 				AFA013D52929E79600B2982F /* PGS_120831.swift in Sources */,
 				AF8F141B29284D8B00EF5937 /* PGS_120807.swift in Sources */,
