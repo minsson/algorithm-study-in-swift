@@ -15,4 +15,5 @@
 //answer_BOJ_Remainder_10430()
 //answer_PGS_저주의숫자_120871(15)
 //answer_BOJ_Multiplication_2588()
-answer_BOJ_Cat_10171()
+//answer_BOJ_Cat_10171()
+answer_BOJ_Dog_10172()
