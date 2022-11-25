@@ -27,5 +27,8 @@ import Foundation
 //PGS종이자르기()
 
 //MARK: - 백준 Bronze 4주차
-answer_BOJ_별찍기2_2439()
-answer_BOJ_A더하기B_10952()
+//answer_BOJ_별찍기2_2439()
+//answer_BOJ_A더하기B_10952()
+
+//MARK: - 티어전 5주차 
+BOJ_10807() 
