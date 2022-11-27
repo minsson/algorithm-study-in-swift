@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_PGS_평행() {
+func answer_PGS_평행_120875() {
     func solution(_ dots:[[Int]]) -> Int {
         var gradient = [Double]()
 

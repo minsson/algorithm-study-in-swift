@@ -8,7 +8,7 @@
 
 import Foundation
 
-func answer_PGS_연속된_수의_합_120922() {
+func answer_PGS_연속된_수의_합_120923() {
     func solution(_ num:Int, _ total:Int) -> [Int] {
         let a = ((2 * total / num) - num + 1) / 2
         return (a..<a+num).map { $0 }

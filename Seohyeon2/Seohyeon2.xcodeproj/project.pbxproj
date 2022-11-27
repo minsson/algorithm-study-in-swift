@@ -130,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				05840B612913EE930020F864 /* LEVEL_0 */,
-				05DB2CC7292A129B00910E99 /* PGS_120923.swift */,
 			);
 			path = PGS;
 			sourceTree = "<group>";
@@ -145,6 +144,7 @@
 				05DB2CC9292A134B00910E99 /* PGS_120860.swift */,
 				0529B26E2933B5FB00977DC6 /* PGS_120912.swift */,
 				0529B2702933B6C100977DC6 /* PGS_120835.swift */,
+				05DB2CC7292A129B00910E99 /* PGS_120923.swift */,
 			);
 			path = LEVEL_0;
 			sourceTree = "<group>";

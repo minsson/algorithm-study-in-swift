@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_PGS_다음에_올_숫자() {
+func answer_PGS_다음에_올_숫자_120924() {
     func solution(_ common:[Int]) -> Int {
         let d = (common[1] - common[0])
         var r = 1

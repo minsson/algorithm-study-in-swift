@@ -8,7 +8,7 @@
 
 import Foundation
 
-func answer_PGS_직사각형_넓이_구하기() {
+func answer_PGS_직사각형_넓이_구하기_120860() {
     func solution(_ dots:[[Int]]) -> Int {
         let dot = dots[0]
         var width = 0

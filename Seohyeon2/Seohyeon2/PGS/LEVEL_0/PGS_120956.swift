@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_PGS_옹알이1() {
+func answer_PGS_옹알이1_120956() {
     func solution(_ babbling:[String]) -> Int {
         let pronunciations = ["aya", "ye", "woo", "ma"]
         var count = 0

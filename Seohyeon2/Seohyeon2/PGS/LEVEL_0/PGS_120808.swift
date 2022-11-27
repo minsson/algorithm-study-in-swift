@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_PGS_분수의_덧셈() {
+func answer_PGS_분수의_덧셈_120808() {
     func solution(
         _ denum1:Int,
         _ num1:Int,
