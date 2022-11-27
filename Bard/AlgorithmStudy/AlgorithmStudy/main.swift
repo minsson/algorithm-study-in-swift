@@ -22,7 +22,8 @@ import Foundation
  answer_BOJ_2588()
  answer_BOJ_10171()
  answer_BOJ_10172()
+ answer_PGS_120876()
 */
 
-let sample =  answer_PGS_120876([[-1, 1], [1, 3], [3, 9]])
+let sample =  answer_PGS_120871(1)
 print(sample)
