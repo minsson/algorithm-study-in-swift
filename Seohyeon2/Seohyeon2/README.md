@@ -56,6 +56,14 @@
 **<문제 풀이에 필요한 개념>**
 - 좌표 해석
 
+### [7의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120912)
+**<문제 풀이에 필요한 개념>**
+- 고차 함수
+
+### [진료순서 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/120835)
+**<문제 풀이에 필요한 개념>**
+- 정렬
+
 <br>
 
 ---
@@ -69,7 +77,7 @@
 [현이](https://github.com/seohyeon2)
 
 ### 문제 풀이
-- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/10%EC%9B%94-4%EC%A3%BC%EC%B0%A8)
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/1%EC%A3%BC%EC%B0%A8)
 
 ### 알게된 점 / 중요한 점 / 기타
 - `Int.max`와 `Int.min`을 이용해 Int의 최대, 최소 범위를 구할 수 있는 점
@@ -103,7 +111,7 @@
 
 
 ### 문제 풀이
-- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/11%EC%9B%94-2%EC%A3%BC%EC%B0%A8)
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/2%EC%A3%BC%EC%B0%A8)
 
 ### 알게된 점 / 중요한 점 / 기타
 - 순열과 조합 개념
@@ -121,7 +129,23 @@
 
 
 ### 문제 풀이
-- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/11%EC%9B%94-3%EC%A3%BC%EC%B0%A8)
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/3%EC%A3%BC%EC%B0%A8)
 
 ### 알게된 점 / 중요한 점 / 기타
 - 문제를 잘 읽자...!
+
+<br>
+
+## 11월 4주차
+### Level 1
+### 참가자
+[데릭](https://github.com/derrickkim0109) 🏅
+
+[현이](https://github.com/seohyeon2) 
+
+
+### 문제 풀이
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/4%EC%A3%BC%EC%B0%A8)
+
+### 알게된 점 / 중요한 점 / 기타
+- 시간 줄이는 연습 필요
