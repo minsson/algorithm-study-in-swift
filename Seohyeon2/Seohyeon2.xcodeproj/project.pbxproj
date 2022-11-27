@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0523482F290EBFA3004BC697 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0523482E290EBFA3004BC697 /* main.swift */; };
+		0529B26D2933B37100977DC6 /* PGS_92341.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0529B26C2933B37100977DC6 /* PGS_92341.swift */; };
 		05840B532913C4940020F864 /* BOJ_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B522913C4940020F864 /* BOJ_17356.swift */; };
 		05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B542913C59C0020F864 /* BOJ_1264.swift */; };
 		05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B5C2913EAC60020F864 /* BOJ_1247.swift */; };
@@ -38,6 +39,7 @@
 		0523482B290EBFA3004BC697 /* Seohyeon2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Seohyeon2; sourceTree = BUILT_PRODUCTS_DIR; };
 		0523482E290EBFA3004BC697 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0523483C290EC258004BC697 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0529B26C2933B37100977DC6 /* PGS_92341.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_92341.swift; sourceTree = "<group>"; };
 		05840B522913C4940020F864 /* BOJ_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_17356.swift; sourceTree = "<group>"; };
 		05840B542913C59C0020F864 /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
 		05840B5C2913EAC60020F864 /* BOJ_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1247.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				05840B5E2913ED0C0020F864 /* BOJ_2566.swift */,
 				05BCF5402920F5F800C45F26 /* PGS_131705.swift */,
 				05DB2CC5292A117300910E99 /* PGS_120922.swift */,
+				0529B26C2933B37100977DC6 /* PGS_92341.swift */,
 			);
 			path = TierMatch;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */,
 				05840B532913C4940020F864 /* BOJ_17356.swift in Sources */,
 				0523482F290EBFA3004BC697 /* main.swift in Sources */,
+				0529B26D2933B37100977DC6 /* PGS_92341.swift in Sources */,
 				05BCF53D2920F47E00C45F26 /* PGS_120808.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
