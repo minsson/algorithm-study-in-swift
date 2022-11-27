@@ -28,3 +28,21 @@ func solution(_ x:Int) -> Bool {
     }
 }
 ```
+
+## Level 1
+
+### [x만큼 간격이 있는 n개의 숫자]
+
+```swift
+func solution(_ x:Int, _ n:Int) -> [Int64] {
+    var num: [Int64] = []
+    
+    for i in 1...n {
+        num.append(Int64(x * i))
+    }
+    
+    return num
+}
+```
+
+
