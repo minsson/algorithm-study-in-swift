@@ -17,6 +17,10 @@
 //answer_BOJ_사분면고르기_14681()
 //answer_BOJ_알람시계_2884()
 //answer_BOJ_달팽이는올라가고싶다_2869()
+//print(
+//    solution("abcd", "bca")
+//)
+//answer_BOJ_개수세기_10807()
 print(
-    solution("abcd", "bca")
+    jegopNumber(976)
 )
