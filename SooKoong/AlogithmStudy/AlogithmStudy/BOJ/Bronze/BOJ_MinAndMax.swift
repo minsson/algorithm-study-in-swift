@@ -12,6 +12,6 @@ func answer_BOJ_MinAndMax_10818() {
     let array = readLine()!.split(separator: " ").map { Int($0)! }
     let min = array.min()!
     let max = array.max()!
-    
+
     print("\(min) \(max)")
 }
