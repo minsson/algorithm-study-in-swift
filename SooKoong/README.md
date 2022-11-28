@@ -259,7 +259,7 @@ func answer_PGS_저주의숫자_120871(_ n:Int) -> Int {
 - 부전승으로 인한 생략
 
 ## 11월 4주차
-### 브론즈
+### 브론즈 3
 ### 참가자
 [수꿍](https://github.com/Jeon-Minsu)
 [민쏜](https://github.com/minsson) 🏅
