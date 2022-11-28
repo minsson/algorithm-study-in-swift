@@ -10,7 +10,7 @@ import Foundation
 func answer_BOJ_크로아티아알파벳_2941() {
     var input = readLine()!
     
-    var croatians = ["dz=", "c=", "c-", "z=", "d-", "lj", "nj", "s="]
+    let croatians = ["dz=", "c=", "c-", "z=", "d-", "lj", "nj", "s="]
 
     for i in 0...croatians.count-1 {
         input = input.replacingOccurrences(of: croatians[i], with: "1")
