@@ -26,7 +26,6 @@ func solution(_ msg:String) -> [Int] {
         let currentWord = previousWord + nextWord
         let isEmptyWord = allWords.contains { $0.key == currentWord }
 
-
         if !isEmptyWord {
             result.append(allWords[previousWord]!)
 
