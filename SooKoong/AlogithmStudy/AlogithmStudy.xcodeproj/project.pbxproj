@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2030F1EA291B64F700641138 /* PGS_NumberOfCurses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2030F1E9291B64F700641138 /* PGS_NumberOfCurses.swift */; };
+		203AAAC7291A388C0086AA1F /* BOJ_Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AAAC6291A388C0086AA1F /* BOJ_Chess.swift */; };
+		203AAAC9291A3DAA0086AA1F /* BOJ_Remainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AAAC8291A3DAA0086AA1F /* BOJ_Remainder.swift */; };
+		203EA574290E6ABC002C9F6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA573290E6ABC002C9F6E /* main.swift */; };
+		203EA57D290E6B7A002C9F6E /* BOJ_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA57C290E6B7A002C9F6E /* BOJ_Operations.swift */; };
+		203EA57F290E7376002C9F6E /* BOJ_HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */; };
+		203EA581290E73E4002C9F6E /* BOJ_APlusB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA580290E73E4002C9F6E /* BOJ_APlusB.swift */; };
+		20765D1C29176AC9003144A7 /* BOJ_Surprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1B29176AC9003144A7 /* BOJ_Surprise.swift */; };
+		20765D1E291786F7003144A7 /* BOJ_APlusBMinus8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1D291786F7003144A7 /* BOJ_APlusBMinus8.swift */; };
+		20765D2029178C69003144A7 /* BOJ_TaiwanYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */; };
+		2079619029251F2F001E41AD /* BOJ_Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079618F29251F2F001E41AD /* BOJ_Multiplication.swift */; };
+		2079619229252396001E41AD /* BOJ_Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2079619129252396001E41AD /* BOJ_Cat.swift */; };
+		20C11C3B2930917E006E6F0B /* BOJ_Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C11C3A2930917E006E6F0B /* BOJ_Dog.swift */; };
+		20C11C3D293098A6006E6F0B /* BOJ_Max.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C11C3C293098A6006E6F0B /* BOJ_Max.swift */; };
+		20C11C3F29309DD5006E6F0B /* BOJ_MinAndMax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C11C3E29309DD5006E6F0B /* BOJ_MinAndMax.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		203EA56E290E6ABC002C9F6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2030F1E9291B64F700641138 /* PGS_NumberOfCurses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_NumberOfCurses.swift; sourceTree = "<group>"; };
+		203AAAC6291A388C0086AA1F /* BOJ_Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Chess.swift; sourceTree = "<group>"; };
+		203AAAC8291A3DAA0086AA1F /* BOJ_Remainder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Remainder.swift; sourceTree = "<group>"; };
+		203EA570290E6ABC002C9F6E /* AlogithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlogithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
+		203EA573290E6ABC002C9F6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		203EA57C290E6B7A002C9F6E /* BOJ_Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Operations.swift; sourceTree = "<group>"; };
+		203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_HelloWorld.swift; sourceTree = "<group>"; };
+		203EA580290E73E4002C9F6E /* BOJ_APlusB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_APlusB.swift; sourceTree = "<group>"; };
+		20765D1B29176AC9003144A7 /* BOJ_Surprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Surprise.swift; sourceTree = "<group>"; };
+		20765D1D291786F7003144A7 /* BOJ_APlusBMinus8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_APlusBMinus8.swift; sourceTree = "<group>"; };
+		20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_TaiwanYear.swift; sourceTree = "<group>"; };
+		2079618F29251F2F001E41AD /* BOJ_Multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Multiplication.swift; sourceTree = "<group>"; };
+		2079619129252396001E41AD /* BOJ_Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Cat.swift; sourceTree = "<group>"; };
+		20C11C3A2930917E006E6F0B /* BOJ_Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Dog.swift; sourceTree = "<group>"; };
+		20C11C3C293098A6006E6F0B /* BOJ_Max.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Max.swift; sourceTree = "<group>"; };
+		20C11C3E29309DD5006E6F0B /* BOJ_MinAndMax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_MinAndMax.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		203EA56D290E6ABC002C9F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2030F1EB291B654E00641138 /* PGS */ = {
+			isa = PBXGroup;
+			children = (
+				2030F1EC291B655300641138 /* Level0 */,
+			);
+			path = PGS;
+			sourceTree = "<group>";
+		};
+		2030F1EC291B655300641138 /* Level0 */ = {
+			isa = PBXGroup;
+			children = (
+				2030F1E9291B64F700641138 /* PGS_NumberOfCurses.swift */,
+			);
+			path = Level0;
+			sourceTree = "<group>";
+		};
+		203EA567290E6ABC002C9F6E = {
+			isa = PBXGroup;
+			children = (
+				203EA572290E6ABC002C9F6E /* AlogithmStudy */,
+				203EA571290E6ABC002C9F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		203EA571290E6ABC002C9F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				203EA570290E6ABC002C9F6E /* AlogithmStudy */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		203EA572290E6ABC002C9F6E /* AlogithmStudy */ = {
+			isa = PBXGroup;
+			children = (
+				203EA573290E6ABC002C9F6E /* main.swift */,
+				203EA57A290E6AF0002C9F6E /* BOJ */,
+				2030F1EB291B654E00641138 /* PGS */,
+			);
+			path = AlogithmStudy;
+			sourceTree = "<group>";
+		};
+		203EA57A290E6AF0002C9F6E /* BOJ */ = {
+			isa = PBXGroup;
+			children = (
+				203EA57B290E6AFC002C9F6E /* Bronze */,
+			);
+			path = BOJ;
+			sourceTree = "<group>";
+		};
+		203EA57B290E6AFC002C9F6E /* Bronze */ = {
+			isa = PBXGroup;
+			children = (
+				203EA57C290E6B7A002C9F6E /* BOJ_Operations.swift */,
+				203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */,
+				203EA580290E73E4002C9F6E /* BOJ_APlusB.swift */,
+				20765D1B29176AC9003144A7 /* BOJ_Surprise.swift */,
+				20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */,
+				20765D1D291786F7003144A7 /* BOJ_APlusBMinus8.swift */,
+				203AAAC6291A388C0086AA1F /* BOJ_Chess.swift */,
+				203AAAC8291A3DAA0086AA1F /* BOJ_Remainder.swift */,
+				2079618F29251F2F001E41AD /* BOJ_Multiplication.swift */,
+				2079619129252396001E41AD /* BOJ_Cat.swift */,
+				20C11C3A2930917E006E6F0B /* BOJ_Dog.swift */,
+				20C11C3E29309DD5006E6F0B /* BOJ_MinAndMax.swift */,
+				20C11C3C293098A6006E6F0B /* BOJ_Max.swift */,
+			);
+			path = Bronze;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		203EA56F290E6ABC002C9F6E /* AlogithmStudy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 203EA577290E6ABC002C9F6E /* Build configuration list for PBXNativeTarget "AlogithmStudy" */;
+			buildPhases = (
+				203EA56C290E6ABC002C9F6E /* Sources */,
+				203EA56D290E6ABC002C9F6E /* Frameworks */,
+				203EA56E290E6ABC002C9F6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlogithmStudy;
+			productName = AlogithmStudy;
+			productReference = 203EA570290E6ABC002C9F6E /* AlogithmStudy */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		203EA568290E6ABC002C9F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					203EA56F290E6ABC002C9F6E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 203EA56B290E6ABC002C9F6E /* Build configuration list for PBXProject "AlogithmStudy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 203EA567290E6ABC002C9F6E;
+			productRefGroup = 203EA571290E6ABC002C9F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				203EA56F290E6ABC002C9F6E /* AlogithmStudy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		203EA56C290E6ABC002C9F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203EA581290E73E4002C9F6E /* BOJ_APlusB.swift in Sources */,
+				203AAAC9291A3DAA0086AA1F /* BOJ_Remainder.swift in Sources */,
+				2079619229252396001E41AD /* BOJ_Cat.swift in Sources */,
+				20C11C3B2930917E006E6F0B /* BOJ_Dog.swift in Sources */,
+				203EA574290E6ABC002C9F6E /* main.swift in Sources */,
+				203AAAC7291A388C0086AA1F /* BOJ_Chess.swift in Sources */,
+				20765D2029178C69003144A7 /* BOJ_TaiwanYear.swift in Sources */,
+				203EA57D290E6B7A002C9F6E /* BOJ_Operations.swift in Sources */,
+				203EA57F290E7376002C9F6E /* BOJ_HelloWorld.swift in Sources */,
+				20765D1C29176AC9003144A7 /* BOJ_Surprise.swift in Sources */,
+				2079619029251F2F001E41AD /* BOJ_Multiplication.swift in Sources */,
+				20765D1E291786F7003144A7 /* BOJ_APlusBMinus8.swift in Sources */,
+				20C11C3F29309DD5006E6F0B /* BOJ_MinAndMax.swift in Sources */,
+				20C11C3D293098A6006E6F0B /* BOJ_Max.swift in Sources */,
+				2030F1EA291B64F700641138 /* PGS_NumberOfCurses.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		203EA575290E6ABC002C9F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		203EA576290E6ABC002C9F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		203EA578290E6ABC002C9F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		203EA579290E6ABC002C9F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		203EA56B290E6ABC002C9F6E /* Build configuration list for PBXProject "AlogithmStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203EA575290E6ABC002C9F6E /* Debug */,
+				203EA576290E6ABC002C9F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		203EA577290E6ABC002C9F6E /* Build configuration list for PBXNativeTarget "AlogithmStudy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				203EA578290E6ABC002C9F6E /* Debug */,
+				203EA579290E6ABC002C9F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 203EA568290E6ABC002C9F6E /* Project object */;
+}
