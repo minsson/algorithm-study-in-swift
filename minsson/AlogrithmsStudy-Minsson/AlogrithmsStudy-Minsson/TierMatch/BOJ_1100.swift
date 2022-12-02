@@ -39,24 +39,13 @@ func answer_BOJ_하얀칸_1100() {
     print(count)
 }
 
-//print(0 % 2 == 0)
-//print(1 % 2 == 0)
-
-/*  && row[i] == "F"
- W B W B W B W B 0번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
- B W B W B W B W 1번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
- W B W B W B W B 2번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
- B W B W B W B W 3번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
- W B W B W B W B 4번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
- B W B W B W B W
- W B W B W B W B
- B W B W B W B W 7번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
+/*
+ W B W B W B W B 0번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
+ B W B W B W B W 1번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
+ W B W B W B W B 2번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
+ B W B W B W B W 3번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
+ W B W B W B W B 4번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
+ B W B W B W B W 4번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
+ W B W B W B W B 4번 줄이면 짝수 인덱스에 F가 있으면 카운트한다
+ B W B W B W B W 7번 줄이면 홀수 인덱스에 F가 있으면 카운트한다
  */
-//    .F.F...F
-//    F...F.F.
-//    ...F.F.F
-//    F.F...F.
-//    .F...F..
-//    F...F.F.
-//    .F.F.F.F
-//    ..FF..F.
