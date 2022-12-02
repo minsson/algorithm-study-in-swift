@@ -39,3 +39,4 @@ import Foundation
 
 //Mark: - 백준 Bronze 6주차
 answer_BOJ_10818()
+answer_BOJ_2562()
