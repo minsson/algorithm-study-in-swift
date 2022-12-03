@@ -19,3 +19,4 @@
 //answer_BOJ_Dog_10172()
 //answer_BOJ_MinAndMax_10818()
 //answer_BOJ_Max_2562()
+answer_BOJ_ComparisonOfTwoNumbers_1330()

@@ -124,6 +124,22 @@
     print("\(min) \(max)")
     ```
     
+###[ComparisonOfTwoNumbers](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 주어진 두 수의 크기 비교
+    ```
+    let input = readLine()?.components(separatedBy: " ")
+
+    let firstNumber = Int(input![0])!
+    let secondNumber = Int(input![1])!
+
+    if firstNumber < secondNumber {
+        print("<")
+    } else if firstNumber > secondNumber {
+        print(">")
+    } else {
+        print("==")
+    }
+    ```
 
 # 티어전
 ## 10월 4주차
