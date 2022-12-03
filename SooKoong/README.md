@@ -140,6 +140,25 @@
         print("==")
     }
     ```
+    
+###[TestResult](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 시험 성적 점수에 따라 학점 부여 
+    ```
+    let input = Int(readLine()!)!
+
+    switch input {
+    case 90...100:
+        print("A")
+    case 80..<90:
+        print("B")
+    case 70..<80:
+        print("C")
+    case 60..<70:
+        print("D")
+    default:
+        print("F")
+    }
+    ```
 
 # 티어전
 ## 10월 4주차
