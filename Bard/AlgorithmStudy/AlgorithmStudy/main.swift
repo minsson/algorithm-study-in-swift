@@ -27,4 +27,4 @@ import Foundation
  answer_BOJ_10430()
 */
 
-answer_BOJ_10828()
+answer_BOJ_25083()
