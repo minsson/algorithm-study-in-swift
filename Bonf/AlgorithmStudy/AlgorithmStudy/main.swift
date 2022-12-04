@@ -21,6 +21,7 @@
 //    solution("abcd", "bca")
 //)
 //answer_BOJ_개수세기_10807()
-print(
-    jegopNumber(976)
-)
+//print(
+//    jegopNumber(976)
+//)
+answer_BOJ_문자열반복_2675()
