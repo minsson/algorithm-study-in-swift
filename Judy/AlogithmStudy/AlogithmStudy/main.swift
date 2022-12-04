@@ -21,4 +21,5 @@ import Foundation
 //MARK: - 백준 BRONZE
 //answer_BOJ_한다안한다_5789()
 //answer_BOJ_신기한수_17618()
-answer_BOJ_17210()
+//answer_BOJ_문문문_17210()
+//answer_BOJ_배수찾기_4504()
