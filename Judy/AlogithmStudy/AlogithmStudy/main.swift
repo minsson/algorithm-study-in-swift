@@ -25,3 +25,6 @@ import Foundation
 //answer_BOJ_배수찾기_4504()
 //answer_BOJ_파일완전삭제_9243()
 //answer_BOJ_팩토리얼_7489()
+
+//MARK: - 백준 SILVER
+answer_BOJ_마지막팩토리얼수_2553()
