@@ -24,4 +24,5 @@
 //print(
 //    jegopNumber(976)
 //)
-answer_BOJ_문자열반복_2675()
+//answer_BOJ_문자열반복_2675()
+answer_BOJ_숫자의합_11720()
