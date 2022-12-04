@@ -59,6 +59,25 @@
 ### [순서쌍의 개수](https://school.programmers.co.kr/learn/courses/30/lessons/120836)
 - n 이 1부터 n 까지의 숫자로 나눈 나머지가 존재하는지 확인했다. 나머지가 존재하지 않으면 나누어 떨어진다는 것이니 이를 카운트 해주었다.
 
+### [개미군단](https://school.programmers.co.kr/learn/courses/30/lessons/120837)
+- 1,3,5 로 어떤 숫자를 구성(더할)할 수 있는 방법 중, 가장 적은횟수로 사용하는 방법을 찾아내는 문제이다. 제일 큰 수부터 작은 수 순서대로 확인해보면 된다. 
+
+### [모스부호](https://school.programmers.co.kr/learn/courses/30/lessons/120838)
+- 제시된 모스부호표 자체를 딕셔너리로 사용하였다.
+
+### [가위바위보](https://school.programmers.co.kr/learn/courses/30/lessons/120839)
+- 각 이기는 경우 붙여줄 문자를 switch구문을 이용하여 처리하였다. 
+
+### [평행](https://school.programmers.co.kr/learn/courses/30/lessons/120875)
+- 주어진 두 점이 짝지어질 경우의 수를 pairs 로 가지고, 해당 pair 를 검사하여 각 선분의 기울기가 동일함을 체크했다.
+
+### [옹알이1](https://school.programmers.co.kr/learn/courses/30/lessons/120956)
+- 주어진 문자열에서 "aya", "ye", "woo","ma"를 간단하게 숫자 1,2,3,4 로 변환한 후 반환값 에서 1,2,3,4가 아닌 문자열이 포함 되었을 시, false로 판단했다.
+
+### [구슬을 나누는 경우의 수](https://school.programmers.co.kr/learn/courses/30/lessons/120840)
+- 수의 범위가 1~30 이라 팩토리얼을 이용할 때, 범위초과 오류가 발생했다. 이를 해결하기 위해 범위를 넘지 않도록 처리하며 조합공식 nCr 을 이용했다.
+
+
 ## Level 2
 
 ### [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341)
@@ -238,6 +257,49 @@ flatMap 을 사용하면 2차원 배열에서 1차원 배열로 바꿔줄 수 �
 
 - 테스트케이스를 내가 추가할 수 있다
 - 각 케이스별 결과를 개별적으로 확인할 수 있다. 
+
+### 기타
+</details>
+
+## 12월 1주차
+
+<details>
+    
+### 브론즈 3
+### 참가자
+[웡빙](https://github.com/wongbingg)🏅
+
+[데릭](https://github.com/derrickkim0109)
+
+[현이](https://github.com/seohyeon2)
+
+### 문제 풀이
+
+```swift
+func answer_PGS_n제곱배열_자르기(_ n:Int, _ left:Int64, _ right:Int64) -> [Int] {
+    let arr = Array<Int>(Int(left)...Int(right))
+    var result = [Int]()
+    arr.forEach { ele in
+        result.append(translateIndexToValue(index: ele, in: n))
+    }
+    return result
+}
+
+func translateIndexToValue(index: Int, in n: Int) -> Int {
+    let i = index / n
+    let j = index % n
+    return max(i,j) + 1
+}
+
+```
+
+### 알게된 점
+
+- 2차원 배열을 만드는 과정에서 시간초과가 났다. 여러가지 방법을 이용해서 2차원 배열을 만드는 방법을 시도 해봤지만, 결국엔 행렬이 만들어 지는 원리만 파악하면, 인덱스값(i,j) 만 알아도 해결할 수 있는 문제였다. 원리는 "행렬에서 위치(i, j) 의 값은 max(i,j) + 1" 이라는 것이다. 그래서 주어진 left 부터 right 까지의 숫자를 (i,j) 형태로 변경만 해주면 된다. 2차원 배열을 1차원 배열로 평탄화 했을 때, 인덱스 접근법을 알고 있으면 쉽게 변환해줄 수 있다. 
+
+### 중요한 점 
+
+- 문제의 의도를 파악하는 것이 중요했다. 쓸데없이 2차원 배열구현에 집중을 했었따.
 
 ### 기타
 </details>
