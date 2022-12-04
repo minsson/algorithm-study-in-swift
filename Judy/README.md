@@ -68,6 +68,29 @@ while total >= a {
 ---
 
 # 백준 
+## SILVER 2
+### [마지막 팩토리얼 수](https://github.com/Judy-999/algorithm-study-in-swift/commit/bba4765be804e242822ecacdfa5b2e393143c94d)
+- 브론즈 2의 팩토리얼과 유사하다 해서 풀었는데 코드가 거의 동일하고 오히려 더 쉬웠다
+- 입력 숫자가 범위가 더 커져서 `sum %= 1000000`한 숫자를 가지고 계산하도록 함
+<br>
+
+## BRONZE 2
+### [파일 완전 삭제](https://github.com/Judy-999/algorithm-study-in-swift/commit/46a66930db87a362b1dd630b9f0acc51df28d47b)
+- 입력받은 값이 짝수인지만 확인하면 됨
+- 별로 BRONZE 2 같진 않음
+<br>
+
+### [팩토리얼](https://github.com/Judy-999/algorithm-study-in-swift/commit/ac3e986b52c67297452bfc078bd58b044a5e9f13)
+- 웬만한 숫자가 넘어가면 숫자가 너무 커져서 팩토리얼 수를 구할 수 없음
+- 마지막 숫자만 알고 싶은 것이니 일정 숫자만 가지고 있고 10으로 나눈 나머지를 구함 -> `sum %= 10000`으로 10000으로 나눈 나머지만 가지도록 함
+- 숫자의 0이 아닌 맨 마지막 숫자를 알고 싶을 때
+```swift
+while result == 0 {
+    sum /= 10
+    result = sum % 10
+}
+```
+<br>
 
 ## BRONZE 3
 ### [신기한 수](https://github.com/Judy-999/algorithm-study-in-swift/commit/b4cb3b76d9e0dbd5cff4794deab42b8fe51d8087)
@@ -101,6 +124,12 @@ while i >= 1 {
 - 사실 애초에 5가 넘으면 불가능한 문제였다
 - 반복문과 배열을 같이 사용할 때 현재 인덱스 값을 어떻게 이용할지 잘 생각해보기
 <br>
+
+### [배수 찾기](https://github.com/Judy-999/algorithm-study-in-swift/commit/99c61ad374b5e3b96357359362d08944724c0949)
+- 단순하게 배수인지 확인하면 돼서 어렵지 않았다.
+- 출력을 잘 확인하자(.을 안 적어서 틀림)
+<br>
+
 
 ---
 
