@@ -27,6 +27,18 @@
 </div>
 </details>
 
+<details>
+<summary>설탕 배달</summary>
+<div markdown="1">
+
+### [설탕배달](https://github.com/yusw10/algorithm-study-in-swift/blob/Borysarang/Borysarang/Algorithm_Study_in_Swift/Algorithm_Study_in_Swift/BOJ/SILVER/BOJ_SugarDelievery_2839.swift)
+
+- 다이나믹 프로그래밍
+5를 최대한 사용하는 경우가 제일 좋음. 따라서 5의 수를 하나씩 줄여가며 5를 제일 많이 쓰되 5를 쓰고 남은게 3으로 떨어지는 경우를 구함
+  
+</div>
+</details>
+
 ### 브론즈
 
 <details>
@@ -49,6 +61,20 @@
 - 전진과 후진을 하루의 이동거리로 잡는다.
 - 마지막 날은 후진을 하지 않으므로 하루의 거리는 전진치로 잡는다.
 - 하루 이동거리가 전진한 거리에 정확하게 떨어지지 않을 경우 하루를 추가로 가야한다.
+  
+</div>
+</details>
+
+<details>
+<summary>ACM 호텔</summary>
+<div markdown="1">
+
+### [ACM 호텔](https://github.com/yusw10/algorithm-study-in-swift/blob/Borysarang/Borysarang/Algorithm_Study_in_Swift/Algorithm_Study_in_Swift/BOJ/BRONZE/BOJ_ACM-hotel_10250.swift)
+
+- 호텔의 층수와 호실을 정해야함.
+    - 호텔의층수는 앞부분
+    - 이는 층수를 나머지로 나눔
+    - 몇호인지는 몫으로 구하되 정확히 떨어지는 경우를 제외함.
   
 </div>
 </details>
