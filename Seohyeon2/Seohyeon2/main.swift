@@ -30,10 +30,12 @@ answer_PGS_종이_자르기_120922()
 answer_PGS_연속된_수의_합_120923()
 answer_PGS_직사각형_넓이_구하기_120860()
 answer_PGS_7의_개수_120912()
+answer_PGS_진료_순서_정하기_120835()
+answer_PGS_합성수_찾기_120846()
 */
 
-answer_PGS_진료_순서_정하기_120835()
-
+answer_PGS_369게임_120891()
+ 
 //MARK: - 프로그래머스 Level 1
 
 /*
