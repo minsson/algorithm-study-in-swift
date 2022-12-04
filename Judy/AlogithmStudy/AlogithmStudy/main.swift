@@ -23,3 +23,4 @@ import Foundation
 //answer_BOJ_신기한수_17618()
 //answer_BOJ_문문문_17210()
 //answer_BOJ_배수찾기_4504()
+//answer_BOJ_파일완전삭제_9243()
