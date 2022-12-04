@@ -176,6 +176,7 @@ func problem_23795() -> Int {
 </div>
 </details>
 
+--- 
 
 <details>
 <summary>11월 3주차 - 주사위게임 </summary>
@@ -233,4 +234,27 @@ func answer_주사위게임_10103() {
 
     
     </div>
+</details>
+
+---
+
+<details>
+<summary>12월 1주차 - 스택 </summary>
+<div markdown="1">
+
+
+### [티어전][보리사랑🏅, 바드][BOJ] 스택 / Silver 4 / 12분 / (https://www.acmicpc.net/problem/10828)
+
+### 참가자
+
+[Borysarang](https://github.com/yusw10) 🏅
+[바드](https://github.com/bar-d) 
+
+### 문제 풀이
+
+**문제 설명**
+> 스택 구현 그 자체
+
+
+</div>
 </details>
