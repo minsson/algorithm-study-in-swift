@@ -14,6 +14,9 @@
 		203EA57D290E6B7A002C9F6E /* BOJ_Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA57C290E6B7A002C9F6E /* BOJ_Operations.swift */; };
 		203EA57F290E7376002C9F6E /* BOJ_HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */; };
 		203EA581290E73E4002C9F6E /* BOJ_APlusB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203EA580290E73E4002C9F6E /* BOJ_APlusB.swift */; };
+		205954A3293B118800CF82B0 /* BOJ_ComparisonOfTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205954A2293B118800CF82B0 /* BOJ_ComparisonOfTwoNumbers.swift */; };
+		205954A5293B142D00CF82B0 /* BOJ_TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205954A4293B142D00CF82B0 /* BOJ_TestResult.swift */; };
+		205954AA293B2AC400CF82B0 /* PGS_AdditionOfMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205954A9293B2AC400CF82B0 /* PGS_AdditionOfMatrix.swift */; };
 		20765D1C29176AC9003144A7 /* BOJ_Surprise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1B29176AC9003144A7 /* BOJ_Surprise.swift */; };
 		20765D1E291786F7003144A7 /* BOJ_APlusBMinus8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1D291786F7003144A7 /* BOJ_APlusBMinus8.swift */; };
 		20765D2029178C69003144A7 /* BOJ_TaiwanYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */; };
@@ -45,6 +48,9 @@
 		203EA57C290E6B7A002C9F6E /* BOJ_Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Operations.swift; sourceTree = "<group>"; };
 		203EA57E290E7376002C9F6E /* BOJ_HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_HelloWorld.swift; sourceTree = "<group>"; };
 		203EA580290E73E4002C9F6E /* BOJ_APlusB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_APlusB.swift; sourceTree = "<group>"; };
+		205954A2293B118800CF82B0 /* BOJ_ComparisonOfTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_ComparisonOfTwoNumbers.swift; sourceTree = "<group>"; };
+		205954A4293B142D00CF82B0 /* BOJ_TestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_TestResult.swift; sourceTree = "<group>"; };
+		205954A9293B2AC400CF82B0 /* PGS_AdditionOfMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_AdditionOfMatrix.swift; sourceTree = "<group>"; };
 		20765D1B29176AC9003144A7 /* BOJ_Surprise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_Surprise.swift; sourceTree = "<group>"; };
 		20765D1D291786F7003144A7 /* BOJ_APlusBMinus8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_APlusBMinus8.swift; sourceTree = "<group>"; };
 		20765D1F29178C69003144A7 /* BOJ_TaiwanYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_TaiwanYear.swift; sourceTree = "<group>"; };
@@ -70,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				2030F1EC291B655300641138 /* Level0 */,
+				205954A8293B2AB400CF82B0 /* Level1 */,
 			);
 			path = PGS;
 			sourceTree = "<group>";
@@ -132,8 +139,18 @@
 				20C11C3A2930917E006E6F0B /* BOJ_Dog.swift */,
 				20C11C3E29309DD5006E6F0B /* BOJ_MinAndMax.swift */,
 				20C11C3C293098A6006E6F0B /* BOJ_Max.swift */,
+				205954A2293B118800CF82B0 /* BOJ_ComparisonOfTwoNumbers.swift */,
+				205954A4293B142D00CF82B0 /* BOJ_TestResult.swift */,
 			);
 			path = Bronze;
+			sourceTree = "<group>";
+		};
+		205954A8293B2AB400CF82B0 /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				205954A9293B2AC400CF82B0 /* PGS_AdditionOfMatrix.swift */,
+			);
+			path = Level1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +181,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					203EA56F290E6ABC002C9F6E = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -197,14 +214,17 @@
 				203EA581290E73E4002C9F6E /* BOJ_APlusB.swift in Sources */,
 				203AAAC9291A3DAA0086AA1F /* BOJ_Remainder.swift in Sources */,
 				2079619229252396001E41AD /* BOJ_Cat.swift in Sources */,
+				205954A5293B142D00CF82B0 /* BOJ_TestResult.swift in Sources */,
 				20C11C3B2930917E006E6F0B /* BOJ_Dog.swift in Sources */,
 				203EA574290E6ABC002C9F6E /* main.swift in Sources */,
 				203AAAC7291A388C0086AA1F /* BOJ_Chess.swift in Sources */,
+				205954A3293B118800CF82B0 /* BOJ_ComparisonOfTwoNumbers.swift in Sources */,
 				20765D2029178C69003144A7 /* BOJ_TaiwanYear.swift in Sources */,
 				203EA57D290E6B7A002C9F6E /* BOJ_Operations.swift in Sources */,
 				203EA57F290E7376002C9F6E /* BOJ_HelloWorld.swift in Sources */,
 				20765D1C29176AC9003144A7 /* BOJ_Surprise.swift in Sources */,
 				2079619029251F2F001E41AD /* BOJ_Multiplication.swift in Sources */,
+				205954AA293B2AC400CF82B0 /* PGS_AdditionOfMatrix.swift in Sources */,
 				20765D1E291786F7003144A7 /* BOJ_APlusBMinus8.swift in Sources */,
 				20C11C3F29309DD5006E6F0B /* BOJ_MinAndMax.swift in Sources */,
 				20C11C3D293098A6006E6F0B /* BOJ_Max.swift in Sources */,
@@ -248,6 +268,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -308,6 +329,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -331,7 +353,9 @@
 		203EA578290E6ABC002C9F6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -340,7 +364,9 @@
 		203EA579290E6ABC002C9F6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

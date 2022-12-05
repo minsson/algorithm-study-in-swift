@@ -124,6 +124,41 @@
     print("\(min) \(max)")
     ```
     
+###[ComparisonOfTwoNumbers](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 주어진 두 수의 크기 비교
+    ```
+    let input = readLine()?.components(separatedBy: " ")
+
+    let firstNumber = Int(input![0])!
+    let secondNumber = Int(input![1])!
+
+    if firstNumber < secondNumber {
+        print("<")
+    } else if firstNumber > secondNumber {
+        print(">")
+    } else {
+        print("==")
+    }
+    ```
+    
+###[TestResult](https://github.com/Jeon-Minsu/algorithm-study-in-swift)
+- 시험 성적 점수에 따라 학점 부여 
+    ```
+    let input = Int(readLine()!)!
+
+    switch input {
+    case 90...100:
+        print("A")
+    case 80..<90:
+        print("B")
+    case 70..<80:
+        print("C")
+    case 60..<70:
+        print("D")
+    default:
+        print("F")
+    }
+    ```
 
 # 티어전
 ## 10월 4주차
@@ -286,6 +321,43 @@ func answer_BOJ_Max_2562() {
 
 ### 알게된 점
 - 배열 내에서 최소값, 최대값을 구할수 있는 min, max 함수가 있음
+
+### 중요한 점
+- 없음
+
+### 기타 
+- 없음
+
+## 12월 1주차
+### Lv.1
+### 참가자
+[수꿍](https://github.com/Jeon-Minsu) 🏅
+[키위](https://github.com/kiwi1023) 
+
+### 문제 풀이
+- 행렬의 덧셈은 행과 열의 크기가 같은 두 행렬의 같은 행, 같은 열의 값을 서로 더한 결과
+- 2개의 행렬 arr1과 arr2를 입력받아, 행렬 덧셈의 결과를 반환
+
+```swift
+func answer_PGS_AdditionOfMatrix_12950(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
+    let row = arr1.count
+    let column = arr1.first!.count
+
+    var array = arr1
+
+    for i in 0..<row {
+        for j in 0..<column {
+
+            array[i][j] = arr1[i][j] + arr2[i][j]
+        }
+    }
+
+    return array
+}
+```
+
+### 알게된 점
+- 알고리즘을 풀기 위하여 기본적인 수학 지식이 동반되어야 함
 
 ### 중요한 점
 - 없음
