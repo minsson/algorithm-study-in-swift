@@ -23,7 +23,8 @@ import Foundation
  answer_BOJ_10171()
  answer_BOJ_10172()
  answer_PGS_120876()
+ answer_PGS_120871()
+ answer_BOJ_10430()
 */
 
-let sample =  answer_PGS_120871(1)
-print(sample)
+answer_BOJ_25083()

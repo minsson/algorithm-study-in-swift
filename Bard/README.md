@@ -5,6 +5,24 @@
 ### [BOJ_A플러스B_1000](9990a3834d3022254d887f6fe90cfd9f0e040b89)
 - 함수 내에서 작성하는 것이 아니라 강제 옵셔널 추출 필요함
 
+### [BOJ_새싹_25083]
+### 문제 풀이
+```swift
+func answer_BOJ_25083() {
+    print(#"""
+         ,r'"7
+r`-_   ,'  ,/
+ \. ". L_r'
+   `~\/
+      |
+      |
+"""#
+    )
+}
+```
+### 알게된 점
+- print 구문 앞 뒤에 #을 넣어주면 특수문자를 알아서 처리헤 줌
+[문자열 다루는 법 공식문서](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html)
 # 티어전
 ## 10월 4주차
 ### 브론즈
