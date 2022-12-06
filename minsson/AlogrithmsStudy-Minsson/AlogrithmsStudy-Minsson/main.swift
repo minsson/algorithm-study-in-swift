@@ -14,13 +14,15 @@ import Foundation
 //answer_BOJ_시험성적_9498()
 //answer_BOJ_물음표물음표느낌표_10926()
 //answer_BOJ_검증수_2475()
-answer_BOJ_단어길이재기_2743()
+//answer_BOJ_단어길이재기_2743()
+//answer_BOJ_킹퀸룩비숍나이트폰_3003()
 
 //MARK: - 백준 Bronze 4
 
 //answer_BOJ_모음의개수_1264()
 //answer_BOJ_별찍기2_2439()
 //answer_BOJ_HardChoice_15059()
+answer_BOJ_주사위세개_2480()
 
 //MARK: - 백준 Bronze 3
 
@@ -32,6 +34,7 @@ answer_BOJ_단어길이재기_2743()
 
 //answer_BOJ_OX퀴즈_8958()
 //answer_BOJ_나머지_3052()
+//answer_BOJ_하얀칸_1100()
 
 // MARK: - 백준 Silver 5
 
