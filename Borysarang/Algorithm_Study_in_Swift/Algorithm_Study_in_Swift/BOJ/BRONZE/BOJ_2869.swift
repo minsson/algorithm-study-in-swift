@@ -23,7 +23,7 @@ func problem_2869(input: [String]) -> Int {
     let A = Int(input[0])!
     let B = Int(input[1])!
     var V = Int(input[2])!
-    var dayMove = A - B
+    let dayMove = A - B
     var day = 0
     
     V -= A
