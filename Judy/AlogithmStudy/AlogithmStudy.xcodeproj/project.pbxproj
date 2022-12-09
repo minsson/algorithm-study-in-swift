@@ -22,6 +22,7 @@
 		2094128F292629BC001DB342 /* BOJ_17618.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2094128E292629BC001DB342 /* BOJ_17618.swift */; };
 		20C710F628FE3BAF002A7F08 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C710F528FE3BAF002A7F08 /* main.swift */; };
 		20C710FF28FE3BD2002A7F08 /* PGS_82612.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C710FE28FE3BD2002A7F08 /* PGS_82612.swift */; };
+		20FC873F2943773700079606 /* BOJ_9366.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC873E2943773700079606 /* BOJ_9366.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		20C710F228FE3BAF002A7F08 /* AlogithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlogithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C710F528FE3BAF002A7F08 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		20C710FE28FE3BD2002A7F08 /* PGS_82612.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_82612.swift; sourceTree = "<group>"; };
+		20FC873E2943773700079606 /* BOJ_9366.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_9366.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				2074804C2937519B00644AEF /* BOJ_9243.swift */,
 				2074804E29375F9100644AEF /* BOJ_7489.swift */,
 				207480502937627F00644AEF /* BOJ_2553.swift */,
+				20FC873E2943773700079606 /* BOJ_9366.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				2033055C292F69360019D19F /* BOJ_17210.swift in Sources */,
 				207CF715290BC3F7002911B2 /* PGS_120841.swift in Sources */,
 				2074804F29375F9100644AEF /* BOJ_7489.swift in Sources */,
+				20FC873F2943773700079606 /* BOJ_9366.swift in Sources */,
 				2074804B29374A1C00644AEF /* BOJ_4504.swift in Sources */,
 				2094128D292618C9001DB342 /* BOJ_5789.swift in Sources */,
 				207DBB522912721100316B82 /* PGS_70128.swift in Sources */,
