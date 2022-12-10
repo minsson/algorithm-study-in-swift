@@ -65,6 +65,15 @@ while total >= a {
  - `zip`과 함께 `map`dmf 사용하면 더 간편하다
 <br>
 
+### [가장 가까운 글자](https://github.com/Judy-999/algorithm-study-in-swift/commit/fa74e43a889f2fd67489098bd1fd3c4cacdcfec3)
+- 아직 문제 푼 사람이 많지 않아서 정답률이 낮은 듯하다
+- 정렬 알고리즘 공부가 도움이 되는 것 같다
+- from부터 to 이전까지 by를 적용하는 메서드를 이용하면 뒤에서부터 반복할 
+```swift
+for j in stride(from: i-1, to: -1, by: -1) 
+```
+<br>
+
 ---
 
 # 백준 
@@ -130,6 +139,12 @@ while i >= 1 {
 - 출력을 잘 확인하자(.을 안 적어서 틀림)
 <br>
 
+### [삼각형 분류](https://github.com/Judy-999/algorithm-study-in-swift/commit/711d7a060432a1427e0e87ba9861e49de113c922)
+- 출력형을 잘못 써서, `!`를 잘못 붙여서, `import Foundation`을 안해줘서 무려 바보같이 세 번을 틀려버렸다
+- 문제는 간단해도 출력형과 다른 것들을 신경쓰자
+- 제일 긴 변이 다른 두 변의 합보다 길면 삼각형이 될 수 없다
+- 이등변을 찾는 것 보다 다른 조건을 모두 찾고 나머진 모두 이등변으로 하는게 쉽다 (쉬운 조건들을 찾고 아니면 나머지로 하자)
+<br>
 
 ---
 
