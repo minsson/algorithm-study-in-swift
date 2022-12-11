@@ -65,6 +65,15 @@ while total >= a {
  - `zip`과 함께 `map`dmf 사용하면 더 간편하다
 <br>
 
+### [가장 가까운 글자](https://github.com/Judy-999/algorithm-study-in-swift/commit/fa74e43a889f2fd67489098bd1fd3c4cacdcfec3)
+- 아직 문제 푼 사람이 많지 않아서 정답률이 낮은 듯하다
+- 정렬 알고리즘 공부가 도움이 되는 것 같다
+- from부터 to 이전까지 by를 적용하는 메서드를 이용하면 뒤에서부터 반복할 
+```swift
+for j in stride(from: i-1, to: -1, by: -1) 
+```
+<br>
+
 ---
 
 # 백준 
@@ -130,6 +139,12 @@ while i >= 1 {
 - 출력을 잘 확인하자(.을 안 적어서 틀림)
 <br>
 
+### [삼각형 분류](https://github.com/Judy-999/algorithm-study-in-swift/commit/711d7a060432a1427e0e87ba9861e49de113c922)
+- 출력형을 잘못 써서, `!`를 잘못 붙여서, `import Foundation`을 안해줘서 무려 바보같이 세 번을 틀려버렸다
+- 문제는 간단해도 출력형과 다른 것들을 신경쓰자
+- 제일 긴 변이 다른 두 변의 합보다 길면 삼각형이 될 수 없다
+- 이등변을 찾는 것 보다 다른 조건을 모두 찾고 나머진 모두 이등변으로 하는게 쉽다 (쉬운 조건들을 찾고 아니면 나머지로 하자)
+<br>
 
 ---
 
@@ -502,3 +517,70 @@ func solution(_ array:[Int]) -> Int {
 
 ### 기타
 - 레벨 0도 어렵다 🥲
+<br>
+
+## 12월 2주차
+
+### 레벨
+
+[PGS] LEVEL 1 시저 암호
+
+### 참가자
+
+[보리사랑](https://github.com/yusw10)
+[Judy](https://github.com/Judy-999) 🏅
+[Finnn1](https://github.com/Finnn1)
+
+### 문제 풀이
+
+**문제 설명**
+> 알파벳 문자열에서 일정한 거리만큼 뒤에 있는 알파벳으로 변경하기
+> 예시 "a B z", 4 => "e F d"
+> - 빈 칸은 그대로 빈 칸으로 두기
+> - 대소문자가 섞여있음
+> - z에서는 다시 a로 돌아오기
+
+
+```swift
+func solution(_ s:String, _ n:Int) -> String {
+    let a = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    var result = ""
+    
+    for str in s {
+        if str == " " {
+            result += " "
+            continue
+        }
+        
+        if let index = a.firstIndex(of: String(str)) {
+            if index + n < a.count {
+                result += a[index + n]
+            } else {
+                result += a[index + n - a.count]
+            }
+        } else {
+            let lowerIndex = String(str).lowercased()
+            let index = a.firstIndex(of: lowerIndex)!
+            
+            if index + n < a.count {
+                result += a[index + n].uppercased()
+            } else {
+                result += a[index + n - a.count].uppercased()
+            }
+        }
+    }
+    
+    return result
+}
+```
+
+### 알게된 점
+- 문자열 index를 다루는건 어려우니 배열로 하는게 편하다
+- 대문자로 바꾸기 - `uppercased()`, 소문자로 바꾸기 - `lowercased()`
+
+### 중요한 점
+- 하드코딩은 휴먼에러를 발생시킨다(알파벳 하나만 잘못되면 다 틀린다)
+- 유니코드를 잘 다루면 더 쉬웠을 것 같다
+
+### 기타
+- 하드코딩으로라도 풀리는게 어디..!
