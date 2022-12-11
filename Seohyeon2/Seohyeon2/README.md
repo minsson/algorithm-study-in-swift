@@ -73,6 +73,16 @@
 - filter
 - contains
 
+### [문자열 정렬하기 2](https://school.programmers.co.kr/learn/courses/30/lessons/120911)
+**<문제 풀이에 필요한 개념>**
+- lowercased()
+- sorted()
+- joined()
+
+### [세균 증식](https://school.programmers.co.kr/learn/courses/30/lessons/120910)
+**<문제 풀이에 필요한 개념>**
+- forEach
+
 <br>
 
 ---
