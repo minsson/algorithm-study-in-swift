@@ -68,6 +68,7 @@
 		45E51D2E29067C410006154F /* BOJ_BridgeSet_1010.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_BridgeSet_1010.swift; sourceTree = "<group>"; };
 		45E9BDC2293F3766000A8A54 /* BOJ_MovieDirectorShom_1436.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_MovieDirectorShom_1436.swift; sourceTree = "<group>"; };
 		45E9BDCE2945BF77000A8A54 /* PGS_CaesarCipher_12926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_CaesarCipher_12926.swift; sourceTree = "<group>"; };
+		45E9BDCC2945B965000A8A54 /* BOJ_PrimeNumber1_1978.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_PrimeNumber1_1978.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
