@@ -25,6 +25,9 @@ import Foundation
  answer_PGS_120876()
  answer_PGS_120871()
  answer_BOJ_10430()
+ answer_BOJ_25083()
+ answer_BOJ_2753()
+ answer_BOJ_14681()
 */
 
-answer_BOJ_25083()
+answer_BOJ_9498()
