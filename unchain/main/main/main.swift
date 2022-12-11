@@ -34,5 +34,12 @@ import Foundation
 //BOJ_10807() 
 
 //Mark: - 백준 Bronze 5주차
-answer_BOJ_11022()
-answer_BOJ_18108()
+//answer_BOJ_11022()
+//answer_BOJ_18108()
+
+//Mark: - 백준 Bronze 6주차
+//answer_BOJ_10818()
+//answer_BOJ_2562()
+
+//MARK: - 티어전 6주차
+BOJ_1100()
