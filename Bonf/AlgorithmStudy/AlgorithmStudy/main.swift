@@ -29,4 +29,5 @@
 //print(
 //    solution([2, 1, 1, 2, 3, 1, 2, 3, 1])
 //)
-answer_BOJ_최댓값_2562()
+//answer_BOJ_최댓값_2562()
+answer_BOJ_오븐시계_2525()
