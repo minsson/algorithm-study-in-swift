@@ -17,7 +17,8 @@ import Foundation
 //print(answer_PGS_내적([1, 2, 3], [4, 5, 6]))
 //print(answer_PGS_콜라문제(2, 1, 20))
 //print(answer_PGS_행렬의덧셈([[1, 2], [3, 4]], [[5, 6], [7, 8]]))
-print(answer_PGS_가장가까운글자("foobar"))
+//print(answer_PGS_가장가까운글자("foobar"))
+print(answer_PGS_시저암호("B a y", 5))
 
 //MARK: - 백준 BRONZE
 //answer_BOJ_한다안한다_5789()

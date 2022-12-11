@@ -517,3 +517,70 @@ func solution(_ array:[Int]) -> Int {
 
 ### 기타
 - 레벨 0도 어렵다 🥲
+<br>
+
+## 12월 2주차
+
+### 레벨
+
+[PGS] LEVEL 1 시저 암호
+
+### 참가자
+
+[보리사랑](https://github.com/yusw10)
+[Judy](https://github.com/Judy-999) 🏅
+[Finnn1](https://github.com/Finnn1)
+
+### 문제 풀이
+
+**문제 설명**
+> 알파벳 문자열에서 일정한 거리만큼 뒤에 있는 알파벳으로 변경하기
+> 예시 "a B z", 4 => "e F d"
+> - 빈 칸은 그대로 빈 칸으로 두기
+> - 대소문자가 섞여있음
+> - z에서는 다시 a로 돌아오기
+
+
+```swift
+func solution(_ s:String, _ n:Int) -> String {
+    let a = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+    var result = ""
+    
+    for str in s {
+        if str == " " {
+            result += " "
+            continue
+        }
+        
+        if let index = a.firstIndex(of: String(str)) {
+            if index + n < a.count {
+                result += a[index + n]
+            } else {
+                result += a[index + n - a.count]
+            }
+        } else {
+            let lowerIndex = String(str).lowercased()
+            let index = a.firstIndex(of: lowerIndex)!
+            
+            if index + n < a.count {
+                result += a[index + n].uppercased()
+            } else {
+                result += a[index + n - a.count].uppercased()
+            }
+        }
+    }
+    
+    return result
+}
+```
+
+### 알게된 점
+- 문자열 index를 다루는건 어려우니 배열로 하는게 편하다
+- 대문자로 바꾸기 - `uppercased()`, 소문자로 바꾸기 - `lowercased()`
+
+### 중요한 점
+- 하드코딩은 휴먼에러를 발생시킨다(알파벳 하나만 잘못되면 다 틀린다)
+- 유니코드를 잘 다루면 더 쉬웠을 것 같다
+
+### 기타
+- 하드코딩으로라도 풀리는게 어디..!
