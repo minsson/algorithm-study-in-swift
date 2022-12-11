@@ -44,7 +44,7 @@ import Foundation
 // MARK: - 프로그래머스 Level 1
 
 //print(answer_PGS_가운데글자가져오기_solution("abcde"))
-
+print(answer_PGS_평균구하기_solution([1,2,3,4]))
 
 
 
