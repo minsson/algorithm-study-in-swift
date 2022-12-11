@@ -33,9 +33,10 @@ answer_PGS_7의_개수_120912()
 answer_PGS_진료_순서_정하기_120835()
 answer_PGS_합성수_찾기_120846()
 answer_PGS_369게임_120891()
- */
-
 answer_PGS_문자열_정렬하기_2_120911
+*/
+
+answer_PGS_세균_증식_120910
 
 //MARK: - 프로그래머스 Level 1
 
