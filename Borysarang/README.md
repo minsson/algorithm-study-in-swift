@@ -46,6 +46,23 @@
 <summary>설탕 배달</summary>
 <div markdown="1">
 
+<details>
+<summary>소수찾기</summary>
+<div markdown="1">
+
+### [소수찾기]()
+
+- 주어진 수가 소수인지를 판별하는 문제
+- 에라토스 테네스의 체를 활용함
+    - 소수를 발견하면 그의 배수를 모두 줄여 나가 마지막에는 소수만 남는 긴 배열을 활용하는 방법.
+  
+</div>
+</details>
+
+<details>
+<summary>설탕 배달</summary>
+<div markdown="1">
+
 ### [설탕배달](https://github.com/yusw10/algorithm-study-in-swift/blob/Borysarang/Borysarang/Algorithm_Study_in_Swift/Algorithm_Study_in_Swift/BOJ/SILVER/BOJ_SugarDelievery_2839.swift)
 
 - 다이나믹 프로그래밍

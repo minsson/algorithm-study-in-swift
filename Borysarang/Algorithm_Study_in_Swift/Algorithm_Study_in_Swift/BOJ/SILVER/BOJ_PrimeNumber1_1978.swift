@@ -13,41 +13,33 @@ func answer_소수찾기_1978() {
     print(problem_1978(N: N))
 }
 
-func problem_1978(N: Int) -> Int {
+func problem_1978(N: Int) -> Int{
     let target = readLine()!.components(separatedBy: " ").map{Int($0)!}
     
-    var chest: [Int] = Array(0...1000)
-    var primeCount = 0
-    
-    chest[0] = -1
-    chest[1] = -1
-    
-    for (index, number) in chest.enumerated() {
-        if chest[index] == -1 {
+    var num = 1000
+    var numArray = Array(repeating: 0, count: num + 1)
+    var count = 0
+
+    for i in 2...num {
+        numArray[i] = i
+    }
+
+    for i in 2...num {
+        if numArray[i] == 0 {
             continue
-        } else {
-            let currentPrime = chest[index]
-            print("---")
-            print("current Prime = \(currentPrime)")
-            chest[index] = -1
-            if target.contains(currentPrime) {
-                primeCount += 1
-            }
-            for (index, number) in chest.enumerated() {
-                if chest[index] == -1 {
-                    continue
-                } else if chest[index] % currentPrime == 0 {
-                    if target.contains(currentPrime) {
-                        primeCount += 1
-                    }
-                    chest[index] = -1
-                }
-            }
-            print("---")
         }
-        if primeCount == N {
-            break
+        
+        for j in stride(from: i+i, through: num, by: i) {
+            numArray[j] = 0;
         }
     }
-    return primeCount
+
+    for i in target {
+
+        if numArray.contains(i) {
+            count += 1
+        }
+    }
+
+    return count
 }
