@@ -64,6 +64,15 @@
 **<문제 풀이에 필요한 개념>**
 - 정렬
 
+### [합성수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/120846)
+**<문제 풀이에 필요한 개념>**
+- 합성수
+
+### [369게임](https://school.programmers.co.kr/learn/courses/30/lessons/120891)
+**<문제 풀이에 필요한 개념>**
+- filter
+- contains
+
 <br>
 
 ---
@@ -149,3 +158,21 @@
 
 ### 알게된 점 / 중요한 점 / 기타
 - 시간 줄이는 연습 필요
+
+<br>
+
+## 12월 1주차
+### Level 2
+### 참가자
+[웡빙](https://github.com/wongbingg)🏅
+
+[데릭](https://github.com/derrickkim0109)
+
+[현이](https://github.com/seohyeon2) 
+
+
+### 문제 풀이
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/12%EC%9B%94-1%EC%A3%BC%EC%B0%A8)
+
+### 알게된 점 / 중요한 점 / 기타
+- 규칙 찾는 연습 필요
