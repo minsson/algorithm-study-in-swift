@@ -13,6 +13,7 @@
 		C49D86D729460FE8006FE011 /* BOJ_9498.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D86D629460FE7006FE011 /* BOJ_9498.swift */; };
 		C49D86D929461161006FE011 /* BOJ_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D86D829461161006FE011 /* BOJ_2753.swift */; };
 		C49D86DB2946125F006FE011 /* BOJ_14681.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D86DA2946125F006FE011 /* BOJ_14681.swift */; };
+		C49D86DD294756FE006FE011 /* BOJ_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49D86DC294756FE006FE011 /* BOJ_2884.swift */; };
 		C4AC804B2916655700C5A550 /* BOJ_물음표물음표느낌표_10926.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC804A2916655700C5A550 /* BOJ_물음표물음표느낌표_10926.swift */; };
 		C4AC804D2916679800C5A550 /* BOJ_A나누기B_1008.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC804C2916679800C5A550 /* BOJ_A나누기B_1008.swift */; };
 		C4B2551929000395008253D7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B2551829000395008253D7 /* main.swift */; };
@@ -50,6 +51,7 @@
 		C49D86D629460FE7006FE011 /* BOJ_9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_9498.swift; sourceTree = "<group>"; };
 		C49D86D829461161006FE011 /* BOJ_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2753.swift; sourceTree = "<group>"; };
 		C49D86DA2946125F006FE011 /* BOJ_14681.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_14681.swift; sourceTree = "<group>"; };
+		C49D86DC294756FE006FE011 /* BOJ_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2884.swift; sourceTree = "<group>"; };
 		C4AC804A2916655700C5A550 /* BOJ_물음표물음표느낌표_10926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_물음표물음표느낌표_10926.swift"; sourceTree = "<group>"; };
 		C4AC804C2916679800C5A550 /* BOJ_A나누기B_1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_A나누기B_1008.swift"; sourceTree = "<group>"; };
 		C4B2551529000395008253D7 /* AlgorithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				C4E0EDE6293CBFE4007FAB7E /* BOJ_25083.swift */,
 				C49D86D629460FE7006FE011 /* BOJ_9498.swift */,
 				C49D86D829461161006FE011 /* BOJ_2753.swift */,
+				C49D86DC294756FE006FE011 /* BOJ_2884.swift */,
 				C49D86DA2946125F006FE011 /* BOJ_14681.swift */,
 				C4B2552329000523008253D7 /* BOJ_A마이너스B_1001.swift */,
 				C4B42143290E710200CEBF81 /* BOJ_A곱하기B_10998.swift */,
@@ -234,6 +237,7 @@
 				C4B2551929000395008253D7 /* main.swift in Sources */,
 				C4E0EDE5293CB8CB007FAB7E /* BOJ_10828.swift in Sources */,
 				C49D86D929461161006FE011 /* BOJ_2753.swift in Sources */,
+				C49D86DD294756FE006FE011 /* BOJ_2884.swift in Sources */,
 				C4B42144290E710200CEBF81 /* BOJ_A곱하기B_10998.swift in Sources */,
 				C4C7AE972928DD1A00DB75F1 /* BOJ_10171.swift in Sources */,
 				C4B42142290E6B7F00CEBF81 /* BOJ_사칙연산_10869.swift in Sources */,
