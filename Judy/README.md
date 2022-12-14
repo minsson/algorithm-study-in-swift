@@ -74,6 +74,13 @@ for j in stride(from: i-1, to: -1, by: -1)
 ```
 <br>
 
+### [햄버거 만들기](https://github.com/Judy-999/algorithm-study-in-swift/commit/35ad279c2fe798fa9101c44575f18621476892aa)
+- 문제를 제대로 잘못 이해해서 아주 오래걸렸다 
+- 배열을 `while`로 돌면서 앞으로 4자리를 비교하고 빼는 방식으로 했는데 새로운 배열에 넣으면서 `suffix`를 이용해 뒤에를 비교하고 빼는 방법이 좋을 듯하다
+- 배열에서 특정 인덱스 범위를 삭제하고 싶다면 `removeSubrange(1..<4)`이런 메서 사용할 수 있다
+
+<br>
+
 ---
 
 # 백준 
@@ -81,6 +88,13 @@ for j in stride(from: i-1, to: -1, by: -1)
 ### [마지막 팩토리얼 수](https://github.com/Judy-999/algorithm-study-in-swift/commit/bba4765be804e242822ecacdfa5b2e393143c94d)
 - 브론즈 2의 팩토리얼과 유사하다 해서 풀었는데 코드가 거의 동일하고 오히려 더 쉬웠다
 - 입력 숫자가 범위가 더 커져서 `sum %= 1000000`한 숫자를 가지고 계산하도록 함
+<br>
+
+## BRONZE 1
+### [초콜릿 자르기](https://github.com/Judy-999/algorithm-study-in-swift/commit/097f6d80e5e7397b19e66a06eb37f6655fb3eff4)
+- 직사각형인 경우를 생각하지 않고 어렵게 생각했는데 생각해보니 단순한 문제였다
+- BRONZE 1이라고 괜히 더 어려운 무언가 있을거라 예상한 것 같아서 문제 난이도는 생각하지말고 풀어야겠다
+
 <br>
 
 ## BRONZE 2
