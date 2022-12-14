@@ -85,6 +85,7 @@
 		2094128A2926185C001DB342 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				20E196AD2949717300A6CDD2 /* SILVER */,
 				2094128B29261873001DB342 /* BRONZE */,
 			);
 			path = BOJ;
@@ -99,7 +100,6 @@
 				2074804A29374A1C00644AEF /* BOJ_4504.swift */,
 				2074804C2937519B00644AEF /* BOJ_9243.swift */,
 				2074804E29375F9100644AEF /* BOJ_7489.swift */,
-				207480502937627F00644AEF /* BOJ_2553.swift */,
 				20FC873E2943773700079606 /* BOJ_9366.swift */,
 			);
 			path = BRONZE;
@@ -151,6 +151,14 @@
 				2000FEA82945CCC20066931D /* PGS_12926.swift */,
 			);
 			path = LEVEL_1;
+			sourceTree = "<group>";
+		};
+		20E196AD2949717300A6CDD2 /* SILVER */ = {
+			isa = PBXGroup;
+			children = (
+				207480502937627F00644AEF /* BOJ_2553.swift */,
+			);
+			path = SILVER;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
