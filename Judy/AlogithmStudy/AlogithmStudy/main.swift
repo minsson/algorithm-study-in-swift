@@ -18,7 +18,7 @@ import Foundation
 //print(answer_PGS_콜라문제(2, 1, 20))
 //print(answer_PGS_행렬의덧셈([[1, 2], [3, 4]], [[5, 6], [7, 8]]))
 //print(answer_PGS_가장가까운글자("foobar"))
-print(answer_PGS_시저암호("B a y", 5))
+//print(answer_PGS_시저암호("B a y", 5))
 
 //MARK: - 백준 BRONZE
 //answer_BOJ_한다안한다_5789()
@@ -28,6 +28,7 @@ print(answer_PGS_시저암호("B a y", 5))
 //answer_BOJ_파일완전삭제_9243()
 //answer_BOJ_팩토리얼_7489()
 //answer_BOJ_삼각형분류_9366()
+answer_BOJ_초콜릿자르기_2163()
 
 //MARK: - 백준 SILVER
 //answer_BOJ_마지막팩토리얼수_2553()
