@@ -25,4 +25,9 @@
 //    jegopNumber(976)
 //)
 //answer_BOJ_문자열반복_2675()
-answer_BOJ_숫자의합_11720()
+//answer_BOJ_숫자의합_11720()
+//print(
+//    solution([2, 1, 1, 2, 3, 1, 2, 3, 1])
+//)
+//answer_BOJ_최댓값_2562()
+answer_BOJ_오븐시계_2525()
