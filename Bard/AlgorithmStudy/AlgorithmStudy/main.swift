@@ -29,6 +29,7 @@ import Foundation
  answer_BOJ_2753()
  answer_BOJ_14681()
  answer_BOJ_9498()
+ answer_BOJ_2884()
 */
 
-answer_BOJ_2884()
+answer_BOJ_2525()
