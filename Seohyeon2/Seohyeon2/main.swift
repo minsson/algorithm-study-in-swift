@@ -115,9 +115,10 @@ answer_PGS_대문자와_소문자_120893()
 answer_PGS_영어가_싫어요_120894()
 answer_PGS_인덱스_바꾸기_120895()
 answer_PGS_한_번만_등장한_문자_120896()
+answer_PGS_약수_구하기_120897()
 */
 
-answer_PGS_약수_구하기_120897()
+answer_PGS_편지_120898()
 
 //MARK: - 프로그래머스 Level 1
 
