@@ -113,9 +113,10 @@ answer_PGS_가까운_수_120890()
 answer_PGS_암호_해독_120892()
 answer_PGS_대문자와_소문자_120893()
 answer_PGS_영어가_싫어요_120894()
+answer_PGS_인덱스_바꾸기_120895()
 */
 
-answer_PGS_인덱스_바꾸기_120895()
+answer_PGS_한_번만_등장한_문자_120896()
 
 //MARK: - 프로그래머스 Level 1
 
