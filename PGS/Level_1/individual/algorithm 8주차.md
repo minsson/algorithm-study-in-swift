@@ -11,3 +11,14 @@ func solution(_ num1:Int, _ num2:Int) -> Int {
     return  num1 / num2
 }
 ```
+
+### [나이 출력]
+
+```swift
+import Foundation
+
+func solution(_ age:Int) -> Int {
+    
+    return 2022 - (age - 1)
+}
+```
