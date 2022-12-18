@@ -74,9 +74,10 @@ answer_PGS_배열_자르기_120833()
 answer_PGS_외계행성의_나이_120834()
 answer_PGS_순서쌍의_개수_120836()
 answer_PGS_개미_군단_120837()
+answer_PGS_모스부호_1_120838()
 */
 
-answer_PGS_모스부호_1_120838()
+answer_PGS_가위_바위_보_120839()
 
 //MARK: - 프로그래머스 Level 1
 
