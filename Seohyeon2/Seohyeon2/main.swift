@@ -98,9 +98,10 @@ answer_PGS_안전지대_120866()
 answer_PGS_삼각형의_완성조건_2_120847()
 answer_PGS_외계어_사전_120869()
 answer_PGS_저주의_숫자_3_120871()
+answer_PGS_겹치는_선분의_길이_120876()
 */
 
-answer_PGS_겹치는_선분의_길이_120876()
+answer_PGS_유한소수_판별하기_120878()
 
 //MARK: - 프로그래머스 Level 1
 
