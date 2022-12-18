@@ -21,7 +21,9 @@ answer_BOJ_최댓값_2566()
 
 //MARK: - 백준 Bronze 1
 
+/*
 answer_BOJ_가장_큰_금민수_1526()
+*/
 
 //MARK: - 프로그래머스 Level 0
 
@@ -40,6 +42,8 @@ answer_PGS_369게임_120891()
 answer_PGS_문자열_정렬하기_2_120911()
 answer_PGS_세균_증식_120910()
 */
+
+answer_PGS_중복된_숫자_개수_120583()
 
 //MARK: - 프로그래머스 Level 1
 
