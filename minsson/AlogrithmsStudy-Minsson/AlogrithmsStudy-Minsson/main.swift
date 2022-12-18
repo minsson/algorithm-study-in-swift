@@ -48,6 +48,8 @@ import Foundation
 //print(answer_PGS_짝수와홀수_solution(3))
 
 // MARK: - 프로그래머스 Level 0
-print(answer_PGS_나머지구하기_solution(3, 2))
+//print(answer_PGS_나머지구하기_solution(3, 2))
+print(answer_PGS_중앙값구하기_solution([1, 2, 7, 10, 11]))
+
 
 
