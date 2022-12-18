@@ -46,4 +46,7 @@ import Foundation
 
 //MARK: - 티어전 8주차
 //anser_BOJ_3003()
-answer_BOJ_5597()
+//answer_BOJ_5597()
+
+//MARK: - 티어전 8주차
+answer_BOJ_1284()
