@@ -87,9 +87,10 @@ answer_PGS_팩토리얼_120848()
 answer_PGS_모음_제거_120849()
 answer_PGS_문자열_정렬하기_1_120850()
 answer_PGS_숨어있는_숫자의_덧셈_1_120851()
+answer_PGS_소인수분해_120852()
 */
 
-answer_PGS_소인수분해_120852()
+answer_PGS_컨트롤_제트_120853()
 
 //MARK: - 프로그래머스 Level 1
 
