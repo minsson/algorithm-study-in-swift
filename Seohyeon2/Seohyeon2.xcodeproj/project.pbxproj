@@ -96,6 +96,7 @@
 		057C8870294F15C000E15662 /* PGS_120903.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C886F294F15C000E15662 /* PGS_120903.swift */; };
 		057C8872294F162400E15662 /* PGS_120904.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C8871294F162400E15662 /* PGS_120904.swift */; };
 		057C8874294F169300E15662 /* PGS_120905.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C8873294F169300E15662 /* PGS_120905.swift */; };
+		057C8876294F16FB00E15662 /* PGS_120906.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C8875294F16FB00E15662 /* PGS_120906.swift */; };
 		05840B532913C4940020F864 /* BOJ_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B522913C4940020F864 /* BOJ_17356.swift */; };
 		05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B542913C59C0020F864 /* BOJ_1264.swift */; };
 		05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B5C2913EAC60020F864 /* BOJ_1247.swift */; };
@@ -214,6 +215,7 @@
 		057C886F294F15C000E15662 /* PGS_120903.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120903.swift; sourceTree = "<group>"; };
 		057C8871294F162400E15662 /* PGS_120904.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120904.swift; sourceTree = "<group>"; };
 		057C8873294F169300E15662 /* PGS_120905.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120905.swift; sourceTree = "<group>"; };
+		057C8875294F16FB00E15662 /* PGS_120906.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120906.swift; sourceTree = "<group>"; };
 		05840B522913C4940020F864 /* BOJ_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_17356.swift; sourceTree = "<group>"; };
 		05840B542913C59C0020F864 /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
 		05840B5C2913EAC60020F864 /* BOJ_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1247.swift; sourceTree = "<group>"; };
@@ -400,6 +402,7 @@
 				057C886F294F15C000E15662 /* PGS_120903.swift */,
 				057C8871294F162400E15662 /* PGS_120904.swift */,
 				057C8873294F169300E15662 /* PGS_120905.swift */,
+				057C8875294F16FB00E15662 /* PGS_120906.swift */,
 			);
 			path = LEVEL_0;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 				05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */,
 				057C8868294F142000E15662 /* PGS_120897.swift in Sources */,
 				057C87F0294EF6C800E15662 /* PGS_120815.swift in Sources */,
+				057C8876294F16FB00E15662 /* PGS_120906.swift in Sources */,
 				05840B632913EEBB0020F864 /* PGS_120956.swift in Sources */,
 				057C8858294F10F200E15662 /* PGS_120888.swift in Sources */,
 				057C8844294F0CF200E15662 /* PGS_120871.swift in Sources */,
