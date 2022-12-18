@@ -124,9 +124,10 @@ answer_PGS_숫자_찾기_120904()
 answer_PGS_n의_배수_고르기_120905()
 answer_PGS_자릿수_더하기_120906()
 answer_PGS_OX퀴즈_120907()
+answer_PGS_문자열안에_문자열_120908()
 */
 
-answer_PGS_문자열안에_문자열_120908()
+answer_PGS_제곱수_판별하기_120909()
 
 //MARK: - 프로그래머스 Level 1
 
