@@ -8,7 +8,7 @@
 
 import Foundation
 
-func answer_PGS_두_수의_합_120583() {
+func answer_PGS_두_수의_합_120802() {
     func solution(_ num1:Int, _ num2:Int) -> Int {
         return num1 + num2
     }
