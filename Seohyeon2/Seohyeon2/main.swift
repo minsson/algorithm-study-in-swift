@@ -126,9 +126,10 @@ answer_PGS_자릿수_더하기_120906()
 answer_PGS_OX퀴즈_120907()
 answer_PGS_문자열안에_문자열_120908()
 answer_PGS_제곱수_판별하기_120909()
+answer_PGS_세균_증식_120910()
 */
 
-answer_PGS_세균_증식_120910()
+answer_PGS_잘라서_배열로_저장하기_120913()
 
 //MARK: - 프로그래머스 Level 1
 
