@@ -41,9 +41,11 @@ answer_PGS_합성수_찾기_120846()
 answer_PGS_369게임_120891()
 answer_PGS_문자열_정렬하기_2_120911()
 answer_PGS_세균_증식_120910()
+answer_PGS_중복된_숫자_개수_120583()
+answer_PGS_머쓱이보다_키_큰_사람_120583()
 */
 
-answer_PGS_중복된_숫자_개수_120583()
+answer_PGS_두_수의_합_120583()
 
 //MARK: - 프로그래머스 Level 1
 
