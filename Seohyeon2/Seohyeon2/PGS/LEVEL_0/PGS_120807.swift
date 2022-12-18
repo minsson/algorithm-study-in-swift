@@ -10,6 +10,6 @@ import Foundation
 
 func answer_PGS_숫자_비교하기_120807() {
     func solution(_ num1:Int, _ num2:Int) -> Int {
-        return return num1 == num2 ? 1 : -1
+        return num1 == num2 ? 1 : -1
     }
 }
