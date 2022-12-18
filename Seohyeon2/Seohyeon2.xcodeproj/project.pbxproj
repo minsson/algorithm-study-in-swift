@@ -16,6 +16,7 @@
 		0572DF67293CEFCB00D18AA1 /* PGS_120891.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572DF66293CEFCB00D18AA1 /* PGS_120891.swift */; };
 		057C87D2294EECE500E15662 /* BOJ_1526.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C87D1294EECE500E15662 /* BOJ_1526.swift */; };
 		057C87D4294EEF5000E15662 /* PGS_120583.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C87D3294EEF5000E15662 /* PGS_120583.swift */; };
+		057C87D6294EF02800E15662 /* PGS_120585.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C87D5294EF02800E15662 /* PGS_120585.swift */; };
 		05840B532913C4940020F864 /* BOJ_17356.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B522913C4940020F864 /* BOJ_17356.swift */; };
 		05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B542913C59C0020F864 /* BOJ_1264.swift */; };
 		05840B5D2913EAC60020F864 /* BOJ_1247.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05840B5C2913EAC60020F864 /* BOJ_1247.swift */; };
@@ -54,6 +55,7 @@
 		0572DF66293CEFCB00D18AA1 /* PGS_120891.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120891.swift; sourceTree = "<group>"; };
 		057C87D1294EECE500E15662 /* BOJ_1526.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1526.swift; sourceTree = "<group>"; };
 		057C87D3294EEF5000E15662 /* PGS_120583.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120583.swift; sourceTree = "<group>"; };
+		057C87D5294EF02800E15662 /* PGS_120585.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120585.swift; sourceTree = "<group>"; };
 		05840B522913C4940020F864 /* BOJ_17356.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_17356.swift; sourceTree = "<group>"; };
 		05840B542913C59C0020F864 /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
 		05840B5C2913EAC60020F864 /* BOJ_1247.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1247.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				0572DF64293CEF4700D18AA1 /* PGS_120846.swift */,
 				0572DF66293CEFCB00D18AA1 /* PGS_120891.swift */,
 				057C87D3294EEF5000E15662 /* PGS_120583.swift */,
+				057C87D5294EF02800E15662 /* PGS_120585.swift */,
 			);
 			path = LEVEL_0;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0572DF67293CEFCB00D18AA1 /* PGS_120891.swift in Sources */,
+				057C87D6294EF02800E15662 /* PGS_120585.swift in Sources */,
 				05840B552913C59C0020F864 /* BOJ_1264.swift in Sources */,
 				05840B632913EEBB0020F864 /* PGS_120956.swift in Sources */,
 				057C87D4294EEF5000E15662 /* PGS_120583.swift in Sources */,
