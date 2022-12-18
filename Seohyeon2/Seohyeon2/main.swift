@@ -49,9 +49,11 @@ answer_PGS_두_수의_곱_120804()
 answer_PGS_몫_구하기_120805()
 answer_PGS_두_수의_나눗셈_120806()
 answer_PGS_숫자_비교하기_120807()
+answer_PGS_배열_두배_만들기_120809()
+answer_PGS_나머지_구하기_120810()
 */
 
-answer_PGS_배열_두배_만들기_120809()
+answer_PGS_중앙값_구하기_120811()
  
 //MARK: - 프로그래머스 Level 1
 
