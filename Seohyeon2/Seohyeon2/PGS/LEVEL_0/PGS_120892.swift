@@ -8,7 +8,7 @@
 
 import Foundation
 
-func answer_PGS_암호_해독_120891() {
+func answer_PGS_암호_해독_120892() {
     func solution(_ cipher:String, _ code:Int) -> String {
         let arr = cipher.map { String($0) }
         var result = ""

@@ -110,9 +110,10 @@ answer_PGS_k의_개수_120887()
 answer_PGS_중복된_문자_제거_120888()
 answer_PGS_삼각형의_완성조건_1_120889()
 answer_PGS_가까운_수_120890()
+answer_PGS_암호_해독_120892()
 */
 
-answer_PGS_암호_해독_120891()
+answer_PGS_대문자와_소문자_120893()
 
 //MARK: - 프로그래머스 Level 1
 
