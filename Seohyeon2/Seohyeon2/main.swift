@@ -96,9 +96,10 @@ answer_PGS_다항식_더하기_120863()
 answer_PGS_숨어있는_숫자의_덧셈_2_120864()
 answer_PGS_안전지대_120866()
 answer_PGS_삼각형의_완성조건_2_120847()
+answer_PGS_외계어_사전_120869()
 */
 
-answer_PGS_외계어_사전_120869()
+answer_PGS_저주의_숫자_3_120871()
 
 //MARK: - 프로그래머스 Level 1
 
