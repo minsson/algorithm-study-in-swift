@@ -82,9 +82,10 @@ answer_PGS_2차원으로_만들기_120842()
 answer_PGS_공_던지기_120843()
 answer_PGS_배열_회전시키기_120844()
 answer_PGS_주사위의_개수_120845()
+answer_PGS_최댓값_만들기_1_120847()
 */
 
-answer_PGS_최댓값_만들기_1_120847()
+answer_PGS_팩토리얼_120848()
 
 //MARK: - 프로그래머스 Level 1
 
