@@ -64,9 +64,10 @@ answer_PGS_나이_출력_120820()
 answer_PGS_배열_뒤집기_120821()
 answer_PGS_문자열_뒤집기_120822()
 answer_PGS_직각삼각형_출력하기_120823()
+answer_PGS_짝수_홀수_개수_120824()
 */
 
-answer_PGS_짝수_홀수_개수_120824()
+answer_PGS_문자_반복_출력하기_120825()
 
 //MARK: - 프로그래머스 Level 1
 
