@@ -15,8 +15,10 @@
 		7E37794529140C1C005FAAD4 /* BOJ_2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37794429140C1B005FAAD4 /* BOJ_2439.swift */; };
 		7E3779492917ACAB005FAAD4 /* BOJ_11022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */; };
 		7E3883F5292BE13300A93FF9 /* BOJ_2839.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3883F4292BE13300A93FF9 /* BOJ_2839.swift */; };
+		7E3A0A38294F597400A24365 /* BOJ_1676.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A0A37294F597400A24365 /* BOJ_1676.swift */; };
 		7E53996429462C9B003EC2FF /* BOJ_9498.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E53996329462C9B003EC2FF /* BOJ_9498.swift */; };
 		7E6C11FB2926066E00053D1F /* BOJ_2869.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6C11FA2926066E00053D1F /* BOJ_2869.swift */; };
+		7EAE86F4294C85260009D3A1 /* BOJ_1526.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE86F3294C85260009D3A1 /* BOJ_1526.swift */; };
 		7EC122752920ED2000784DD5 /* BOJ_1330.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC122742920ED2000784DD5 /* BOJ_1330.swift */; };
 		7EC122772921015E00784DD5 /* BOJ_1004.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC122762921015E00784DD5 /* BOJ_1004.swift */; };
 		7ED934552911712A00D85156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED934542911712A00D85156 /* main.swift */; };
@@ -45,8 +47,10 @@
 		7E37794429140C1B005FAAD4 /* BOJ_2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2439.swift; sourceTree = "<group>"; };
 		7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_11022.swift; sourceTree = "<group>"; };
 		7E3883F4292BE13300A93FF9 /* BOJ_2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2839.swift; sourceTree = "<group>"; };
+		7E3A0A37294F597400A24365 /* BOJ_1676.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1676.swift; sourceTree = "<group>"; };
 		7E53996329462C9B003EC2FF /* BOJ_9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_9498.swift; sourceTree = "<group>"; };
 		7E6C11FA2926066E00053D1F /* BOJ_2869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2869.swift; sourceTree = "<group>"; };
+		7EAE86F3294C85260009D3A1 /* BOJ_1526.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1526.swift; sourceTree = "<group>"; };
 		7EC122742920ED2000784DD5 /* BOJ_1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1330.swift; sourceTree = "<group>"; };
 		7EC122762921015E00784DD5 /* BOJ_1004.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1004.swift; sourceTree = "<group>"; };
 		7ED934512911712A00D85156 /* AlgorithmStudy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmStudy; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +84,7 @@
 				7EC122762921015E00784DD5 /* BOJ_1004.swift */,
 				7E3883F4292BE13300A93FF9 /* BOJ_2839.swift */,
 				7E0D05AF293CD2AE0073DE13 /* BOJ_1316.swift */,
+				7E3A0A37294F597400A24365 /* BOJ_1676.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				7E0D05AB293CCE740073DE13 /* BOJ_10951.swift */,
 				7E0D05AD293CCED90073DE13 /* BOJ_2675.swift */,
 				7E53996329462C9B003EC2FF /* BOJ_9498.swift */,
+				7EAE86F3294C85260009D3A1 /* BOJ_1526.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
@@ -203,12 +209,14 @@
 				7E6C11FB2926066E00053D1F /* BOJ_2869.swift in Sources */,
 				7ED934552911712A00D85156 /* main.swift in Sources */,
 				7E0D05A229338A870073DE13 /* PGS_12982.swift in Sources */,
+				7E3A0A38294F597400A24365 /* BOJ_1676.swift in Sources */,
 				7EC122752920ED2000784DD5 /* BOJ_1330.swift in Sources */,
 				7EC122772921015E00784DD5 /* BOJ_1004.swift in Sources */,
 				7E0D05AE293CCED90073DE13 /* BOJ_2675.swift in Sources */,
 				7E07E238292A6A7B0088C8B6 /* BOJ_1712.swift in Sources */,
 				7E0D05B0293CD2AE0073DE13 /* BOJ_1316.swift in Sources */,
 				7E3883F5292BE13300A93FF9 /* BOJ_2839.swift in Sources */,
+				7EAE86F4294C85260009D3A1 /* BOJ_1526.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
