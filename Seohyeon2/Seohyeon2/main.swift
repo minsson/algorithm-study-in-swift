@@ -61,9 +61,10 @@ answer_PGS_배열의_평균값_120817()
 answer_PGS_옷가게_할인_받기_120818()
 answer_PGS_아이스_아메리카노_120819()
 answer_PGS_나이_출력_120820()
+answer_PGS_배열_뒤집기_120821()
 */
 
-answer_PGS_배열_뒤집기_120821()
+answer_PGS_문자열_뒤집기_120822()
 
 //MARK: - 프로그래머스 Level 1
 
