@@ -106,9 +106,11 @@ answer_PGS_로그인_성공_120883()
 answer_PGS_치킨_쿠폰_120884()
 answer_PGS_이진수_더하기_120885()
 answer_PGS_A로_B_만들기_120886()
+answer_PGS_k의_개수_120887()
+answer_PGS_중복된_문자_제거_120888()
 */
 
-answer_PGS_k의_개수_120887()
+answer_PGS_삼각형의_완성조건_1_120889()
 
 //MARK: - 프로그래머스 Level 1
 
