@@ -374,3 +374,53 @@ func answer_BOJ_계단오르기_2579() {
 
 ### 기타
 </details>
+
+## 12월 3주차
+
+<details>
+    
+### 브론즈 3
+### 참가자
+[웡빙](https://github.com/wongbingg)🏅
+
+[데릭](https://github.com/derrickkim0109)
+
+[주디](https://github.com/Judy-999)
+
+### 문제 풀이
+
+```swift
+
+unc answer_PGS_스킬트리(_ skill:String, _ skill_trees:[String]) -> Int {
+    let skillList = Array(skill).map { String($0) }
+    var count = 0
+    for skillTree in skill_trees {
+        var historyList = [Int]()
+        for skill in skillTree {
+            if skillList.contains(String(skill)) {
+                let skillIndex = skillList.firstIndex(of: String(skill))!
+                historyList.append(Int(skillIndex))
+            }
+        }
+        if historyList == Array<Int>(0..<historyList.count) {
+            count += 1
+        }
+    }
+    return count
+}
+
+
+```
+
+### 알게된 점
+
+- 구현문제의 제약사항 이외에 엣지케이스에 대한 고려가 필요하다
+- 배열에서 index 문제로 오류가 날 수 있다.
+
+### 중요한 점 
+
+- 구현문제도 많이 풀어보자
+
+### 기타
+</details>
+
