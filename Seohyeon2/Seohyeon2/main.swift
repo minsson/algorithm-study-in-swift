@@ -120,9 +120,10 @@ answer_PGS_편지_120898()
 answer_PGS_가장_큰_수_찾기_120899()
 answer_PGS_문자열_계산하기_120902()
 answer_PGS_배열의_유사도_120903()
+answer_PGS_숫자_찾기_120904()
 */
 
-answer_PGS_숫자_찾기_120904()
+answer_PGS_n의_배수_고르기_120905()
 
 //MARK: - 프로그래머스 Level 1
 
