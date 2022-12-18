@@ -118,9 +118,10 @@ answer_PGS_한_번만_등장한_문자_120896()
 answer_PGS_약수_구하기_120897()
 answer_PGS_편지_120898()
 answer_PGS_가장_큰_수_찾기_120899()
+answer_PGS_문자열_계산하기_120902()
 */
 
-answer_PGS_문자열_계산하기_120902()
+answer_PGS_배열의_유사도_120903()
 
 //MARK: - 프로그래머스 Level 1
 
