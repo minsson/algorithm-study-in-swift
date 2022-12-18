@@ -25,6 +25,7 @@
 		45B6A5C3290D7FDC00325D1E /* UnResolve+BOJ_1541.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C2290D7FDC00325D1E /* UnResolve+BOJ_1541.swift */; };
 		45B6A5C5290E310000325D1E /* PGS_CellPhoneNumberHide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B6A5C4290E310000325D1E /* PGS_CellPhoneNumberHide.swift */; };
 		45BD3FF1294DD84C00B37A25 /* BOJ_OvenClock_2525.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3FF0294DD84C00B37A25 /* BOJ_OvenClock_2525.swift */; };
+		45BD4001294F2CAD00B37A25 /* BOJ_LeapYear_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD4000294F2CAD00B37A25 /* BOJ_LeapYear_2753.swift */; };
 		45C0DC612927EF0800D4964F /* BOJ_collectionCount_10987.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C0DC602927EF0800D4964F /* BOJ_collectionCount_10987.swift */; };
 		45E51D26290595AD0006154F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E51D25290595AD0006154F /* main.swift */; };
 		45E51D2F29067C410006154F /* BOJ_BridgeSet_1010.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E51D2E29067C410006154F /* BOJ_BridgeSet_1010.swift */; };
@@ -64,6 +65,7 @@
 		45B6A5C2290D7FDC00325D1E /* UnResolve+BOJ_1541.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UnResolve+BOJ_1541.swift"; sourceTree = "<group>"; };
 		45B6A5C4290E310000325D1E /* PGS_CellPhoneNumberHide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_CellPhoneNumberHide.swift; sourceTree = "<group>"; };
 		45BD3FF0294DD84C00B37A25 /* BOJ_OvenClock_2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_OvenClock_2525.swift; sourceTree = "<group>"; };
+		45BD4000294F2CAD00B37A25 /* BOJ_LeapYear_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_LeapYear_2753.swift; sourceTree = "<group>"; };
 		45C0DC602927EF0800D4964F /* BOJ_collectionCount_10987.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_collectionCount_10987.swift; sourceTree = "<group>"; };
 		45E51D22290595AD0006154F /* Algorithm_Study_in_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm_Study_in_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E51D25290595AD0006154F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				45C0DC602927EF0800D4964F /* BOJ_collectionCount_10987.swift */,
 				455F3BF929361F6F0049D6FA /* BOJ_ACM-hotel_10250.swift */,
 				45BD3FF0294DD84C00B37A25 /* BOJ_OvenClock_2525.swift */,
+				45BD4000294F2CAD00B37A25 /* BOJ_LeapYear_2753.swift */,
 			);
 			path = BRONZE;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C0DC612927EF0800D4964F /* BOJ_collectionCount_10987.swift in Sources */,
+				45BD4001294F2CAD00B37A25 /* BOJ_LeapYear_2753.swift in Sources */,
 				45E9BDC3293F3766000A8A54 /* BOJ_MovieDirectorShom_1436.swift in Sources */,
 				45624F7C2916BB210086674A /* PGS_Form.swift in Sources */,
 				454DAB9429277B62002CC8D6 /* BOJ_DiceGame_10103.swift in Sources */,
