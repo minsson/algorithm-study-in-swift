@@ -18,7 +18,7 @@ func answer_PGS_피자_나눠_먹기_2_120815() {
             return n / 6
         }
         
-        var sixDivisor = [1, 2, 3, 6]
+        let sixDivisor = [1, 2, 3, 6]
         var nDivisor = [n]
         
         for i in 1...(n/2) {
