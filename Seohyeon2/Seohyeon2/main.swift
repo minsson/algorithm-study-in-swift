@@ -91,9 +91,11 @@ answer_PGS_소인수분해_120852()
 answer_PGS_컨트롤_제트_120853()
 answer_PGS_배열_원소의_길이_120854()
 answer_PGS_캐릭터의_좌표_120861()
+answer_PGS_최댓값_만들기_2_120862()
+answer_PGS_다항식_더하기_120863()
 */
 
-answer_PGS_최댓값_만들기_2_120862()
+answer_PGS_숨어있는_숫자의_덧셈_2_120864()
 
 //MARK: - 프로그래머스 Level 1
 
