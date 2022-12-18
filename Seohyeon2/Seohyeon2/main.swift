@@ -19,6 +19,10 @@ answer_BOJ_부호_1247()
 answer_BOJ_최댓값_2566()
 */
 
+//MARK: - 백준 Bronze 1
+
+answer_BOJ_가장_큰_금민수_1526()
+
 //MARK: - 프로그래머스 Level 0
 
 /*
@@ -33,10 +37,9 @@ answer_PGS_7의_개수_120912()
 answer_PGS_진료_순서_정하기_120835()
 answer_PGS_합성수_찾기_120846()
 answer_PGS_369게임_120891()
-answer_PGS_문자열_정렬하기_2_120911
+answer_PGS_문자열_정렬하기_2_120911()
+answer_PGS_세균_증식_120910()
 */
-
-answer_PGS_세균_증식_120910
 
 //MARK: - 프로그래머스 Level 1
 
