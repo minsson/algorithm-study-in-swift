@@ -8,7 +8,7 @@
 
 import Foundation
 
-func answer_PGS_피자_나눠_먹기_1_120813() {
+func answer_PGS_피자_나눠_먹기_1_120814() {
     func solution(_ n:Int) -> Int {
         let remainder = n % 7 == 0 ? 0 : 1
         return (n / 7) + remainder

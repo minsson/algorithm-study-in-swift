@@ -8,7 +8,7 @@
 
 import Foundation
 
-func answer_PGS_머쓱이보다_키_큰_사람_120583() {
+func answer_PGS_머쓱이보다_키_큰_사람_120585() {
     func solution(_ array:[Int], _ height:Int) -> Int {
         var allHeight = array + [height]
         allHeight.sort()

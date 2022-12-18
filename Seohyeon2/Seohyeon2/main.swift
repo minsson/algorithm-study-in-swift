@@ -42,7 +42,7 @@ answer_PGS_369게임_120891()
 answer_PGS_문자열_정렬하기_2_120911()
 answer_PGS_세균_증식_120910()
 answer_PGS_중복된_숫자_개수_120583()
-answer_PGS_머쓱이보다_키_큰_사람_120583()
+answer_PGS_머쓱이보다_키_큰_사람_120585()
 answer_PGS_두_수의_합_120802()
 answer_PGS_두_수의_차_120803()
 answer_PGS_두_수의_곱_120804()
@@ -54,9 +54,10 @@ answer_PGS_나머지_구하기_120810()
 answer_PGS_중앙값_구하기_120811()
 answer_PGS_최빈값_구하기_120812()
 answer_PGS_짝수는_싫어요_120813()
+answer_PGS_피자_나눠_먹기_1_120814()
 */
 
-answer_PGS_피자_나눠_먹기_1_120813()
+answer_PGS_피자_나눠_먹기_2_120815()
 
 //MARK: - 프로그래머스 Level 1
 
