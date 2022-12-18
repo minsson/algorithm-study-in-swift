@@ -72,9 +72,10 @@ answer_PGS_양꼬치_120830()
 answer_PGS_짝수의_합_120831()
 answer_PGS_배열_자르기_120833()
 answer_PGS_외계행성의_나이_120834()
+answer_PGS_순서쌍의_개수_120836()
 */
 
-answer_PGS_순서쌍의_개수_120836()
+answer_PGS_개미_군단_120837()
 
 //MARK: - 프로그래머스 Level 1
 
