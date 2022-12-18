@@ -45,9 +45,11 @@ answer_PGS_중복된_숫자_개수_120583()
 answer_PGS_머쓱이보다_키_큰_사람_120583()
 answer_PGS_두_수의_합_120802()
 answer_PGS_두_수의_차_120803()
+answer_PGS_두_수의_곱_120804()
+ answer_PGS_몫_구하기_120805()
 */
 
-answer_PGS_두_수의_곱_120804()
+answer_PGS_두_수의_나눗셈_120806()
 
 //MARK: - 프로그래머스 Level 1
 
