@@ -103,9 +103,10 @@ answer_PGS_유한소수_판별하기_120878()
 answer_PGS_특이한_정렬_120880()
 answer_PGS_등수_매기기_120882()
 answer_PGS_로그인_성공_120883()
+answer_PGS_치킨_쿠폰_120884()
 */
 
-answer_PGS_치킨_쿠폰_120884()
+answer_PGS_이진수_더하기_120885()
 
 //MARK: - 프로그래머스 Level 1
 
