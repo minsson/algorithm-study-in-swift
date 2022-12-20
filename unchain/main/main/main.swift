@@ -42,4 +42,11 @@ import Foundation
 //answer_BOJ_2562()
 
 //MARK: - 티어전 6주차
-BOJ_1100()
+//BOJ_1100()
+
+//MARK: - 티어전 8주차
+//anser_BOJ_3003()
+//answer_BOJ_5597()
+
+//MARK: - 티어전 8주차
+answer_BOJ_1284()
