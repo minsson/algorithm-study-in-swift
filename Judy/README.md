@@ -74,6 +74,13 @@ for j in stride(from: i-1, to: -1, by: -1)
 ```
 <br>
 
+### [햄버거 만들기](https://github.com/Judy-999/algorithm-study-in-swift/commit/35ad279c2fe798fa9101c44575f18621476892aa)
+- 문제를 제대로 잘못 이해해서 아주 오래걸렸다 
+- 배열을 `while`로 돌면서 앞으로 4자리를 비교하고 빼는 방식으로 했는데 새로운 배열에 넣으면서 `suffix`를 이용해 뒤에를 비교하고 빼는 방법이 좋을 듯하다
+- 배열에서 특정 인덱스 범위를 삭제하고 싶다면 `removeSubrange(1..<4)`이런 메서 사용할 수 있다
+
+<br>
+
 ---
 
 # 백준 
@@ -81,6 +88,13 @@ for j in stride(from: i-1, to: -1, by: -1)
 ### [마지막 팩토리얼 수](https://github.com/Judy-999/algorithm-study-in-swift/commit/bba4765be804e242822ecacdfa5b2e393143c94d)
 - 브론즈 2의 팩토리얼과 유사하다 해서 풀었는데 코드가 거의 동일하고 오히려 더 쉬웠다
 - 입력 숫자가 범위가 더 커져서 `sum %= 1000000`한 숫자를 가지고 계산하도록 함
+<br>
+
+## BRONZE 1
+### [초콜릿 자르기](https://github.com/Judy-999/algorithm-study-in-swift/commit/097f6d80e5e7397b19e66a06eb37f6655fb3eff4)
+- 직사각형인 경우를 생각하지 않고 어렵게 생각했는데 생각해보니 단순한 문제였다
+- BRONZE 1이라고 괜히 더 어려운 무언가 있을거라 예상한 것 같아서 문제 난이도는 생각하지말고 풀어야겠다
+
 <br>
 
 ## BRONZE 2
@@ -584,3 +598,37 @@ func solution(_ s:String, _ n:Int) -> String {
 
 ### 기타
 - 하드코딩으로라도 풀리는게 어디..!
+<br>
+
+## 12월 3주차
+
+### 레벨
+
+[POJ] LEVEL 2 스킬트리
+
+### 참가자
+[웡빙](https://github.com/wongbingg) 🏅<br>
+[Derrick](https://github.com/derrickkim0109)<br>
+[Judy](https://github.com/Judy-999) <br>
+
+### 문제 풀이
+
+**문제 설명**
+> 문자열로 된 `스킬트리 순서`와 문자열 배열(여러 `스킬트리`)을 받았을 때, 가능한 스킬트리의 개수를 반환하기
+> ex) "CBD",	["BACDE", "CBADF", "AECB", "BDA"] => 2
+
+```swift
+// 자기 코드 넣기
+```
+
+### 알게된 점
+- 딕셔너리를 사용했는데 `firstIndex`로 바로 할 수 있다
+- `prefix`를 사용하는 방법도 있다
+
+### 중요한 점
+- 조건을 복잡하게 따지는 것은 오히려 틀린 결과를 만들 수 있다
+- 조건을, 특히 엣지 케이스를 잘 생각하자
+- `1`차이인 것을 확인하려 했는데 그냥 `Array(0..<count)`와 같은지 비교하면 된다
+
+### 기타
+- 괜히 복잡하게 생각하지 말고 아이디어만 실행하자
