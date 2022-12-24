@@ -158,6 +158,7 @@ answer_PGS_짝수와_홀수_12937()
 answer_PGS_최대공약수와_최소공배수_12940()
 answer_PGS_콜라츠_추측_12943()
 answer_PGS_평균_구하기_12944()
+answer_PGS_하샤드_수_12947()
 */
 
-answer_PGS_하샤드_수_12947()
+answer_PGS_핸드폰_번호_가리기_12948()
