@@ -160,6 +160,7 @@ answer_PGS_콜라츠_추측_12943()
 answer_PGS_평균_구하기_12944()
 answer_PGS_하샤드_수_12947()
 answer_PGS_핸드폰_번호_가리기_12948()
+answer_PGS_행렬의_덧셈_12950()
 */
 
-answer_PGS_행렬의_덧셈_12950()
+answer_PGS_x만큼_간격이_있는_n개의_숫자_12954()
