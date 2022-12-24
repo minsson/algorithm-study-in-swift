@@ -618,7 +618,33 @@ func solution(_ s:String, _ n:Int) -> String {
 > ex) "CBD",	["BACDE", "CBADF", "AECB", "BDA"] => 2
 
 ```swift
-// 자기 코드 넣기
+func solution(_ skill:String, _ skill_trees:[String]) -> Int {
+    var dictionary: [Character: Int] = [:]
+    var numbers: [Int] = []
+    var i = 0
+    var count = 0
+    
+    for skillNumber in skill {
+        dictionary[skillNumber] = i
+        i += 1
+    }
+    
+    for tree in skill_trees {
+        for char in tree {
+            if let skill = dictionary[char] {
+              numbers.append(skill)
+            }
+        }
+
+        if Array(0..<numbers.count) == numbers {
+            count += 1
+        }
+        
+        numbers.removeAll()
+    }
+
+    return count
+}
 ```
 
 ### 알게된 점
@@ -632,3 +658,80 @@ func solution(_ s:String, _ n:Int) -> String {
 
 ### 기타
 - 괜히 복잡하게 생각하지 말고 아이디어만 실행하자
+<br>
+
+## 12월 4주차
+
+### 레벨
+
+[PGS] LEVEL 0 특이한 정렬
+
+### 참가자
+
+[Bard](https://github.com/bar-d) <br>
+[Judy](https://github.com/Judy-999) 🏅
+
+### 문제 풀이
+
+**문제 설명**
+> 정수 n을 기준으로 n과 가까운 수부터 정렬하기. 이때 거리가 같다면 더 큰 수가 앞에 오도록 배치.<br>
+> ex) [1, 2, 3, 4, 5, 6], 4 =>    [4, 5, 3, 6, 2, 1]
+
+```swift
+func answer_PGS_특이한정렬(_ numlist:[Int], _ n:Int) -> [Int] {
+    let sortedArray = numlist.sorted(by: <)
+    let array = sortedArray.map {
+        $0 > n ? $0 - n : n - $0
+    }
+    
+    let index = array.firstIndex(of: array.min()!)!
+    var result = [sortedArray[index]]
+    var min = index - 1
+    var max = index + 1
+    
+    while min >= 0 && max < numlist.count {
+        if array[min] < array[max] {
+            result.append(sortedArray[min])
+            min -= 1
+        } else if array[min] > array[max] {
+            result.append(sortedArray[max])
+            max += 1
+        } else {
+            if sortedArray[min] > sortedArray[max] {
+                result.append(sortedArray[min])
+                result.append(sortedArray[max])
+            } else {
+                result.append(sortedArray[max])
+                result.append(sortedArray[min])
+            }
+            min -= 1
+            max += 1
+        }
+    }
+    
+    if min >= 0 {
+        result = result + Array(sortedArray[0...min]).reversed()
+    }
+    
+    if max < sortedArray.count {
+        result = result + Array(sortedArray[max..<sortedArray.count])
+    }
+    
+    return result
+}
+```
+
+### 알게된 점
+- 절대값은 `abs`를 사용하면 된다
+- sorted의 기준으로 튜플을 넣으면 앞쪽이 큰 우선순위로 비교된다 
+- 딕셔너리에 sorted 할 때 클로저로 조건을 넣을 수 있다
+
+### 중요한 점
+- 효율성도 생각해보자
+- 무려 한 줄로도 가능하다
+```swift    
+ return numlist.sorted(by: { (abs($0 - n), -$0) < (abs($1 - n), -$1) })
+```
+
+### 기타
+- 쉬운거 해보려고 레벨 0 했는데 너무나 어려웠네요 🥲
