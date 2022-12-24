@@ -10,6 +10,9 @@
 ### 레벨 0 
 - [레벨0 문제 모음 및 풀이 바로가기](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Level-0-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
 
+### 레벨 1 
+- [레벨1 문제 모음 및 풀이 바로가기](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Level-1-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
+
 <br>
 
 ---
@@ -20,6 +23,7 @@
 ### 브론즈 3
 ### 참가자
 [웡빙](https://github.com/wongbingg) 🏅
+
 [현이](https://github.com/seohyeon2)
 
 ### 문제 풀이
@@ -51,10 +55,9 @@
 ## 11월 2주차
 ### Level 1
 ### 참가자
-[Kiwi](https://github.com/kiwi1023) 
-
 [현이](https://github.com/seohyeon2) 🏅
 
+[Kiwi](https://github.com/kiwi1023) 
 
 ### 문제 풀이
 - [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
@@ -69,10 +72,9 @@
 ## 11월 3주차
 ### Level 0 
 ### 참가자
-[unchain](https://github.com/unchain123) 
-
 [현이](https://github.com/seohyeon2) 🏅
 
+[unchain](https://github.com/unchain123) 
 
 ### 문제 풀이
 - [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
@@ -89,7 +91,6 @@
 
 [현이](https://github.com/seohyeon2) 
 
-
 ### 문제 풀이
 - [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
 
@@ -101,12 +102,11 @@
 ## 12월 1주차
 ### Level 2
 ### 참가자
-[웡빙](https://github.com/wongbingg)🏅
+[웡빙](https://github.com/wongbingg) 🏅
 
 [데릭](https://github.com/derrickkim0109)
 
 [현이](https://github.com/seohyeon2) 
-
 
 ### 문제 풀이
 - [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
@@ -119,15 +119,30 @@
 ## 12월 3주차
 ### 브론즈 3
 ### 참가자
-[재재](https://github.com/ZZBAE)🏅
+[재재](https://github.com/ZZBAE) 🏅
 
 [현이](https://github.com/seohyeon2) 
 
 [핀](https://github.com/finnn1)
-
 
 ### 문제 풀이
 - [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
 
 ### 알게된 점 / 중요한 점 / 기타
 - 접근 방식을 좀 더 쉽게 생각해보자..!
+
+<br>
+
+## 12월 4주차
+### 실버 5
+### 참가자
+[현이](https://github.com/seohyeon2) 🏅
+
+[재재](https://github.com/ZZBAE)
+
+
+### 문제 풀이
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
+
+### 알게된 점 / 중요한 점 / 기타
+- 다른 풀이도 공부해보기
