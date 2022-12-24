@@ -21,6 +21,21 @@ func pow(
 - `Int`로 제곱근 값을 얻고 싶다면 x, y를 `Double`로 변한한 후 다시 결과값을 `Int`로 변환하면 된다
 <br>
 
+### [문자열 밀기](https://github.com/Judy-999/algorithm-study-in-swift/commit/17380477756cabfabd9bbe351d1219ca19eb2baf)
+- 엣지 케이스 생각하기 - 이미 문자열과 동일한 경우를 생각하지 못했다
+<br>
+
+### [삼각형의 조건](https://github.com/Judy-999/algorithm-study-in-swift/commit/17380477756cabfabd9bbe351d1219ca19eb2baf)
+- (a, b)인 두 변이 있을 때 삼각형의 한 변(c)이 될 수 있는 두 가지 경우
+(a > b)
+1) a가 가장 긴 변인 경우
+a < b + c && b < a
+
+2) c가 가장 긴 변인 경우
+c < a + b 
+
+<br>
+
 ## Level 1
 
 ### [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
