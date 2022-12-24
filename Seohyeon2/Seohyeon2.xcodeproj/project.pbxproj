@@ -126,6 +126,7 @@
 		05FF018B2957063B0046F874 /* PGS_12918.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF018A2957063B0046F874 /* PGS_12918.swift */; };
 		05FF018D295706BB0046F874 /* PGS_12921.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF018C295706BB0046F874 /* PGS_12921.swift */; };
 		05FF018F295707240046F874 /* PGS_12922.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF018E295707240046F874 /* PGS_12922.swift */; };
+		05FF01912957077E0046F874 /* PGS_12925.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF01902957077E0046F874 /* PGS_12925.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -262,6 +263,7 @@
 		05FF018A2957063B0046F874 /* PGS_12918.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12918.swift; sourceTree = "<group>"; };
 		05FF018C295706BB0046F874 /* PGS_12921.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12921.swift; sourceTree = "<group>"; };
 		05FF018E295707240046F874 /* PGS_12922.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12922.swift; sourceTree = "<group>"; };
+		05FF01902957077E0046F874 /* PGS_12925.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12925.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,6 +464,7 @@
 				05FF018A2957063B0046F874 /* PGS_12918.swift */,
 				05FF018C295706BB0046F874 /* PGS_12921.swift */,
 				05FF018E295707240046F874 /* PGS_12922.swift */,
+				05FF01902957077E0046F874 /* PGS_12925.swift */,
 			);
 			path = LEVEL_1;
 			sourceTree = "<group>";
@@ -634,6 +637,7 @@
 				0523482F290EBFA3004BC697 /* main.swift in Sources */,
 				057C87D2294EECE500E15662 /* BOJ_1526.swift in Sources */,
 				057C883E294F0BA900E15662 /* PGS_120866.swift in Sources */,
+				05FF01912957077E0046F874 /* PGS_12925.swift in Sources */,
 				05FF018B2957063B0046F874 /* PGS_12918.swift in Sources */,
 				057C881A294F03DF00E15662 /* PGS_120840.swift in Sources */,
 				057C8822294F05B000E15662 /* PGS_120844.swift in Sources */,
