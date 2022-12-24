@@ -11,6 +11,7 @@ import Foundation
 //print(answer_PGS_점의위치구하기([2,4]))
 //print(answer_PSG_치킨쿠폰(100))
 //print(answer_PSG_다음에올숫자([1, 2, 3, 4]))
+print(answer_PSG_문자열밀기("hello", "ohell"))
 
 //MARK: - 프로그래머스 Level 1
 //print(answer_PGS_부족한금액계산(1000, 8000, 4))
@@ -19,7 +20,7 @@ import Foundation
 //print(answer_PGS_행렬의덧셈([[1, 2], [3, 4]], [[5, 6], [7, 8]]))
 //print(answer_PGS_가장가까운글자("foobar"))
 //print(answer_PGS_시저암호("B a y", 5))
-print(answer_PGS_햄버거만들기([2, 1, 1, 2, 3, 1, 2, 3, 1]))
+//print(answer_PGS_햄버거만들기([2, 1, 1, 2, 3, 1, 2, 3, 1]))
 
 //MARK: - 백준 BRONZE
 //answer_BOJ_한다안한다_5789()
