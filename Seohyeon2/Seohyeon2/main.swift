@@ -146,6 +146,7 @@ answer_PGS_문자열_다루기_기본_12918()
 answer_PGS_소수_찾기_12921()
 answer_PGS_수박수박수박수박수박수_12922()
 answer_PGS_문자열을_정수로_바꾸기_12925()
+answer_PGS_시저_암호_12926()
 */
 
-answer_PGS_시저_암호_12926()
+answer_PGS_약수의_합_12928()
