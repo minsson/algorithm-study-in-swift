@@ -162,6 +162,7 @@ answer_PGS_하샤드_수_12947()
 answer_PGS_핸드폰_번호_가리기_12948()
 answer_PGS_행렬의_덧셈_12950()
 answer_PGS_x만큼_간격이_있는_n개의_숫자_12954()
+answer_PGS_직사각형_별찍기_12969()
 */
 
-answer_PGS_직사각형_별찍기_12969()
+answer_PGS_소수_만들기_12977()
