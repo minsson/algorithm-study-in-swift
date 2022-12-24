@@ -122,6 +122,7 @@
 		05FF0183295704760046F874 /* PGS_12912.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF0182295704760046F874 /* PGS_12912.swift */; };
 		05FF0185295704F00046F874 /* PGS_12915.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF0184295704F00046F874 /* PGS_12915.swift */; };
 		05FF0187295705500046F874 /* PGS_12916.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF0186295705500046F874 /* PGS_12916.swift */; };
+		05FF0189295705B10046F874 /* PGS_12917.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF0188295705B10046F874 /* PGS_12917.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -254,6 +255,7 @@
 		05FF0182295704760046F874 /* PGS_12912.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12912.swift; sourceTree = "<group>"; };
 		05FF0184295704F00046F874 /* PGS_12915.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12915.swift; sourceTree = "<group>"; };
 		05FF0186295705500046F874 /* PGS_12916.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12916.swift; sourceTree = "<group>"; };
+		05FF0188295705B10046F874 /* PGS_12917.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_12917.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -450,6 +452,7 @@
 				05FF0182295704760046F874 /* PGS_12912.swift */,
 				05FF0184295704F00046F874 /* PGS_12915.swift */,
 				05FF0186295705500046F874 /* PGS_12916.swift */,
+				05FF0188295705B10046F874 /* PGS_12917.swift */,
 			);
 			path = LEVEL_1;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				057C8856294F108300E15662 /* PGS_120887.swift in Sources */,
 				057C87FC294EF9C100E15662 /* PGS_120821.swift in Sources */,
 				057C8836294F09EC00E15662 /* PGS_120861.swift in Sources */,
+				05FF0189295705B10046F874 /* PGS_12917.swift in Sources */,
 				057C8874294F169300E15662 /* PGS_120905.swift in Sources */,
 				05840B5F2913ED0C0020F864 /* BOJ_2566.swift in Sources */,
 				057C87DC294EF23400E15662 /* PGS_120804.swift in Sources */,
