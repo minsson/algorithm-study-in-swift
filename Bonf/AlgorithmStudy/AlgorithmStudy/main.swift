@@ -35,4 +35,5 @@
 //answer_BOJ_집주소_1284()
 //answer_BOJ_과제안내신분_5597()
 //growBcterial(2, 10)
-print(threePeople([-2, 3, 0, 2, -5]))
+//print(threePeople([-2, 3, 0, 2, -5]))
+print(findSameChar("foobar"))
