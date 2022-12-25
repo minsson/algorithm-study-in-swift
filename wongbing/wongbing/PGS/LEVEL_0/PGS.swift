@@ -131,3 +131,11 @@ func answer_PGS_삼각형의완성조건1(_ sides:[Int]) -> Int {
         return 2
     }
 }
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/120898
+// 편지
+// 1분
+
+func answer_PGS_편지(_ message:String) -> Int {
+    return message.count * 2
+}
