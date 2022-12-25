@@ -149,3 +149,19 @@ func answer_PGS_가장큰수찾기(_ array:[Int]) -> [Int] {
     return [max, array.firstIndex(of: max)!]
 }
 
+// https://school.programmers.co.kr/learn/courses/30/lessons/120902
+// 문자열 계산하기
+// 7분
+
+func answer_PGS_문자열계산하기(_ my_string:String) -> Int {
+    let list = my_string.split(separator: " ").map { String($0) }
+    var result = Int(list[0])!
+    for i in stride(from: 1, to: list.count, by: 2) {
+        if list[i] == "+" {
+            result += Int(list[i+1])!
+        } else {
+            result -= Int(list[i+1])!
+        }
+    }
+    return result
+}
