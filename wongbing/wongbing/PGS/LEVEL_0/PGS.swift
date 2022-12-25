@@ -139,3 +139,13 @@ func answer_PGS_삼각형의완성조건1(_ sides:[Int]) -> Int {
 func answer_PGS_편지(_ message:String) -> Int {
     return message.count * 2
 }
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/120899
+// 가장 큰 수 찾기
+// 2분
+
+func answer_PGS_가장큰수찾기(_ array:[Int]) -> [Int] {
+    let max = array.max()!
+    return [max, array.firstIndex(of: max)!]
+}
+
