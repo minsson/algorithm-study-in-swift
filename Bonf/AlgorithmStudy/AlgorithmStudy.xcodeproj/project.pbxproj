@@ -31,6 +31,7 @@
 		18742FFF2911821900B6B191 /* Babbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742FFE2911821900B6B191 /* Babbling.swift */; };
 		189B3AC0291E244200B1895E /* BOJ_4673.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B3ABF291E244200B1895E /* BOJ_4673.swift */; };
 		18A39803295868E700BBF7C2 /* BcterialGrowth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A39802295868E700BBF7C2 /* BcterialGrowth.swift */; };
+		18A3980529586A3500BBF7C2 /* ThreePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3980429586A3500BBF7C2 /* ThreePeople.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		18742FFE2911821900B6B191 /* Babbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Babbling.swift; path = AlgorithmStudy/PGS/LEVEL0/Babbling.swift; sourceTree = SOURCE_ROOT; };
 		189B3ABF291E244200B1895E /* BOJ_4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_4673.swift; sourceTree = "<group>"; };
 		18A39802295868E700BBF7C2 /* BcterialGrowth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BcterialGrowth.swift; sourceTree = "<group>"; };
+		18A3980429586A3500BBF7C2 /* ThreePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePeople.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				1850D8B32945D2B90004BD7E /* BurgerMaker.swift */,
+				18A3980429586A3500BBF7C2 /* ThreePeople.swift */,
 			);
 			path = LEVEL1;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A3980529586A3500BBF7C2 /* ThreePeople.swift in Sources */,
 				18742FFB2911786B00B6B191 /* BOJ_1264.swift in Sources */,
 				186138A1293CC26C002AAD45 /* BOJ_11720.swift in Sources */,
 				184563702920CF7400BDC8DD /* BOJ_2884.swift in Sources */,
