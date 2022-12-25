@@ -33,4 +33,5 @@
 //answer_BOJ_오븐시계_2525()
 //answer_BOJ_주사위세개_2480()
 //answer_BOJ_집주소_1284()
-answer_BOJ_과제안내신분_5597()
+//answer_BOJ_과제안내신분_5597()
+growBcterial(2, 10)
