@@ -30,6 +30,9 @@
 		18742FFB2911786B00B6B191 /* BOJ_1264.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742FFA2911786B00B6B191 /* BOJ_1264.swift */; };
 		18742FFF2911821900B6B191 /* Babbling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18742FFE2911821900B6B191 /* Babbling.swift */; };
 		189B3AC0291E244200B1895E /* BOJ_4673.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B3ABF291E244200B1895E /* BOJ_4673.swift */; };
+		18A39803295868E700BBF7C2 /* BcterialGrowth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A39802295868E700BBF7C2 /* BcterialGrowth.swift */; };
+		18A3980529586A3500BBF7C2 /* ThreePeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3980429586A3500BBF7C2 /* ThreePeople.swift */; };
+		18A3980729586C5200BBF7C2 /* CloseSameChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A3980629586C5200BBF7C2 /* CloseSameChar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +72,9 @@
 		18742FFA2911786B00B6B191 /* BOJ_1264.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1264.swift; sourceTree = "<group>"; };
 		18742FFE2911821900B6B191 /* Babbling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Babbling.swift; path = AlgorithmStudy/PGS/LEVEL0/Babbling.swift; sourceTree = SOURCE_ROOT; };
 		189B3ABF291E244200B1895E /* BOJ_4673.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_4673.swift; sourceTree = "<group>"; };
+		18A39802295868E700BBF7C2 /* BcterialGrowth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BcterialGrowth.swift; sourceTree = "<group>"; };
+		18A3980429586A3500BBF7C2 /* ThreePeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreePeople.swift; sourceTree = "<group>"; };
+		18A3980629586C5200BBF7C2 /* CloseSameChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseSameChar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				1850D8B32945D2B90004BD7E /* BurgerMaker.swift */,
+				18A3980429586A3500BBF7C2 /* ThreePeople.swift */,
+				18A3980629586C5200BBF7C2 /* CloseSameChar.swift */,
 			);
 			path = LEVEL1;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				18742FFE2911821900B6B191 /* Babbling.swift */,
 				185E225F292A7E7F0016E01F /* StringInString.swift */,
 				185F8B5029338904007664A2 /* JegopNumber.swift */,
+				18A39802295868E700BBF7C2 /* BcterialGrowth.swift */,
 			);
 			path = LEVEL0;
 			sourceTree = "<group>";
@@ -242,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A3980529586A3500BBF7C2 /* ThreePeople.swift in Sources */,
 				18742FFB2911786B00B6B191 /* BOJ_1264.swift in Sources */,
 				186138A1293CC26C002AAD45 /* BOJ_11720.swift in Sources */,
 				184563702920CF7400BDC8DD /* BOJ_2884.swift in Sources */,
@@ -250,6 +260,7 @@
 				1850D8B82945F3310004BD7E /* BOJ_2525.swift in Sources */,
 				1841B207294F3B6C00973DA5 /* BOJ_1284.swift in Sources */,
 				185E225E292606750016E01F /* BOJ_2869.swift in Sources */,
+				18A39803295868E700BBF7C2 /* BcterialGrowth.swift in Sources */,
 				184563662920C5E400BDC8DD /* BOJ_1001.swift in Sources */,
 				185E2260292A7E7F0016E01F /* StringInString.swift in Sources */,
 				1861389F293CB6F1002AAD45 /* BOJ_2675.swift in Sources */,
@@ -262,6 +273,7 @@
 				189B3AC0291E244200B1895E /* BOJ_4673.swift in Sources */,
 				18742FFF2911821900B6B191 /* Babbling.swift in Sources */,
 				1841B20A294F43C200973DA5 /* BOJ_5597.swift in Sources */,
+				18A3980729586C5200BBF7C2 /* CloseSameChar.swift in Sources */,
 				185F8B5129338904007664A2 /* JegopNumber.swift in Sources */,
 				1841B205294F2ED500973DA5 /* BOJ_2480.swift in Sources */,
 				18742C7B291171E900E09755 /* main.swift in Sources */,
