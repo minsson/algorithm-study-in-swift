@@ -48,6 +48,7 @@ import Foundation
 
 /*
  answer_PGS_12944()
+ answer_PGS_120880()
  */
 
-answer_PGS_120880([1, 2, 3, 4, 5, 6], 4)
+answer_BOJ_25304()
