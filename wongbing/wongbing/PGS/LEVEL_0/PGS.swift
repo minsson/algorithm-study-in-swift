@@ -131,3 +131,37 @@ func answer_PGS_삼각형의완성조건1(_ sides:[Int]) -> Int {
         return 2
     }
 }
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/120898
+// 편지
+// 1분
+
+func answer_PGS_편지(_ message:String) -> Int {
+    return message.count * 2
+}
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/120899
+// 가장 큰 수 찾기
+// 2분
+
+func answer_PGS_가장큰수찾기(_ array:[Int]) -> [Int] {
+    let max = array.max()!
+    return [max, array.firstIndex(of: max)!]
+}
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/120902
+// 문자열 계산하기
+// 7분
+
+func answer_PGS_문자열계산하기(_ my_string:String) -> Int {
+    let list = my_string.split(separator: " ").map { String($0) }
+    var result = Int(list[0])!
+    for i in stride(from: 1, to: list.count, by: 2) {
+        if list[i] == "+" {
+            result += Int(list[i+1])!
+        } else {
+            result -= Int(list[i+1])!
+        }
+    }
+    return result
+}
