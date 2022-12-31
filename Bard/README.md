@@ -119,3 +119,67 @@ func answer_PGS_120876(_ lines:[[Int]]) -> Int {
 
 ### 기타
 - 레벨 0도 어렵다
+
+# 알고리즘 티어전
+## 12월 4주차
+
+### 레벨
+
+[PGS] LEVEL 0 특이한 정렬
+
+### 참가자
+
+[Bard](https://github.com/bar-d) 
+[Judy](https://github.com/Judy-999) 🏅
+
+### 문제 풀이
+
+**문제 설명**
+> 정수 n을 기준으로 n과 가까운 수부터 정렬하기. 이때 거리가 같다면 더 큰 수가 앞에 오도록 배치.
+> ex) [1, 2, 3, 4, 5, 6], 4 =>	[4, 5, 3, 6, 2, 1]
+
+```swift
+func answer_PGS_120880(_ numlist:[Int], _ n:Int) -> [Int] {
+    var result: [Int] = []
+    var numberListDictionary: [Int: Int] = [:]
+    var distance = 0
+    
+    for i in 0...numlist.count - 1 {
+        if numlist.distance(from: n, to: numlist[i]) < 0 {
+            distance = -(numlist.distance(from: n, to: numlist[i]))
+        } else {
+            distance = numlist.distance(from: n, to: numlist[i])
+        }
+        numberListDictionary[numlist[i]] = distance
+    }
+    
+    result = numberListDictionary.sorted {
+        if $0.value == $1.value {
+            if $0.key > $1.key {
+                return $0.key > $1.key
+            }
+        }
+        
+        return $0.value < $1.value
+    }.map {
+        $0.key
+    }
+    
+    return result
+}
+```
+
+### 알게된 점
+- 절대값은 `abs`를 사용하면 된다
+- sorted의 기준으로 튜플을 넣으면 앞쪽이 큰 우선순위로 비교된다 
+- 딕셔너리에 sorted 할 때 클로저로 조건을 넣을 수 있다
+
+### 중요한 점
+- 효율성도 생각해보자
+- 무려 한 줄로도 가능하다
+```swift	
+ return numlist.sorted(by: { (abs($0 - n), -$0) < (abs($1 - n), -$1) })
+```
+
+### 기타
+- 주디는 천재다
