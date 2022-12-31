@@ -12,6 +12,8 @@
 		7E0D05AC293CCE740073DE13 /* BOJ_10951.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D05AB293CCE740073DE13 /* BOJ_10951.swift */; };
 		7E0D05AE293CCED90073DE13 /* BOJ_2675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D05AD293CCED90073DE13 /* BOJ_2675.swift */; };
 		7E0D05B0293CD2AE0073DE13 /* BOJ_1316.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0D05AF293CD2AE0073DE13 /* BOJ_1316.swift */; };
+		7E24A170295892E1005773E9 /* BOJ_10870.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E24A16F295892E1005773E9 /* BOJ_10870.swift */; };
+		7E2A72082954928F0028C78D /* BOJ_1181.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A72072954928F0028C78D /* BOJ_1181.swift */; };
 		7E37794529140C1C005FAAD4 /* BOJ_2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E37794429140C1B005FAAD4 /* BOJ_2439.swift */; };
 		7E3779492917ACAB005FAAD4 /* BOJ_11022.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */; };
 		7E3883F5292BE13300A93FF9 /* BOJ_2839.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3883F4292BE13300A93FF9 /* BOJ_2839.swift */; };
@@ -44,6 +46,8 @@
 		7E0D05AB293CCE740073DE13 /* BOJ_10951.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_10951.swift; sourceTree = "<group>"; };
 		7E0D05AD293CCED90073DE13 /* BOJ_2675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2675.swift; sourceTree = "<group>"; };
 		7E0D05AF293CD2AE0073DE13 /* BOJ_1316.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1316.swift; sourceTree = "<group>"; };
+		7E24A16F295892E1005773E9 /* BOJ_10870.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_10870.swift; sourceTree = "<group>"; };
+		7E2A72072954928F0028C78D /* BOJ_1181.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_1181.swift; sourceTree = "<group>"; };
 		7E37794429140C1B005FAAD4 /* BOJ_2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2439.swift; sourceTree = "<group>"; };
 		7E3779482917ACAB005FAAD4 /* BOJ_11022.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_11022.swift; sourceTree = "<group>"; };
 		7E3883F4292BE13300A93FF9 /* BOJ_2839.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2839.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 				7E3883F4292BE13300A93FF9 /* BOJ_2839.swift */,
 				7E0D05AF293CD2AE0073DE13 /* BOJ_1316.swift */,
 				7E3A0A37294F597400A24365 /* BOJ_1676.swift */,
+				7E2A72072954928F0028C78D /* BOJ_1181.swift */,
 			);
 			path = Silver;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				7E0D05AD293CCED90073DE13 /* BOJ_2675.swift */,
 				7E53996329462C9B003EC2FF /* BOJ_9498.swift */,
 				7EAE86F3294C85260009D3A1 /* BOJ_1526.swift */,
+				7E24A16F295892E1005773E9 /* BOJ_10870.swift */,
 			);
 			path = Bronze;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 				7E53996429462C9B003EC2FF /* BOJ_9498.swift in Sources */,
 				7E0D05AC293CCE740073DE13 /* BOJ_10951.swift in Sources */,
 				7ED934602911785400D85156 /* BOJ_1264.swift in Sources */,
+				7E24A170295892E1005773E9 /* BOJ_10870.swift in Sources */,
 				7E37794529140C1C005FAAD4 /* BOJ_2439.swift in Sources */,
 				7E3779492917ACAB005FAAD4 /* BOJ_11022.swift in Sources */,
 				7ED9345E2911726B00D85156 /* BOJ_2557.swift in Sources */,
@@ -216,6 +223,7 @@
 				7E07E238292A6A7B0088C8B6 /* BOJ_1712.swift in Sources */,
 				7E0D05B0293CD2AE0073DE13 /* BOJ_1316.swift in Sources */,
 				7E3883F5292BE13300A93FF9 /* BOJ_2839.swift in Sources */,
+				7E2A72082954928F0028C78D /* BOJ_1181.swift in Sources */,
 				7EAE86F4294C85260009D3A1 /* BOJ_1526.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
