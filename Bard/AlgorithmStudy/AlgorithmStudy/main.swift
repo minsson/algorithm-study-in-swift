@@ -36,6 +36,7 @@ import Foundation
  answer_BOJ_10950()
  answer_BOJ_8393()
  answer_BOJ_25304()
+ answer_BOJ_11021()
 */
 
 // MARK: - 프로그래머스 Level 0
@@ -52,5 +53,4 @@ import Foundation
  answer_PGS_120880()
  */
 
-
-answer_BOJ_11021()
+answer_PGS_120820(40)
