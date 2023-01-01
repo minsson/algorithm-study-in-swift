@@ -750,3 +750,33 @@ func answer_PGS_특이한정렬(_ numlist:[Int], _ n:Int) -> [Int] {
 
 ### 기타
 - 쉬운거 해보려고 레벨 0 했는데 너무나 어려웠네요 🥲
+<br>
+
+## 12월 5주차
+
+### 레벨
+
+[PGS] LEVEL 0 나이 출력
+
+### 참가자
+
+[Bard](https://github.com/bar-d) <br>
+[Judy](https://github.com/Judy-999) 🏅
+
+### 문제 풀이
+
+**문제 설명**
+> 2022년을 기준 출생 연도를 return 
+
+```swift
+func answer_PGS_120820(_ age:Int) -> Int {
+    return 2022 - age + 1
+}
+
+```
+
+### 중요한 점
+- 만나이가 아니므로 +1을 해줘야 한다
+
+### 기타
+- 마지막 날 기념으로 쉬운 문제를 풀어봤다!

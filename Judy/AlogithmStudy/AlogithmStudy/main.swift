@@ -13,7 +13,8 @@ import Foundation
 //print(answer_PSG_다음에올숫자([1, 2, 3, 4]))
 //print(answer_PSG_문자열밀기("hello", "ohell"))
 //print(answer_PGS_특이한정렬([1, 2, 3, 4, 5, 6], 4))
-print(answer_PGS_삼각형의완성조건([1, 2]))
+//print(answer_PGS_삼각형의완성조건([1, 2]))
+print(answer_PGS_120820(1999))
 
 //MARK: - 프로그래머스 Level 1
 //print(answer_PGS_부족한금액계산(1000, 8000, 4))
