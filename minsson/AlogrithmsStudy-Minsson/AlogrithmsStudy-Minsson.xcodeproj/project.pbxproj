@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2EF8F92961C7B1004B8FEC /* PGS_120894.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2EF8F82961C7B1004B8FEC /* PGS_120894.swift */; };
 		FD313991290EAD6D0047880E /* BOJ_2753.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313990290EAD6D0047880E /* BOJ_2753.swift */; };
 		FD313993290EB01B0047880E /* BOJ_2884.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD313992290EB01B0047880E /* BOJ_2884.swift */; };
 		FD3139B429140BA70047880E /* BOJ_2439.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3139B329140BA70047880E /* BOJ_2439.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FD2EF8F82961C7B1004B8FEC /* PGS_120894.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGS_120894.swift; sourceTree = "<group>"; };
 		FD313990290EAD6D0047880E /* BOJ_2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2753.swift; sourceTree = "<group>"; };
 		FD313992290EB01B0047880E /* BOJ_2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2884.swift; sourceTree = "<group>"; };
 		FD3139B329140BA70047880E /* BOJ_2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOJ_2439.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				FDD83F75294609C900AC7E2D /* PGS_12937.swift */,
 				FD7B0602294F5E72004AAB94 /* PGS_120810.swift */,
 				FD7B0606294F60E4004AAB94 /* PGS_120811.swift */,
+				FD2EF8F82961C7B1004B8FEC /* PGS_120894.swift */,
 			);
 			path = PGS;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				FDF30397290B9B7D00BF3FEE /* main.swift in Sources */,
 				FD313993290EB01B0047880E /* BOJ_2884.swift in Sources */,
 				FDCBB256292A6BAF00A16BD6 /* BOJ_15059.swift in Sources */,
+				FD2EF8F92961C7B1004B8FEC /* PGS_120894.swift in Sources */,
 				FDECB7BE2930BBD40085635C /* BOJ_2743.swift in Sources */,
 				FDD83F712945EB2C00AC7E2D /* PGS_12903.swift in Sources */,
 				FDD83F76294609C900AC7E2D /* PGS_12937.swift in Sources */,
