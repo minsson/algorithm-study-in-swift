@@ -165,3 +165,72 @@ func answer_PGS_문자열계산하기(_ my_string:String) -> Int {
     }
     return result
 }
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120903
+// 배열의 유사도
+// 2분
+func answer_PGS_배열의유사도(_ s1:[String], _ s2:[String]) -> Int {
+    var result = 0
+    s1.forEach { str in
+        if s2.contains(str) {
+            result += 1
+        }
+    }
+    return result
+}
+
+// https://school.programmers.co.kr/learn/courses/30/lessons/120904
+// 숫자찾기
+// 2분
+func answer_PGS_숫자찾기(_ num:Int, _ k:Int) -> Int {
+    var numStr = Array(String(num))
+    var result = numStr.firstIndex(of: Character(String(k)))
+    if let result = result {
+        return result + 1
+    } else {
+        return -1
+    }
+}
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120905
+// n의 배수 고르기
+// 1분
+func answer_PGS_n의배수고르기(_ n:Int, _ numlist:[Int]) -> [Int] {
+    return numlist.filter { $0 % n == 0}
+}
+
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120906
+// 자리수 더하기
+// 2분
+func answer_PGS_자리수더하기(_ n:Int) -> Int {
+    let arr = Array(String(n))
+    let newArr = arr.compactMap { Int(String($0)) }
+    return newArr.reduce(0, +)
+}
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120907
+// ox퀴즈
+// 2분
+func answer_PGS_OX퀴즈(_ quiz:[String]) -> [String] {
+    var result = [String]()
+    quiz.forEach { oneQuize in
+        let arr = oneQuize.split(separator: " ").map { String($0) }
+        let answer = Int(arr[4])!
+        if arr[1] == "+" {
+            if Int(arr[0])! + Int(arr[2])! == answer {
+                result.append("O")
+            } else {
+                result.append("X")
+            }
+        } else {
+            if Int(arr[0])! - Int(arr[2])! == answer {
+                result.append("O")
+            } else {
+                result.append("X")
+            }
+        }
+        
+    }
+    return result
+}
