@@ -7,7 +7,7 @@
 
 import Foundation
 
-func answer_PGS_120871(_ n:Int) -> Int {
+func answer_PGS_저주의숫자3(_ n:Int) -> Int {
     var result = 0
     
     for _ in 1...n {
