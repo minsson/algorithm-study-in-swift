@@ -33,7 +33,11 @@ a < b + c && b < a
 
 2) c가 가장 긴 변인 경우
 c < a + b 
+<br>
 
+### [저주의 숫자 3](https://github.com/Judy-999/algorithm-study-in-swift/commit/755d4a9eb77a3093321b19485b8f5a6544c8feeb)
+- 3의 배수만 안되는 줄 알고 3이 들어가는 경우를 생각하지 못했다
+- 3의 배수이거나 3이 들어간 수 모두 안되기 때문에 `||`로 `while`을 돌면서 계속 +1 해줬다  
 <br>
 
 ## Level 1
@@ -94,6 +98,12 @@ for j in stride(from: i-1, to: -1, by: -1)
 - 배열을 `while`로 돌면서 앞으로 4자리를 비교하고 빼는 방식으로 했는데 새로운 배열에 넣으면서 `suffix`를 이용해 뒤에를 비교하고 빼는 방법이 좋을 듯하다
 - 배열에서 특정 인덱스 범위를 삭제하고 싶다면 `removeSubrange(1..<4)`이런 메서 사용할 수 있다
 
+<br>
+
+## Level 2
+### [최댓값과 최솟값](https://github.com/Judy-999/algorithm-study-in-swift/commit/7c7746b0805b62c5a2bff7dc28736fbf9b797523)
+- 레벨 2이지만 가장 쉬운 문제라 어렵지 않았다
+- `components(separatedBy:)`, `compactMap`, `min()`, `max()` 활용
 <br>
 
 ---
