@@ -50,7 +50,6 @@ import Foundation
 // MARK: - 프로그래머스 Level 0
 //print(answer_PGS_나머지구하기_solution(3, 2))
 //print(answer_PGS_중앙값구하기_solution([1, 2, 7, 10, 11]))
-print(answer_PGS_영어가싫어요_solution("onetwothreefourfivesixseveneightnine"))
-
-
+//print(answer_PGS_영어가싫어요_solution("onetwothreefourfivesixseveneightnine"))
+print(answer_PGS_합성수찾기_solution(10))
 
