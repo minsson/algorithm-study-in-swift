@@ -164,6 +164,7 @@ answer_PGS_행렬의_덧셈_12950()
 answer_PGS_x만큼_간격이_있는_n개의_숫자_12954()
 answer_PGS_직사각형_별찍기_12969()
 answer_PGS_소수_만들기_12977()
+answer_PGS_예산_12982()
 */
 
-answer_PGS_예산_12982()
+answer_PGS_개인정보_수집_유효기간_150370()
