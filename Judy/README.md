@@ -804,3 +804,39 @@ func answer_PGS_120820(_ age:Int) -> Int {
 
 ### 기타
 - 마지막 날 기념으로 쉬운 문제를 풀어봤다!
+<br>
+
+## 1월 1주차
+
+### 레벨
+
+[PGS] LEVEL 1 k번째 숫자
+
+### 참가자
+
+[웡빙](https://github.com/wongbingg) 🏅<br>
+[Judy](https://github.com/Judy-999) <br>
+
+### 문제 풀이
+
+**문제 설명**
+> 배열 array의 i번째 숫자부터 j번째 숫자까지 자르고 정렬했을 때, k번째에 있는 수를 구하기
+
+```swift
+func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
+    var result: [Int] = []
+    
+    for command in commands {
+        var list = Array(array[(command[0]-1)...(command[1]-1)])
+        list.sort(by: < )
+        result.append(list[(command[2]-1)])
+    }
+    
+    return result
+}
+
+```
+
+### 중요한 점
+- Array Slice는 항상 0번 인덱스부터 시작하진 않는다
+
