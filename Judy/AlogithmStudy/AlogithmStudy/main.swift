@@ -16,7 +16,8 @@ import Foundation
 //print(answer_PGS_삼각형의완성조건([1, 2]))
 //print(answer_PGS_120820(1999))
 //print(answer_PGS_120871(57))
-print(answer_PGS_다항식더하기("3x + 7 + x"))
+//print(answer_PGS_다항식더하기("3x + 7 + x"))
+print(answer_PGS_OX퀴즈(["3 - 4 = -3", "5 + 6 = 11"]))
 
 //MARK: - 프로그래머스 Level 1
 //print(answer_PGS_부족한금액계산(1000, 8000, 4))
