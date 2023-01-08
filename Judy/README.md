@@ -40,6 +40,20 @@ c < a + b
 - 3의 배수이거나 3이 들어간 수 모두 안되기 때문에 `||`로 `while`을 돌면서 계속 +1 해줬다  
 <br>
 
+### [OX 퀴즈](https://github.com/Judy-999/algorithm-study-in-swift/commit/9fed7554f10bada9a10b662c55704c9c805d9343)
+- "숫자 +/- 숫자 = 정답" 이렇게 형식이 정해져 있어서 인덱스 자체로 접근했다
+<br>
+
+### [다항식 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/a385bb1cfbd5755b4e2caf5ca4704a5813f87973)
+- 쉬운 문제일 줄 알았는데 생각해야할 조건이 많았다
+- 신경써야 할 조건
+    - "x"의 숫자가 1인 경우 1로 표시하지 않기
+    - "x" 값이 0일 경우 숫자만 표시하기 -> "x"와 "+" 넣지 않기
+    - 숫자가 0일 경우 "x"만 표시하기 -> "+"와 "숫자" 표시하지 않기
+- 문자열의 마지막 문자 빼기 - `.dropLast()`
+    - 옵셔널은 아니지만 SubString으로 다시 String으로 변환해줘야 함
+<br>
+
 ## Level 1
 
 ### [부족한 금액 더하기](https://github.com/Judy-999/algorithm-study-in-swift/commit/10496966b0366d5d1b21731167607e8fb6c14491)
