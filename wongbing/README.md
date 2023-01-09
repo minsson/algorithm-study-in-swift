@@ -424,3 +424,40 @@ unc answer_PGS_스킬트리(_ skill:String, _ skill_trees:[String]) -> Int {
 ### 기타
 </details>
 
+## 1월 1주차
+
+<details>
+    
+### level 1
+### 참가자
+[웡빙](https://github.com/wongbingg)🏅
+
+[주디](https://github.com/Judy-999)
+
+### 문제 풀이
+
+```swift
+func answer_PGS_k번째수(_ array:[Int], _ commands:[[Int]]) -> [Int] {
+    var tempArr = array
+    var resultArr = [Int]()
+    for command in commands {
+        let startIndex = command[0]
+        let endIndex = command[1]
+        let targetIndex = command[2]
+        
+        let slice = Array(tempArr[startIndex-1...endIndex-1]).sorted()
+        let slice2 = tempArr[startIndex-1...endIndex-1]
+        let result = slice[targetIndex-1]
+        resultArr.append(result)
+    }
+    return resultArr
+}
+
+```
+
+### 알게된 점
+
+- Array에서 subscript로 배열 slice를 꺼내왔을 때, 첫 번째 요소가 무조건 index 0이 아니라는 점을 배움
+
+### 기타
+</details>

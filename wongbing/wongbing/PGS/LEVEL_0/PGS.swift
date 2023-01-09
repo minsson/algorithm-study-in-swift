@@ -234,3 +234,46 @@ func answer_PGS_OX퀴즈(_ quiz:[String]) -> [String] {
     }
     return result
 }
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120908
+// 문자열안에 문자열
+
+func answer_PGS_문자열안에문자열(_ str1:String, _ str2:String) -> Int {
+    if str1.contains(str2) {
+        return 1
+    } else {
+        return 2
+    }
+}
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120909
+// 제곱수 판별하기
+
+func answer_PGS_제곱수판별하기(_ n:Int) -> Int {
+    for i in 1...n {
+        if i*i == n {
+            return 1
+        }
+    }
+    return 2
+}
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120910
+// 세균 증식
+
+func answer_PGS_세균증식(_ n:Int, _ t:Int) -> Int {
+    var result = n
+    for _ in 1...t {
+        result *= 2
+    }
+    return result
+}
+
+//https://school.programmers.co.kr/learn/courses/30/lessons/120911
+// 문자열 정렬하기2
+
+func answer_PGS_문자열정렬하기2(_ my_string:String) -> String {
+    var lowercasedString = my_string.lowercased()
+    let newArr = lowercasedString.sorted().map { String($0) }
+    return newArr.joined()
+}
