@@ -111,7 +111,12 @@ for j in stride(from: i-1, to: -1, by: -1)
 - 문제를 제대로 잘못 이해해서 아주 오래걸렸다 
 - 배열을 `while`로 돌면서 앞으로 4자리를 비교하고 빼는 방식으로 했는데 새로운 배열에 넣으면서 `suffix`를 이용해 뒤에를 비교하고 빼는 방법이 좋을 듯하다
 - 배열에서 특정 인덱스 범위를 삭제하고 싶다면 `removeSubrange(1..<4)`이런 메서 사용할 수 있다
+<br>
 
+### [크기가 작은 부분 문자열](https://github.com/Judy-999/algorithm-study-in-swift/commit/d6fca2007df26efbce697ee1e9f664d60b0f12e3)
+- 문자열의 첫 번째와 마지막 인덱스 = `startIndex`, `endIndex`
+- 문자열의 특정 인덱스에서 Int 만큼 떨어진 인덱스 = `.index(인덱스, offsetBy: 개수`
+- ex) `start` -> `"start".index("start".startIndex, offsetBy: 2) ===> a
 <br>
 
 ## Level 2
@@ -119,6 +124,9 @@ for j in stride(from: i-1, to: -1, by: -1)
 - 레벨 2이지만 가장 쉬운 문제라 어렵지 않았다
 - `components(separatedBy:)`, `compactMap`, `min()`, `max()` 활용
 <br>
+
+### [JadenCase 문자열 만들기](https://github.com/Judy-999/algorithm-study-in-swift/commit/f7b1263ead1672aa33a63e965c175fbc2ee66f5d)
+- 공백이 하나 이상일 수 있다, 맨 앞자리가 아니면 소문자여야 한다 이 두 가지 조건을 인지하지 못해서 시간이 더 걸렸다.
 
 ---
 
