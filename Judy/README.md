@@ -847,4 +847,37 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
 
 ### 중요한 점
 - Array Slice는 항상 0번 인덱스부터 시작하진 않는다
+<br>
 
+## 1월 3주차
+
+### 레벨
+
+[PGS] LEVEL 0 연속된 수의 합
+
+### 참가자
+
+[민쏜](https://github.com/minsson) <br>
+[Judy](https://github.com/Judy-999) 🏅<br>
+
+### 문제 풀이
+
+**문제 설명**
+> n개의 연속된 수의 합이 total이 되는 연속된 수로 이루어진 배열 찾기
+
+```swift
+func solution(_ num:Int, _ total:Int) -> [Int] {
+    let solution = total / num - (num - 1) / 2
+    let result = Array(solution...(solution+num-1))
+    
+    return result
+}
+```
+
+### 중요한 점
+- 1부터 n까지 수의 합 = `n(n+1) / 2`
+- 시작 지점부터 `n-1`를 더한 지점까지가 n개의 연속된 수
+
+### 기타
+- 코드보다는 수학문제를 푸는 느낌
+<br>
