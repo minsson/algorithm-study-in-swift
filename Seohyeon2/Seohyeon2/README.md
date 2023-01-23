@@ -162,3 +162,19 @@
 
 ### 알게된 점 / 중요한 점 / 기타
 - 제한 사항 꼼꼼하게 읽기
+
+<br>
+
+## 1월 3주차
+### 브론즈 1
+### 참가자
+[보리](https://github.com/yusw10) 🏅
+
+[현이](https://github.com/seohyeon2)
+
+
+### 문제 풀이
+- [참고 위키](https://github.com/seohyeon2/algorithm-study-in-swift/wiki/%ED%8B%B0%EC%96%B4%EC%A0%84-%EB%AC%B8%EC%A0%9C%ED%92%80%EC%9D%B4)
+
+### 알게된 점 / 중요한 점 / 기타
+- 문제를 잘 읽자..!
