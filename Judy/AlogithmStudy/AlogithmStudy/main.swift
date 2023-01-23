@@ -18,6 +18,7 @@ import Foundation
 //print(answer_PGS_120871(57))
 //print(answer_PGS_다항식더하기("3x + 7 + x"))
 //print(answer_PGS_OX퀴즈(["3 - 4 = -3", "5 + 6 = 11"]))
+print(answer_PGS_연속된수의합(5, 5))
 
 //MARK: - 프로그래머스 Level 1
 //print(answer_PGS_부족한금액계산(1000, 8000, 4))
@@ -27,10 +28,12 @@ import Foundation
 //print(answer_PGS_가장가까운글자("foobar"))
 //print(answer_PGS_시저암호("B a y", 5))
 //print(answer_PGS_햄버거만들기([2, 1, 1, 2, 3, 1, 2, 3, 1]))
-print(answer_PGS_k번째숫자([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
+//print(answer_PGS_k번째숫자([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
+//print(answer_PGS_크기가작은부분문자열("3141592", "271"))
 
 //MARK: - 프로그래머스 Level 2
 //print(answer_PGS_최댓값과최솟값("-1 -2 -3 -4"))
+//print(answer_PGS_JadenCase문자열만들기("3people Unfollowed Me"))
 
 //MARK: - 백준 BRONZE
 //answer_BOJ_한다안한다_5789()

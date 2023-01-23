@@ -9,7 +9,7 @@ import Foundation
 
 func answer_PGS_삼각형의완성조건(_ sides:[Int]) -> Int {
     let max = sides.max()!
-    var count = abs(sides[0] - sides[1]) + 1
+    let count = abs(sides[0] - sides[1]) + 1
     let count1 = max - count + 1
     var count2 = max
     
